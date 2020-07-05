@@ -1,0 +1,86 @@
+[gd_scene load_steps=11 format=2]
+
+[ext_resource path="res://assets/fonts/luximr.ttf" type="DynamicFontData" id=1]
+[ext_resource path="res://states/state_vn/state_vn.gd" type="Script" id=2]
+[ext_resource path="res://states/state_vn/options.gd" type="Script" id=3]
+[ext_resource path="res://assets/ui/selection9rect.png" type="Texture" id=4]
+[ext_resource path="res://states/state_vn/speaker/speaker.tscn" type="PackedScene" id=5]
+[ext_resource path="res://states/general/overlay/overlay.tscn" type="PackedScene" id=6]
+[ext_resource path="res://states/state_vn/nameplate/nameplate.tscn" type="PackedScene" id=7]
+[ext_resource path="res://states/state_vn/Camera2D.gd" type="Script" id=8]
+[ext_resource path="res://assets/vn_bgs/bg1.png" type="Texture" id=9]
+
+[sub_resource type="DynamicFont" id=1]
+size = 36
+font_data = ExtResource( 1 )
+
+[node name="state_vn" type="Node2D"]
+script = ExtResource( 2 )
+conv_path = "res://json/s1d1.json"
+next_scn_path = "res://states/general/dummy_state.tscn"
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2( 500, 300 )
+current = true
+script = ExtResource( 8 )
+
+[node name="Timer" type="Timer" parent="Camera2D"]
+
+[node name="bgLayer" type="CanvasLayer" parent="."]
+layer = -1
+
+[node name="bg" type="Sprite" parent="bgLayer"]
+position = Vector2( 500, 300 )
+z_index = -2
+texture = ExtResource( 9 )
+
+[node name="speaker_r" parent="." instance=ExtResource( 5 )]
+position = Vector2( 750, 300 )
+z_index = -1
+
+[node name="speaker_l" parent="." instance=ExtResource( 5 )]
+position = Vector2( 225, 300 )
+z_index = -1
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="textbox_bg" type="NinePatchRect" parent="CanvasLayer"]
+modulate = Color( 0, 0, 0, 1 )
+margin_left = 16.0
+margin_top = 421.0
+margin_right = 979.0
+margin_bottom = 579.0
+texture = ExtResource( 4 )
+patch_margin_left = 12
+patch_margin_top = 12
+patch_margin_right = 12
+patch_margin_bottom = 12
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="CanvasLayer"]
+margin_left = 33.0
+margin_top = 436.0
+margin_right = 958.0
+margin_bottom = 569.0
+custom_fonts/normal_font = SubResource( 1 )
+bbcode_enabled = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="nameplate" parent="CanvasLayer" instance=ExtResource( 7 )]
+
+[node name="options" type="Node2D" parent="."]
+position = Vector2( 75, 200 )
+script = ExtResource( 3 )
+
+[node name="overlay" parent="." instance=ExtResource( 6 )]
+
+[node name="left_nameplate_pos" type="Position2D" parent="."]
+position = Vector2( 175, 400 )
+
+[node name="right_nameplate_pos" type="Position2D" parent="."]
+position = Vector2( 825, 400 )
+[connection signal="timeout" from="Camera2D/Timer" to="Camera2D" method="_on_Timer_timeout"]

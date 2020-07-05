@@ -1,0 +1,53 @@
+[
+  "<Intro dialogue of some kind",
+  "<Set up the time/place/date>",
+  {
+    "text": "SUDDENLY RED APPEARS",
+    "cmds": {
+      "left": ["Red", "red_happy"]
+    }
+  },
+  "smtg smtg sports",
+  "boy do i wanna beat Blue",
+  {
+    "text": "SUDDENLY BLUE APPEARS",
+    "cmds": {
+      "right": ["Blue", "blue_happy"]
+    }
+  },
+  "hlo hlo it is me",
+  "i shall beat you",
+  {
+    "text": "WHAT?!?!?",
+    "cmds": {
+      "left": ["Red", "red_happy"],
+      "shake": []
+    }
+  },
+  "no",
+  {
+    "text": "yes",
+    "cmds": {
+      "right": ["Blue", "blue_happy"]
+    }
+  },
+  "okay i'm leaving",
+  {
+    "text": "grrr boy am i fumed",
+    "cmds": {
+      "left": ["Red", "red_happy"],
+      "hide_r": []
+    }
+  },
+  "also I should probably go over the rules of the sport",
+  "okay now I'm leaving",
+  {
+    "text": "game......",
+    "cmds": {
+      "none": []
+    }
+  },
+  "START"
+
+  
+]

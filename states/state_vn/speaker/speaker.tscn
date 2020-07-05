@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://states/state_vn/speaker/speaker.gd" type="Script" id=1]
+[ext_resource path="res://assets/vn_portraits/ex_portraits.png" type="Texture" id=2]
+
+[node name="speaker" type="Sprite"]
+texture = ExtResource( 2 )
+hframes = 2
+script = ExtResource( 1 )
+
+[node name="Tween" type="Tween" parent="."]
