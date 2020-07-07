@@ -16,7 +16,7 @@ _global_script_class_icons={
 [application]
 
 config/name="splash"
-run/main_scene="res://game/story1/vn_conversations/s1d1.tscn"
+run/main_scene="res://game/story1/combat_segments/s1c1.tscn"
 config/icon="res://icon.png"
 
 [autoload]

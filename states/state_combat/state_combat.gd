@@ -73,5 +73,8 @@ func player_stop():
 func all_stop():
 	player_stop()
 	enemy_stop()
+	var projectiles = $projectiles.get_children()
+	for p in projectiles:
+		p.explode()
 	
 # callbacks

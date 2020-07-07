@@ -5,11 +5,12 @@ const projectile_scn = preload("res://states/state_combat/projectiles/enemies/en
 signal enemy_hit
 
 export var spd_factor = 1
-export var fire_rate = 8
+export var fire_rate_range = [4, 8]
 export var pathes = [
 	["C"]
 ]
 
+var fire_rate = 0
 var can_get_hit = true
 
 var start_pos
@@ -34,6 +35,7 @@ func _ready():
 		waypoints[wp.name] = wp.position
 	position = waypoints[cur_path[waypoint_ind]]
 	reset_movement()
+	fire_rate = rand_range(fire_rate_range[0], fire_rate_range[1])
 	$Timer.start(fire_rate)
 
 func _process(delta):
@@ -45,6 +47,7 @@ func _process(delta):
 
 # throwing
 func reset_throw_timer():
+	fire_rate = rand_range(fire_rate_range[0], fire_rate_range[1])
 	$Timer.start(fire_rate)
 	throw()
 	

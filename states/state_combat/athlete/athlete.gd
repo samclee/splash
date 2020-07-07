@@ -17,6 +17,7 @@ var projectiles_ref
 # standard
 func _ready():
 	add_to_group("Player")
+	#remove_from_group("EnemyProjectile")
 	projectiles_ref = get_tree().get_root().get_node("state_combat/projectiles")
 	$Sprite/AnimationPlayer.play("Stand")
 	
@@ -26,6 +27,11 @@ func _ready():
 func _input(event):
 	if event.is_action_pressed("primary") and charged:
 		throw()
+	elif event.is_action_pressed("secondary"):
+		var areas = $Area2D.get_overlapping_areas()
+		for a in areas:
+			if a.is_in_group("EnemyProjectile"):
+				a.explode()
 
 func _process(delta):
 	var cur_anim_name = $Sprite/AnimationPlayer.current_animation
