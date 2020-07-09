@@ -21,7 +21,7 @@ func _input(event):
 func proceed():
 	var next_ind = cur_ind + 1
 	var skip_tag = get_skip_to()
-	if $options.visible:
+	if $options.active:
 		var target_tag = $options.get_selected_tag()
 		next_ind = get_ind_of_tag(target_tag)
 	elif skip_tag:
@@ -89,9 +89,48 @@ func set_text(text):
 	$CanvasLayer/RichTextLabel.bbcode_text = text
 
 # cmds
+# options
 func activate_options(options):
 	$options.activate(options)
+
+# speakers
+func set_l_speaker(portrait_name):
+	$speaker_l.set_portrait(portrait_name)
 	
+func set_r_speaker(portrait_name):
+	$speaker_r.set_portrait(portrait_name)
+
+func hide_l():
+	$speaker_l.hide()
+	
+func hide_r():
+	$speaker_r.hide()
+	
+func left_in():
+	pass
+	
+func right_in():
+	pass
+	
+func left_out():
+	pass
+	
+func right_out():
+	pass
+
+# nameplate
+func set_nameplate(name, side):
+	$CanvasLayer/nameplate.show()
+	$CanvasLayer/nameplate.set_name(name)
+	if side == "left":
+		$CanvasLayer/nameplate.position = $left_nameplate_pos.position
+	elif side == "right":
+		$CanvasLayer/nameplate.position = $right_nameplate_pos.position
+
+func hide_nameplate():
+	$CanvasLayer/nameplate.hide()
+
+# utility
 func left(names):
 	$speaker_l.show()
 	$speaker_l.light()
@@ -109,31 +148,11 @@ func right(names):
 	$speaker_r.grow()
 	set_r_speaker(names[1])
 	set_nameplate(names[0], "right")
-
-func set_l_speaker(portrait_name):
-	$speaker_l.set_portrait(portrait_name)
-	
-func set_r_speaker(portrait_name):
-	$speaker_r.set_portrait(portrait_name)
-
-func hide_l():
-	$speaker_l.hide()
-	
-func hide_r():
-	$speaker_r.hide()
 	
 func none():
 	$speaker_l.hide()
 	$speaker_r.hide()
 	$CanvasLayer/nameplate.hide()
-	
-func set_nameplate(name, side):
-	$CanvasLayer/nameplate.show()
-	$CanvasLayer/nameplate.set_name(name)
-	if side == "left":
-		$CanvasLayer/nameplate.position = $left_nameplate_pos.position
-	elif side == "right":
-		$CanvasLayer/nameplate.position = $right_nameplate_pos.position
 	
 func shake():
 	$Camera2D.shake()

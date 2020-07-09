@@ -4,7 +4,8 @@
   {
     "text": "SUDDENLY RED APPEARS",
     "cmds": {
-      "left": ["Red", "red_happy"]
+      "left": ["Red", "red_happy"],
+      "left_in": []
     }
   },
   "smtg smtg sports",

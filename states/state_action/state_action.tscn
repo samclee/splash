@@ -1,0 +1,3 @@
+[gd_scene format=2]
+
+[node name="state_action" type="Node2D"]

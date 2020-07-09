@@ -2,6 +2,7 @@ extends Node2D
 
 const scn_selection_button = preload("res://states/state_vn/selection_button/selection_button.tscn")
 
+var active = false
 var cur_ind = 0
 var option_names = []
 
@@ -32,6 +33,7 @@ func set_active_button(ind):
 # activation/decativation
 func activate(options):
 	visible = true
+	active = true
 	for option in options:
 		var new_btn = scn_selection_button.instance()
 		new_btn.set_text(option)
@@ -44,5 +46,6 @@ func activate(options):
 		
 func deactivate():
 	visible = false
+	active = false
 	for child in get_children():
 		child.call_deferred("queue_free")

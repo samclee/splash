@@ -35,11 +35,11 @@ z_index = -2
 texture = ExtResource( 9 )
 
 [node name="speaker_r" parent="." instance=ExtResource( 5 )]
-position = Vector2( 750, 300 )
+position = Vector2( 775, 600 )
 z_index = -1
 
 [node name="speaker_l" parent="." instance=ExtResource( 5 )]
-position = Vector2( 225, 300 )
+position = Vector2( 225, 600 )
 z_index = -1
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
