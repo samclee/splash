@@ -3,18 +3,26 @@ extends Node2D
 export(String, FILE, "*.json") var conv_path
 export(String, FILE, "*.tscn") var next_scn_path
 
+var taking_input = false
+
 var conv = []
 var cur_ind = 0
 var cur_data = {}
+
+var end_conv = false
 
 # main funcs
 func _ready():
 	conv = dlm.load_conv(conv_path)
 	cur_ind = 0
+	
+
+func _on_overlay_fade_in_done():
 	load_line(conv[cur_ind])
+	taking_input = true
 
 func _input(event):
-	if event.is_action_pressed("primary"):
+	if taking_input and event.is_action_pressed("primary"):
 		proceed()
 		
 # proceeding and branching
@@ -31,8 +39,15 @@ func proceed():
 	
 	cur_ind = next_ind
 	if cur_ind < conv.size():
-		load_line(conv[cur_ind])
+		if end_conv:
+			taking_input = false
+			slide_dialog_down()
+			$overlay.fade_to_next_scene(next_scn_path)
+		else:
+			load_line(conv[cur_ind])
 	else:
+		taking_input = false
+		slide_dialog_down()
 		$overlay.fade_to_next_scene(next_scn_path)
 	
 func get_ind_of_tag(tag):
@@ -86,7 +101,7 @@ func execute_cmds(cmds):
 		
 
 func set_text(text):
-	$CanvasLayer/RichTextLabel.bbcode_text = text
+	$DialogLayer/RichTextLabel.bbcode_text = text
 
 # cmds
 # options
@@ -120,15 +135,22 @@ func right_out():
 
 # nameplate
 func set_nameplate(name, side):
-	$CanvasLayer/nameplate.show()
-	$CanvasLayer/nameplate.set_name(name)
+	$DialogLayer/nameplate.show()
+	$DialogLayer/nameplate.set_name(name)
 	if side == "left":
-		$CanvasLayer/nameplate.position = $left_nameplate_pos.position
+		$DialogLayer/nameplate.position = $left_nameplate_pos.position
 	elif side == "right":
-		$CanvasLayer/nameplate.position = $right_nameplate_pos.position
+		$DialogLayer/nameplate.position = $right_nameplate_pos.position
 
 func hide_nameplate():
-	$CanvasLayer/nameplate.hide()
+	$DialogLayer/nameplate.hide()
+	
+# all dialog
+func slide_dialog_down():
+	$DialogLayer.slide_down()
+
+func slide_dialog_up():
+	$DialogLayer.slide_up()
 
 # utility
 func left(names):
@@ -152,8 +174,9 @@ func right(names):
 func none():
 	$speaker_l.hide()
 	$speaker_r.hide()
-	$CanvasLayer/nameplate.hide()
+	$DialogLayer/nameplate.hide()
 	
+# juice
 func shake():
 	$Camera2D.shake()
 	
@@ -162,6 +185,10 @@ func play_music(song_name):
 	
 func play_sfx(sfx_name):
 	pass
+	
+# flow control
+func conf_ending():
+	end_conv = true
 	
 # type checking
 func is_str(val):

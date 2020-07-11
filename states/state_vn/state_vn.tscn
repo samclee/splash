@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=2]
+[gd_scene load_steps=12 format=2]
 
 [ext_resource path="res://assets/fonts/luximr.ttf" type="DynamicFontData" id=1]
 [ext_resource path="res://states/state_vn/state_vn.gd" type="Script" id=2]
@@ -8,7 +8,8 @@
 [ext_resource path="res://states/general/overlay/overlay.tscn" type="PackedScene" id=6]
 [ext_resource path="res://states/state_vn/nameplate/nameplate.tscn" type="PackedScene" id=7]
 [ext_resource path="res://states/state_vn/Camera2D.gd" type="Script" id=8]
-[ext_resource path="res://assets/vn_bgs/bg1.png" type="Texture" id=9]
+[ext_resource path="res://assets/vn_bgs/new_school_gym.jpg" type="Texture" id=9]
+[ext_resource path="res://states/state_vn/DialogLayer.gd" type="Script" id=10]
 
 [sub_resource type="DynamicFont" id=1]
 size = 36
@@ -42,9 +43,10 @@ z_index = -1
 position = Vector2( 225, 600 )
 z_index = -1
 
-[node name="CanvasLayer" type="CanvasLayer" parent="."]
+[node name="DialogLayer" type="CanvasLayer" parent="."]
+script = ExtResource( 10 )
 
-[node name="textbox_bg" type="NinePatchRect" parent="CanvasLayer"]
+[node name="textbox_bg" type="NinePatchRect" parent="DialogLayer"]
 modulate = Color( 0, 0, 0, 1 )
 margin_left = 16.0
 margin_top = 421.0
@@ -59,7 +61,7 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="RichTextLabel" type="RichTextLabel" parent="CanvasLayer"]
+[node name="RichTextLabel" type="RichTextLabel" parent="DialogLayer"]
 margin_left = 33.0
 margin_top = 436.0
 margin_right = 958.0
@@ -70,17 +72,21 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="nameplate" parent="CanvasLayer" instance=ExtResource( 7 )]
+[node name="nameplate" parent="DialogLayer" instance=ExtResource( 7 )]
+
+[node name="Tween" type="Tween" parent="DialogLayer"]
 
 [node name="options" type="Node2D" parent="."]
 position = Vector2( 75, 200 )
 script = ExtResource( 3 )
-
-[node name="overlay" parent="." instance=ExtResource( 6 )]
 
 [node name="left_nameplate_pos" type="Position2D" parent="."]
 position = Vector2( 175, 400 )
 
 [node name="right_nameplate_pos" type="Position2D" parent="."]
 position = Vector2( 825, 400 )
+
+[node name="overlay" parent="." instance=ExtResource( 6 )]
+z_index = 10
 [connection signal="timeout" from="Camera2D/Timer" to="Camera2D" method="_on_Timer_timeout"]
+[connection signal="fade_in_done" from="overlay" to="." method="_on_overlay_fade_in_done"]

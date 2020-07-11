@@ -13,7 +13,7 @@ func _process(delta):
 	if shaking:
 		var angle = randi() % 360
 		shake_vec = shake_vec.rotated(deg2rad(angle))
-		offset = shake_vec
+		offset.x = shake_vec.x
 
 
 func shake():

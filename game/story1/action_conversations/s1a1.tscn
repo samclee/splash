@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://states/state_action/state_action.tscn" type="PackedScene" id=1]
+[ext_resource path="res://paths/test_path1.tscn" type="PackedScene" id=2]
+
+[node name="state_vn" instance=ExtResource( 1 )]
+conv_path = "res://json/s1a1.json"
+next_scn_path = "res://game/story1/vn_conversations/s1d2.tscn"
+
+[node name="test_path1" parent="paths" index="0" instance=ExtResource( 2 )]
+
+[node name="overlay" parent="." index="9"]
+z_index = 0

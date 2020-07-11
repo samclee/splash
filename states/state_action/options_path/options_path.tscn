@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://assets/action/cursor.png" type="Texture" id=1]
+[ext_resource path="res://states/state_action/options_path/PathFollow2D.gd" type="Script" id=2]
+[ext_resource path="res://states/state_action/options_path/options_path.gd" type="Script" id=3]
+
+[node name="options_path" type="Node2D"]
+script = ExtResource( 3 )
+
+[node name="options" type="Node2D" parent="."]
+
+[node name="Path2D" type="Path2D" parent="."]
+curve = null
+
+[node name="cursor" type="PathFollow2D" parent="Path2D"]
+rotate = false
+script = ExtResource( 2 )
+
+[node name="Sprite" type="Sprite" parent="Path2D/cursor"]
+texture = ExtResource( 1 )

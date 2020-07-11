@@ -1,0 +1,14 @@
+[
+  {
+    "text": "I can't let him get to me, I have to focus",
+    "cmds": {
+      "left": ["Red", "red_happy"]
+    }
+  },
+  {
+    "text": "Hide this",
+    "cmds": {
+      "activate_options_path": "test_path"
+    }
+  }
+]

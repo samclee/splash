@@ -1,0 +1,33 @@
+[
+  {
+    "text": "I can't let him get to me, I have to focus",
+    "cmds": {
+      "left": ["Red", "red_happy"]
+    }
+  },
+  {
+    "text": "Hide this",
+    "cmds": {
+      "activate_options_path": "test_path1"
+    },
+    "data": {
+      "tag": "firstChoice"
+    }
+  },
+  {
+    "text": "Choice A",
+    "data": {
+      "tag": "choiceA"
+    }
+  },
+  {
+    "text": "Choice B",
+    "data": {
+      "tag": "choiceB"
+    }
+  },
+  "afdsfds",
+  "sadsfd"
+
+
+]
