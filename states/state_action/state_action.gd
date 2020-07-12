@@ -14,12 +14,10 @@ func proceed():
 	if paths.size() == 1:
 		var target_tag = paths[0].get_selected_tag()
 		if target_tag:
-			print(target_tag)
 			next_ind = get_ind_of_tag(target_tag)
 			store_path(paths[0])
 			slide_dialog_up()
 		else:
-			print("miss")
 			return
 	elif skip_tag:
 		next_ind = get_ind_of_tag(skip_tag)

@@ -1,12 +1,14 @@
 [
+  "start",
   {
-    "text": "I can't let him get to me, I have to focus",
+    "text": "Rrg, I can't let him get to me",
     "cmds": {
       "left": ["Red", "red_happy"]
     }
   },
+  "Gotta calm down and focus on...",
   {
-    "text": "Hide this",
+    "text": "",
     "cmds": {
       "activate_options_path": "test_path1"
     },
@@ -15,19 +17,30 @@
     }
   },
   {
-    "text": "Choice A",
+    "text": "His sweet can.",
     "data": {
       "tag": "choiceA"
     }
   },
   {
-    "text": "Choice B",
+    "text": "Wait what?!",
+    "cmds": {
+      "shake": []
+    }
+  },
+  "Ugh I missed my throw.",
+  {
+    "text": "Let's try that again.",
+    "data": {
+      "skip_to": "firstChoice"
+    }
+  },
+  {
+    "text": "The game!",
     "data": {
       "tag": "choiceB"
     }
   },
-  "afdsfds",
-  "sadsfd"
-
-
+  "Nice, I got a point!",
+  "end of conv"
 ]

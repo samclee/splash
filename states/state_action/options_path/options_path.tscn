@@ -18,3 +18,14 @@ script = ExtResource( 2 )
 
 [node name="Sprite" type="Sprite" parent="Path2D/cursor"]
 texture = ExtResource( 1 )
+hframes = 4
+
+[node name="bounds" type="Node2D" parent="."]
+
+[node name="Position2D" type="Position2D" parent="bounds"]
+position = Vector2( 430, 0 )
+
+[node name="Position2D2" type="Position2D" parent="bounds"]
+position = Vector2( 430, 460 )
+
+[node name="Tween" type="Tween" parent="."]
