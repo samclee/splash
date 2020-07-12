@@ -2,9 +2,10 @@ extends Sprite
 
 export var portrait_width = 320
 
-var base_pos
 var left_pos
 var right_pos
+var left_off_pos
+var right_off_pos
 
 var w = 0
 
@@ -13,12 +14,15 @@ const name_frame_map = {
 	"blue_happy": 1
 }
 
+const side_dist = 225
+const slide_time = 0.2
+
 func _ready():
 	w = texture.get_width()
-	base_pos = position
-	left_pos = Vector2(w / -2, position.y)
-	right_pos = Vector2(1000 + w / 2, position.y)
-	hide()
+	left_off_pos = Vector2(w / -2, position.y)
+	left_pos = Vector2(side_dist, position.y)
+	right_pos = Vector2(1000 - side_dist, position.y)
+	right_off_pos = Vector2(1000 + w / 2, position.y)
 	hframes = w / portrait_width
 
 func hide():

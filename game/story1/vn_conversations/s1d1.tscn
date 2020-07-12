@@ -4,3 +4,6 @@
 
 [node name="state_vn" instance=ExtResource( 1 )]
 next_scn_path = "res://game/story1/action_conversations/s1a1.tscn"
+
+[node name="speaker_l" parent="." index="3"]
+position = Vector2( -320, 600 )

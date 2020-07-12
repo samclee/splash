@@ -1,15 +1,16 @@
-[gd_scene load_steps=12 format=2]
+[gd_scene load_steps=13 format=2]
 
 [ext_resource path="res://assets/fonts/luximr.ttf" type="DynamicFontData" id=1]
 [ext_resource path="res://states/state_vn/state_vn.gd" type="Script" id=2]
 [ext_resource path="res://states/state_vn/options.gd" type="Script" id=3]
 [ext_resource path="res://assets/ui/selection9rect.png" type="Texture" id=4]
-[ext_resource path="res://states/state_vn/speaker/speaker.tscn" type="PackedScene" id=5]
+[ext_resource path="res://states/state_vn/speaker/speaker_r.tscn" type="PackedScene" id=5]
 [ext_resource path="res://states/general/overlay/overlay.tscn" type="PackedScene" id=6]
 [ext_resource path="res://states/state_vn/nameplate/nameplate.tscn" type="PackedScene" id=7]
 [ext_resource path="res://states/state_vn/Camera2D.gd" type="Script" id=8]
 [ext_resource path="res://assets/vn_bgs/new_school_gym.jpg" type="Texture" id=9]
 [ext_resource path="res://states/state_vn/DialogLayer.gd" type="Script" id=10]
+[ext_resource path="res://states/state_vn/speaker/speaker_l.tscn" type="PackedScene" id=11]
 
 [sub_resource type="DynamicFont" id=1]
 size = 36
@@ -35,13 +36,11 @@ position = Vector2( 500, 300 )
 z_index = -2
 texture = ExtResource( 9 )
 
+[node name="speaker_l" parent="." instance=ExtResource( 11 )]
+position = Vector2( 225, 600 )
+
 [node name="speaker_r" parent="." instance=ExtResource( 5 )]
 position = Vector2( 775, 600 )
-z_index = -1
-
-[node name="speaker_l" parent="." instance=ExtResource( 5 )]
-position = Vector2( 225, 600 )
-z_index = -1
 
 [node name="DialogLayer" type="CanvasLayer" parent="."]
 script = ExtResource( 10 )

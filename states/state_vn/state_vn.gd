@@ -11,6 +11,7 @@ var cur_data = {}
 
 var end_conv = false
 
+
 # main funcs
 func _ready():
 	conv = dlm.load_conv(conv_path)
@@ -157,6 +158,7 @@ func left(names):
 	$speaker_l.show()
 	$speaker_l.light()
 	$speaker_l.grow()
+	
 	$speaker_r.dim()
 	$speaker_r.shrink()
 	set_l_speaker(names[1])
@@ -165,6 +167,7 @@ func left(names):
 func right(names):
 	$speaker_l.dim()
 	$speaker_l.shrink()
+	
 	$speaker_r.show()
 	$speaker_r.light()
 	$speaker_r.grow()
