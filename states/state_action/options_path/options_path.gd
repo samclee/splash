@@ -8,6 +8,9 @@ func _ready():
 	options = $options.get_children()
 	$Path2D/cursor.spd = spd
 	
+func start():
+	$Path2D/cursor.start()
+	
 func stop():
 	$Path2D/cursor.stop()
 	
@@ -16,7 +19,7 @@ func get_selected_tag():
 	for o in options:
 		if o.selected:
 			closest_option_name = o.name
-			
+	
 	if closest_option_name:
 		return($options.get_node(closest_option_name).tag)
 	else:

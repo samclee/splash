@@ -6,7 +6,7 @@
 
 [node name="state_title" type="Node2D"]
 script = ExtResource( 1 )
-story_one_scene = "res://game/story1/vn_conversations/first_conv.tscn"
+story_one_scene = "res://game/story1/vn_conversations/s1d1.tscn"
 
 [node name="options" type="Node2D" parent="."]
 

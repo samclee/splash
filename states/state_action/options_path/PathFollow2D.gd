@@ -24,5 +24,8 @@ func _process(delta):
 	else:
 		$Sprite.frame = 0
 
+func start():
+	moving = true
+
 func stop():
 	moving = false
