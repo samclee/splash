@@ -3,14 +3,16 @@ extends PathFollow2D
 var spd = 0.001
 
 var options
+var moving = true
 
 func _ready():
 	options = get_parent().get_parent().get_node("options").get_children()
 
 func _process(delta):
-	unit_offset += spd
-	if unit_offset > 1:
-		unit_offset -= 1
+	if moving:
+		unit_offset += spd
+		if unit_offset > 1:
+			unit_offset -= 1
 	
 	var close = false
 	for o in options:
@@ -21,3 +23,6 @@ func _process(delta):
 		$Sprite.frame = 1
 	else:
 		$Sprite.frame = 0
+
+func stop():
+	moving = false

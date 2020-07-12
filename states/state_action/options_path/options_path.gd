@@ -8,14 +8,8 @@ func _ready():
 	options = $options.get_children()
 	$Path2D/cursor.spd = spd
 	
-func _input(event):
-	pass
-
-func activate():
-	visible = true
-		
-func deactivate():
-	visible = false
+func stop():
+	$Path2D/cursor.stop()
 	
 func get_selected_tag():
 	var closest_option_name = null
