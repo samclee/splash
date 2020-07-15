@@ -1,0 +1,207 @@
+[
+    {
+        "args": [
+            "start"
+        ], 
+        "func_name": "label"
+    }, 
+    {
+        "args": [
+            "blerp"
+        ], 
+        "func_name": "play_music"
+    }, 
+    {
+        "args": [
+            "place"
+        ], 
+        "func_name": "bg"
+    }, 
+    {
+        "args": [], 
+        "func_name": "show_none"
+    }, 
+    {
+        "args": [], 
+        "func_name": "hide_nameplate"
+    }, 
+    {
+        "args": [
+            "Intro dialogue of some kind"
+        ], 
+        "func_name": "text"
+    }, 
+    {
+        "args": [
+            "Hao Yuhappy", 
+            "left"
+        ], 
+        "func_name": "show"
+    }, 
+    {
+        "args": [
+            "Hao Yu", 
+            "left"
+        ], 
+        "func_name": "nameplate"
+    }, 
+    {
+        "args": [
+            "Hello dorks"
+        ], 
+        "func_name": "text"
+    }, 
+    {
+        "args": [
+            "Hao Yu", 
+            "left"
+        ], 
+        "func_name": "nameplate"
+    }, 
+    {
+        "args": [
+            "it's me"
+        ], 
+        "func_name": "text"
+    }, 
+    {
+        "args": [
+            "Davontehappy", 
+            "right"
+        ], 
+        "func_name": "show"
+    }, 
+    {
+        "args": [
+            "Davonte", 
+            "right"
+        ], 
+        "func_name": "nameplate"
+    }, 
+    {
+        "args": [
+            "it me"
+        ], 
+        "func_name": "text"
+    }, 
+    {
+        "args": [
+            "Davonte", 
+            "right"
+        ], 
+        "func_name": "nameplate"
+    }, 
+    {
+        "args": [
+            "choose smtg"
+        ], 
+        "func_name": "text"
+    }, 
+    {
+        "args": [
+            "\"Choose yes\"", 
+            "yes_tag"
+        ], 
+        "func_name": "option"
+    }, 
+    {
+        "args": [
+            "\"Choose no\"", 
+            "no_tag"
+        ], 
+        "func_name": "option"
+    }, 
+    {
+        "args": [
+            "Hao Yu", 
+            "left"
+        ], 
+        "func_name": "nameplate"
+    }, 
+    {
+        "args": [
+            "hmm which do I choose"
+        ], 
+        "func_name": "text"
+    }, 
+    {
+        "args": [
+            "yes_tag"
+        ], 
+        "func_name": "label"
+    }, 
+    {
+        "args": [], 
+        "func_name": "show_none"
+    }, 
+    {
+        "args": [], 
+        "func_name": "hide_nameplate"
+    }, 
+    {
+        "args": [
+            "You chose yes"
+        ], 
+        "func_name": "text"
+    }, 
+    {
+        "args": [], 
+        "func_name": "show_none"
+    }, 
+    {
+        "args": [], 
+        "func_name": "hide_nameplate"
+    }, 
+    {
+        "args": [
+            "good job"
+        ], 
+        "func_name": "text"
+    }, 
+    {
+        "args": [
+            "end_tag"
+        ], 
+        "func_name": "jump"
+    }, 
+    {
+        "args": [
+            "no_tag"
+        ], 
+        "func_name": "label"
+    }, 
+    {
+        "args": [], 
+        "func_name": "show_none"
+    }, 
+    {
+        "args": [], 
+        "func_name": "hide_nameplate"
+    }, 
+    {
+        "args": [
+            "You chose no"
+        ], 
+        "func_name": "text"
+    }, 
+    {
+        "args": [
+            "end_tag"
+        ], 
+        "func_name": "label"
+    }, 
+    {
+        "args": [], 
+        "func_name": "show_none"
+    }, 
+    {
+        "args": [], 
+        "func_name": "hide_nameplate"
+    }, 
+    {
+        "args": [
+            "End conv"
+        ], 
+        "func_name": "text"
+    }
+]
