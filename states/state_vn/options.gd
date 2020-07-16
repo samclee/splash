@@ -20,7 +20,7 @@ func _input(event):
 			set_active_button(cur_ind)
 	
 # interaction
-func get_selected_tag():
+func get_selected_label():
 	return get_node(option_names[cur_ind]).tag
 
 func set_active_button(ind):
@@ -31,6 +31,9 @@ func set_active_button(ind):
 			get_node(option_names[i]).deactivate()
 
 # activation/decativation
+func add_option(option):
+	pass
+
 func activate(options):
 	visible = true
 	active = true
