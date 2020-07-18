@@ -26,6 +26,7 @@ dlm="*res://globals/dlm.gd"
 [display]
 
 window/size/width=1000
+window/size/resizable=false
 
 [input]
 

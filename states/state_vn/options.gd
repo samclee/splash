@@ -11,7 +11,7 @@ func _ready():
 	deactivate()
 	
 func _input(event):
-	if visible:
+	if active:
 		if event.is_action_pressed("ui_up"):
 			cur_ind = max(cur_ind-1, 0)
 			set_active_button(cur_ind)
@@ -45,6 +45,7 @@ func activate():
 	active = true
 
 func deactivate():
+	print("Deactivating normal options")
 	visible = false
 	active = false
 	for child in get_children():

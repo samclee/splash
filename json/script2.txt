@@ -1,0 +1,26 @@
+
+define c "Hao Yu" left
+define d "Davonte" right
+
+label beforeChoice
+show c happy
+c "Gotta get my head in the game and focus on..."
+
+
+options_path test_path1
+
+label choiceA
+c "His sweet can"
+c "Wait what?"
+jump afterChoice
+
+label choiceB
+c "The game"
+c "Nice I scored a point!"
+c "But I am still so unfulfilled"
+jump beforeChoice
+
+label afterChoice
+c "Okay what's next"
+
+"End conv"
