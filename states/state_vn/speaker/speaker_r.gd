@@ -2,6 +2,7 @@ extends "res://states/state_vn/speaker/speaker.gd"
 
 func _ready():
 	position.x = right_off_pos.x
+	flip_h = true
 
 func show():
 	if not $VisibilityNotifier2D.is_on_screen():

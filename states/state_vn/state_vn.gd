@@ -7,19 +7,14 @@ var taking_input = false
 
 var conv = []
 var cur_ind = 0
-var cur_data = {}
-
-var end_conv = false
-
 
 # main funcs
 func _ready():
 	conv = dlm.load_conv(conv_path)
 	cur_ind = 0
 	
-
 func _on_overlay_fade_in_done():
-	load_line(conv[cur_ind])
+	load_chunk()
 	taking_input = true
 
 func _input(event):
@@ -28,114 +23,75 @@ func _input(event):
 		
 # proceeding and branching
 func proceed():
-	var next_ind = cur_ind + 1
-	var skip_tag = get_skip_to()
 	if $options.active:
-		var target_tag = $options.get_selected_tag()
-		next_ind = get_ind_of_tag(target_tag)
-	elif skip_tag:
-		next_ind = get_ind_of_tag(skip_tag)
-		
-	$options.deactivate()
-	
-	cur_ind = next_ind
-	if cur_ind < conv.size():
-		if end_conv:
-			taking_input = false
-			slide_dialog_down()
-			$overlay.fade_to_next_scene(next_scn_path)
-		else:
-			load_line(conv[cur_ind])
-	else:
-		taking_input = false
-		slide_dialog_down()
-		$overlay.fade_to_next_scene(next_scn_path)
-	
-func get_ind_of_tag(tag):
-	var ind = -1
-	for i in range(0, conv.size()):
-		if tag == get_tag(conv[i]):
-			ind = i
-			break
-	assert(ind != -1)
-	
-	return ind
-		
-func get_tag(line):
-	var tag = null
-	if is_dict(line) and line.has("data") and line.data.has("tag"):
-		tag = line.data.tag
-	
-	return tag
-		
-func get_skip_to():
-	if cur_data and cur_data.has("skip_to"):
-		return cur_data.skip_to
-		
-	return null
+		var target_label = $options.get_selected_label()
+		$options.deactivate()
+		jump(target_label)
+
+	load_chunk()
 
 # dialog utility funcs
-func load_line(line):
-	if is_str(line):
-		set_text(line)
-	elif is_dict(line):
-		parse_package(line)
+func load_chunk():
+	taking_input = false
+	# cycle thru all cmds before a text cmd
+	while cur_ind < conv.size() and conv[cur_ind].func_name != "text":
+		var line = conv[cur_ind]
+		callv(line.func_name, line.args)
+		cur_ind += 1
 
-func parse_package(pkg):
-	assert(pkg.has("text"))
-	set_text(pkg.text)
-	if pkg.has("cmds"):
-		execute_cmds(pkg.cmds)
-	
-	if pkg.has("data") and pkg.data.size() > 0:
-		cur_data = pkg.data
+	if cur_ind == conv.size():
+		slide_dialog_down()
+		$overlay.fade_to_next_scene(next_scn_path)
 	else:
-		cur_data = null
+		callv("text", conv[cur_ind].args)
+		cur_ind += 1
+		taking_input = true
 
-func execute_cmds(cmds):
-	for cmd_name in cmds:
-		var arg = cmds[cmd_name]
-		if typeof(arg) == TYPE_ARRAY and arg.size() == 0:
-			call(cmd_name)
-		else:
-			call(cmd_name, cmds[cmd_name])
-		
-
-func set_text(text):
+func text(text):
 	$DialogLayer/RichTextLabel.bbcode_text = text
 
 # cmds
 # options
+func option(text, jump_label):
+	$options.add_option(text, jump_label)
+
 func activate_options(options):
 	$options.activate(options)
 
-# speakers
-func set_l_speaker(portrait_name):
-	$speaker_l.set_portrait(portrait_name)
+# portrait displaying
+func active(side):
+	var active_spkr = $speaker_l
+	var inactive_spkr = $speaker_r
 	
-func set_r_speaker(portrait_name):
-	$speaker_r.set_portrait(portrait_name)
+	if side == 'right':
+		active_spkr = $speaker_r
+		inactive_spkr = $speaker_l
+		
+	active_spkr.show()
+	active_spkr.light()
+	active_spkr.grow()
+	
+	inactive_spkr.dim()
+	inactive_spkr.shrink()
 
-func hide_l():
+func myshow(portrait_name, side):
+	if side == 'left':
+		$speaker_l.set_portrait(portrait_name)
+	elif side == 'right':
+		$speaker_r.set_portrait(portrait_name)
+		
+func myhide(side):
+	if side == 'left':
+		$speaker_l.hide()
+	elif side == 'right':
+		$speaker_r.hide()
+		
+func show_none():
 	$speaker_l.hide()
-	
-func hide_r():
 	$speaker_r.hide()
-	
-func left_in():
-	pass
-	
-func right_in():
-	pass
-	
-func left_out():
-	pass
-	
-func right_out():
-	pass
 
 # nameplate
-func set_nameplate(name, side):
+func nameplate(name, side):
 	$DialogLayer/nameplate.show()
 	$DialogLayer/nameplate.set_name(name)
 	if side == "left":
@@ -146,38 +102,12 @@ func set_nameplate(name, side):
 func hide_nameplate():
 	$DialogLayer/nameplate.hide()
 	
-# all dialog
+# dialog box
 func slide_dialog_down():
 	$DialogLayer.slide_down()
 
 func slide_dialog_up():
 	$DialogLayer.slide_up()
-
-# utility
-func left(names):
-	$speaker_l.show()
-	$speaker_l.light()
-	$speaker_l.grow()
-	
-	$speaker_r.dim()
-	$speaker_r.shrink()
-	set_l_speaker(names[1])
-	set_nameplate(names[0], "left")
-	
-func right(names):
-	$speaker_l.dim()
-	$speaker_l.shrink()
-	
-	$speaker_r.show()
-	$speaker_r.light()
-	$speaker_r.grow()
-	set_r_speaker(names[1])
-	set_nameplate(names[0], "right")
-	
-func none():
-	$speaker_l.hide()
-	$speaker_r.hide()
-	$DialogLayer/nameplate.hide()
 	
 # juice
 func shake():
@@ -190,12 +120,15 @@ func play_sfx(sfx_name):
 	pass
 	
 # flow control
-func conf_ending():
-	end_conv = true
-	
-# type checking
-func is_str(val):
-	return typeof(val) == TYPE_STRING
-	
-func is_dict(val):
-	return typeof(val) == TYPE_DICTIONARY
+func jump(label_name):
+	var label_ind = get_ind_of_label(label_name)
+	cur_ind = label_ind
+
+func get_ind_of_label(label_name):
+	var ind = -1
+	for i in range(0, conv.size()):
+		if conv[i].func_name == 'label' and label_name == conv[i].args[0]:
+			ind = i
+			break
+	assert(ind != -1)
+	return ind

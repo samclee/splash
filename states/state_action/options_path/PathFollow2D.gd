@@ -1,31 +1,28 @@
 extends PathFollow2D
 
 var spd = 0.001
-
-var options
 var moving = true
 
 func _ready():
-	options = get_parent().get_parent().get_node("options").get_children()
+	pass
 
 func _process(delta):
 	if moving:
 		unit_offset += spd
 		if unit_offset > 1:
 			unit_offset -= 1
-	
-	var close = false
-	for o in options:
-		if global_position.distance_to(o.global_position) < 100:
-			close = true
-			
-	if close:
-		$Sprite.frame = 1
-	else:
-		$Sprite.frame = 0
+
 
 func start():
 	moving = true
 
 func stop():
 	moving = false
+
+
+func _on_Area2D_area_entered(area):
+	$Sprite.frame = 1
+	
+
+func _on_Area2D_area_exited(area):
+	$Sprite.frame = 0

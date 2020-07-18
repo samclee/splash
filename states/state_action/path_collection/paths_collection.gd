@@ -5,7 +5,7 @@ var active = false
 var path_refs = {}
 
 func _ready():
-	position.y = -530
+	position = Vector2(500, -530)
 	store_all_paths()
 	
 # public api

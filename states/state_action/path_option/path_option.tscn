@@ -1,4 +1,4 @@
-[gd_scene load_steps=4 format=2]
+[gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://states/state_action/path_option/path_option.gd" type="Script" id=2]
 [ext_resource path="res://assets/fonts/luximr.ttf" type="DynamicFontData" id=3]
@@ -8,6 +8,9 @@ size = 32
 outline_size = 3
 outline_color = Color( 0, 0, 0, 1 )
 font_data = ExtResource( 3 )
+
+[sub_resource type="CircleShape2D" id=2]
+radius = 50.0
 
 [node name="path_option" type="Node2D"]
 script = ExtResource( 2 )
@@ -26,3 +29,10 @@ autowrap = true
 __meta__ = {
 "_edit_use_anchors_": false
 }
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+shape = SubResource( 2 )
+[connection signal="area_entered" from="Area2D" to="." method="_on_Area2D_area_entered"]
+[connection signal="area_exited" from="Area2D" to="." method="_on_Area2D_area_exited"]

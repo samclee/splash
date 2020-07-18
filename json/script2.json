@@ -1,0 +1,162 @@
+[
+    {
+        "func_name": "label",
+        "args": [
+            "beforeChoice"
+        ]
+    },
+    {
+        "func_name": "myshow",
+        "args": [
+            "Hao Yu_happy",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Hao Yu",
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "Gotta get my head in the game and focus on..."
+        ]
+    },
+    {
+        "func_name": "options_path",
+        "args": [
+            "test_path1"
+        ]
+    },
+    {
+        "func_name": "label",
+        "args": [
+            "choiceA"
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Hao Yu",
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "His sweet can"
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Hao Yu",
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "Wait what?"
+        ]
+    },
+    {
+        "func_name": "jump",
+        "args": [
+            "afterChoice"
+        ]
+    },
+    {
+        "func_name": "label",
+        "args": [
+            "choiceB"
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Hao Yu",
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "The game"
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Hao Yu",
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "Nice I scored a point!"
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Hao Yu",
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "But I am still so unfulfilled"
+        ]
+    },
+    {
+        "func_name": "jump",
+        "args": [
+            "beforeChoice"
+        ]
+    },
+    {
+        "func_name": "label",
+        "args": [
+            "afterChoice"
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Hao Yu",
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "Okay what's next"
+        ]
+    },
+    {
+        "func_name": "show_none",
+        "args": []
+    },
+    {
+        "func_name": "hide_nameplate",
+        "args": []
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "End conv"
+        ]
+    }
+]

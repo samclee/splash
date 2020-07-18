@@ -18,7 +18,7 @@ font_data = ExtResource( 1 )
 
 [node name="state_vn" type="Node2D"]
 script = ExtResource( 2 )
-conv_path = "res://json/s1d1.json"
+conv_path = "res://json/script.json"
 next_scn_path = "res://states/general/dummy_state.tscn"
 
 [node name="Camera2D" type="Camera2D" parent="."]
@@ -35,12 +35,6 @@ layer = -1
 position = Vector2( 500, 300 )
 z_index = -2
 texture = ExtResource( 9 )
-
-[node name="speaker_l" parent="." instance=ExtResource( 11 )]
-position = Vector2( 225, 600 )
-
-[node name="speaker_r" parent="." instance=ExtResource( 5 )]
-position = Vector2( 775, 600 )
 
 [node name="DialogLayer" type="CanvasLayer" parent="."]
 script = ExtResource( 10 )
@@ -74,6 +68,10 @@ __meta__ = {
 [node name="nameplate" parent="DialogLayer" instance=ExtResource( 7 )]
 
 [node name="Tween" type="Tween" parent="DialogLayer"]
+
+[node name="speaker_l" parent="." instance=ExtResource( 11 )]
+
+[node name="speaker_r" parent="." instance=ExtResource( 5 )]
 
 [node name="options" type="Node2D" parent="."]
 position = Vector2( 75, 200 )
