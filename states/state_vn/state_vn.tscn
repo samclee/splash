@@ -70,10 +70,8 @@ __meta__ = {
 [node name="Tween" type="Tween" parent="DialogLayer"]
 
 [node name="speaker_l" parent="." instance=ExtResource( 11 )]
-position = Vector2( 42.7631, 71.2719 )
 
 [node name="speaker_r" parent="." instance=ExtResource( 5 )]
-position = Vector2( 816.063, 480 )
 
 [node name="options" type="Node2D" parent="."]
 position = Vector2( 75, 200 )

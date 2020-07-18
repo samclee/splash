@@ -21,7 +21,7 @@ func _input(event):
 	
 # interaction
 func get_selected_label():
-	return get_node(option_names[cur_ind]).tag
+	return get_node(option_names[cur_ind]).jump_label
 
 func set_active_button(ind):
 	for i in range(0, option_names.size()):
@@ -31,22 +31,19 @@ func set_active_button(ind):
 			get_node(option_names[i]).deactivate()
 
 # activation/decativation
-func add_option(option):
-	pass
+func add_option(text, jump_label):
+	activate()
+	var new_btn = scn_selection_button.instance()
+	new_btn.init(text, jump_label)
+	add_child(new_btn)
+	new_btn.position.y = 60 * option_names.size()
+	option_names.push_back(new_btn.name)
+	set_active_button(0)
 
-func activate(options):
+func activate():
 	visible = true
 	active = true
-	for option in options:
-		var new_btn = scn_selection_button.instance()
-		new_btn.set_text(option)
-		new_btn.deactivate()
-		add_child(new_btn)
-		new_btn.position.y = 60 * option_names.size()
-		option_names.push_back(new_btn.name)
-		
-	set_active_button(0)
-		
+
 func deactivate():
 	visible = false
 	active = false

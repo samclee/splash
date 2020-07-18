@@ -1,18 +1,15 @@
 extends Node2D
 
-var text
-var tag
+var jump_label
 
-func set_text(option):
-	text = option[0]
-	tag = option[1]
+func init(text, jump_label):
 	$Label.text = text
+	self.jump_label = jump_label
+	deactivate()
 
 # activation/deactivation
 func activate():
-	#$Label.modulate = Color(0.0, 0.0, 0.0)
 	$NinePatchRect.visible = true
 	
 func deactivate():
-	#$Label.modulate = Color(1.0, 1.0, 1.0)
 	$NinePatchRect.visible = false

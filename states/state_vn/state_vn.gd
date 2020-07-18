@@ -24,9 +24,9 @@ func _input(event):
 # proceeding and branching
 func proceed():
 	if $options.active:
-		var target_tag = $options.get_selected_label()
+		var target_label = $options.get_selected_label()
 		$options.deactivate()
-		jump(target_tag)
+		jump(target_label)
 
 	load_chunk()
 
@@ -52,8 +52,8 @@ func text(text):
 
 # cmds
 # options
-func option(text, jump_point):
-	pass
+func option(text, jump_label):
+	$options.add_option(text, jump_label)
 
 func activate_options(options):
 	$options.activate(options)
