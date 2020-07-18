@@ -1,8 +1,11 @@
-[gd_scene load_steps=4 format=2]
+[gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://assets/action/cursor.png" type="Texture" id=1]
 [ext_resource path="res://states/state_action/options_path/PathFollow2D.gd" type="Script" id=2]
 [ext_resource path="res://states/state_action/options_path/options_path.gd" type="Script" id=3]
+
+[sub_resource type="CircleShape2D" id=1]
+radius = 50.0
 
 [node name="options_path" type="Node2D"]
 script = ExtResource( 3 )
@@ -20,6 +23,11 @@ script = ExtResource( 2 )
 texture = ExtResource( 1 )
 hframes = 4
 
+[node name="Area2D" type="Area2D" parent="Path2D/cursor"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Path2D/cursor/Area2D"]
+shape = SubResource( 1 )
+
 [node name="bounds" type="Node2D" parent="."]
 
 [node name="Position2D" type="Position2D" parent="bounds"]
@@ -29,3 +37,5 @@ position = Vector2( 430, 0 )
 position = Vector2( 430, 460 )
 
 [node name="Tween" type="Tween" parent="."]
+[connection signal="area_entered" from="Path2D/cursor/Area2D" to="Path2D/cursor" method="_on_Area2D_area_entered"]
+[connection signal="area_exited" from="Path2D/cursor/Area2D" to="Path2D/cursor" method="_on_Area2D_area_exited"]
