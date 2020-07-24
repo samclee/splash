@@ -2,11 +2,14 @@ extends Node2D
 
 export(String, FILE, "*.json") var conv_path
 export(String, FILE, "*.tscn") var next_scn_path
+export(String, FILE, "*.tscn") var alt_next_scn_path = ""
 
 var taking_input = false
 
 var conv = []
 var cur_ind = 0
+
+var alt_ending = false
 
 # main funcs
 func _ready():
@@ -41,7 +44,10 @@ func load_chunk():
 
 	if cur_ind == conv.size():
 		slide_dialog_down()
-		$overlay.fade_to_next_scene(next_scn_path)
+		if alt_ending:
+			$overlay.fade_to_next_scene(alt_next_scn_path)
+		else:
+			$overlay.fade_to_next_scene(next_scn_path)
 	else:
 		callv("text", conv[cur_ind].args)
 		cur_ind += 1
@@ -113,11 +119,11 @@ func slide_dialog_up():
 func shake():
 	$Camera2D.shake()
 	
-func play_music(song_name):
-	pass
+func music(song_name):
+	Aum.play_song(song_name)
 	
-func play_sfx(sfx_name):
-	pass
+func sfx(sfx_name):
+	Sfm.play_sfx(sfx_name)
 	
 # flow control
 func jump(label_name):
@@ -132,3 +138,6 @@ func get_ind_of_label(label_name):
 			break
 	assert(ind != -1)
 	return ind
+	
+func set_next(path):
+	next_scn_path = path

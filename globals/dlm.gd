@@ -1,5 +1,7 @@
 extends Node
 
+var songs = []
+
 func _ready():
 	randomize()
 
@@ -13,12 +15,13 @@ func load_conv(path: String):
 	f.close()
 	
 	return dialog
-	
+
+# Saving
 func create_save():
 	print("Creating save")
 	var save_game = File.new()
 	save_game.open("user://savegame.save", File.WRITE)
-	save_game.store_line(to_json({"story1done": true}))
+	save_game.store_line(to_json([false, false, false, false]))
 	save_game.close()
 
 func load_save():

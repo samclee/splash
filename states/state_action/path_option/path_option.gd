@@ -3,7 +3,7 @@ extends Node2D
 export var text = ""
 export var tag = ""
 
-var selected = true
+var selected = false
 
 func _ready():
 	assert(text != "")

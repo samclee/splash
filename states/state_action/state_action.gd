@@ -3,7 +3,7 @@ extends "res://states/state_vn/state_vn.gd"
 func _ready():
 	pass
 
-func proceed():		
+func proceed():
 	if $paths_collection.active:
 		var target_tag = $paths_collection.get_selected_tag()
 		if target_tag:

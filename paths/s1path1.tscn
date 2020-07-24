@@ -8,17 +8,17 @@ _data = {
 "points": PoolVector2Array( -20.9763, -28.4678, 20.9763, 28.4678, 216.25, 353.5, 214.817, 248.834, -214.817, -248.834, 225.967, 123.629, -92.6042, -82.5248, 92.6042, 82.5248, 65.7002, 239.591, 0, 0, 0, 0, 180, 335, 0, 0, 0, 0, 216.25, 353.5 )
 }
 
-[node name="test_path1" instance=ExtResource( 1 )]
+[node name="s1path1" instance=ExtResource( 1 )]
 
 [node name="path_option" parent="options" index="0" instance=ExtResource( 2 )]
 position = Vector2( 45.4084, 37.8403 )
-text = "His sweet can"
-tag = "choiceA"
+text = "Dodging"
+tag = "1a"
 
 [node name="path_option2" parent="options" index="1" instance=ExtResource( 2 )]
 position = Vector2( 290.95, 349.813 )
-text = "The game"
-tag = "choiceB"
+text = "Scoring points"
+tag = "1b"
 
 [node name="Path2D" parent="." index="1"]
 curve = SubResource( 1 )

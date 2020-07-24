@@ -2,35 +2,29 @@
 define c "Hao Yu" left
 define d "Davonte" right
 
-label start
-play_music blerp
-bg place
-
-"Intro dialogue of some kind" 
-
 show c happy
-c "Hello dorks"
-c "it's me"
+c "test"
 
 show d happy
-d "it me"
-d "choose smtg"
+d "test"
 
-option "Choose yes" yes_tag
-option "Choose no" no_tag
-c "hmm which do I choose"
+"no speaker"
 
-label yes_tag
-"You chose yes"
-"good job"
-jump end_tag
+label QUESTION
+option "This jumps to A" CHOICE_A
+option "This jumpps to B" CHOICE_B
+show c happy
+c "Option test"
 
-label no_tag
-"You chose no"
+label CHOICE_A
+"You chose A"
+"This jumps over B"
+jump CHOICE_END
 
-hide d
-d byeeeeee
+label CHOICE_B
+"You chose B"
+"This continues to the end"
 
-label end_tag
+label CHOICE_END
 
 "End conv"

@@ -1,4 +1,4 @@
-[gd_scene load_steps=13 format=2]
+[gd_scene load_steps=12 format=2]
 
 [ext_resource path="res://assets/fonts/luximr.ttf" type="DynamicFontData" id=1]
 [ext_resource path="res://states/state_vn/state_vn.gd" type="Script" id=2]
@@ -8,7 +8,6 @@
 [ext_resource path="res://states/general/overlay/overlay.tscn" type="PackedScene" id=6]
 [ext_resource path="res://states/state_vn/nameplate/nameplate.tscn" type="PackedScene" id=7]
 [ext_resource path="res://states/state_vn/Camera2D.gd" type="Script" id=8]
-[ext_resource path="res://assets/vn_bgs/new_school_gym.jpg" type="Texture" id=9]
 [ext_resource path="res://states/state_vn/DialogLayer.gd" type="Script" id=10]
 [ext_resource path="res://states/state_vn/speaker/speaker_l.tscn" type="PackedScene" id=11]
 
@@ -34,7 +33,6 @@ layer = -1
 [node name="bg" type="Sprite" parent="bgLayer"]
 position = Vector2( 500, 300 )
 z_index = -2
-texture = ExtResource( 9 )
 
 [node name="DialogLayer" type="CanvasLayer" parent="."]
 script = ExtResource( 10 )

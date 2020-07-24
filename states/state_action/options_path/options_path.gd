@@ -17,9 +17,8 @@ func stop():
 func get_selected_tag():
 	var closest_option_name = null
 	for o in options:
-		if o.selected:
+		if o.selected == true:
 			closest_option_name = o.name
-	
 	if closest_option_name:
 		return($options.get_node(closest_option_name).tag)
 	else:
