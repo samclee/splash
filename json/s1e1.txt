@@ -1,0 +1,32 @@
+
+define c "Hao Yu" left
+define d "Davonte" right
+
+"Story 1 Ending 1"
+
+show c happy
+c "test"
+
+show d happy
+d "test"
+
+"no speaker"
+
+label QUESTION
+option "This jumps to A" CHOICE_A
+option "This jumpps to B" CHOICE_B
+show c happy
+c "Option test"
+
+label CHOICE_A
+"You chose A"
+"This jumps over B"
+jump CHOICE_END
+
+label CHOICE_B
+"You chose B"
+"This continues to the end"
+
+label CHOICE_END
+
+"End conv"

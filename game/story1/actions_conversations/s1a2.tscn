@@ -3,6 +3,7 @@
 [ext_resource path="res://states/state_action/state_action.tscn" type="PackedScene" id=1]
 
 [node name="state_action" instance=ExtResource( 1 )]
+conv_path = "res://json/s1a2.json"
 next_scn_path = "res://game/story1/vn_conversations/s1d3.tscn"
 
 [editable path="paths_collection"]

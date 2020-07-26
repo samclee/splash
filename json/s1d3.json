@@ -1,0 +1,208 @@
+[
+    {
+        "func_name": "myshow",
+        "args": [
+            "Hao Yu_happy",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Hao Yu",
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "test"
+        ]
+    },
+    {
+        "func_name": "myshow",
+        "args": [
+            "Davonte_happy",
+            "right"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "right"
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Davonte",
+            "right"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "test"
+        ]
+    },
+    {
+        "func_name": "show_none",
+        "args": []
+    },
+    {
+        "func_name": "hide_nameplate",
+        "args": []
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "no speaker"
+        ]
+    },
+    {
+        "func_name": "label",
+        "args": [
+            "QUESTION"
+        ]
+    },
+    {
+        "func_name": "option",
+        "args": [
+            "\"This jumps to A\"",
+            "CHOICE_A"
+        ]
+    },
+    {
+        "func_name": "option",
+        "args": [
+            "\"This jumpps to B\"",
+            "CHOICE_B"
+        ]
+    },
+    {
+        "func_name": "myshow",
+        "args": [
+            "Hao Yu_happy",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Hao Yu",
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "Option test"
+        ]
+    },
+    {
+        "func_name": "label",
+        "args": [
+            "CHOICE_A"
+        ]
+    },
+    {
+        "func_name": "show_none",
+        "args": []
+    },
+    {
+        "func_name": "hide_nameplate",
+        "args": []
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "You chose A"
+        ]
+    },
+    {
+        "func_name": "show_none",
+        "args": []
+    },
+    {
+        "func_name": "hide_nameplate",
+        "args": []
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "This jumps over B"
+        ]
+    },
+    {
+        "func_name": "jump",
+        "args": [
+            "CHOICE_END"
+        ]
+    },
+    {
+        "func_name": "label",
+        "args": [
+            "CHOICE_B"
+        ]
+    },
+    {
+        "func_name": "show_none",
+        "args": []
+    },
+    {
+        "func_name": "hide_nameplate",
+        "args": []
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "You chose B"
+        ]
+    },
+    {
+        "func_name": "show_none",
+        "args": []
+    },
+    {
+        "func_name": "hide_nameplate",
+        "args": []
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "This continues to the end"
+        ]
+    },
+    {
+        "func_name": "label",
+        "args": [
+            "CHOICE_END"
+        ]
+    },
+    {
+        "func_name": "show_none",
+        "args": []
+    },
+    {
+        "func_name": "hide_nameplate",
+        "args": []
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "End conv"
+        ]
+    }
+]

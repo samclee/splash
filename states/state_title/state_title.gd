@@ -57,6 +57,7 @@ func quit():
 # logic
 func update_unlocks():
 	var save_data = dlm.load_save()
-	var story2unlocked = save_data and save_data.story1done
+	
+	var story2unlocked = save_data[2] or save_data[3]
 	if not story2unlocked:
 		$options.remove_child(second_button_ref)

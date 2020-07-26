@@ -141,3 +141,6 @@ func get_ind_of_label(label_name):
 	
 func set_next(path):
 	next_scn_path = path
+	
+func ending(num):
+	dlm.save(int(num))

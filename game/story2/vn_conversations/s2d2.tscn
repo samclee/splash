@@ -3,5 +3,5 @@
 [ext_resource path="res://states/state_vn/state_vn.tscn" type="PackedScene" id=1]
 
 [node name="state_vn" instance=ExtResource( 1 )]
-conv_path = "res://json/s1d1.json"
-next_scn_path = "res://game/story1/actions_conversations/s1a1.tscn"
+conv_path = "res://json/s2d2.json"
+next_scn_path = "res://game/story2/actions_conversations/s2a2.tscn"

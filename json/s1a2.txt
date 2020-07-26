@@ -1,0 +1,6 @@
+
+define c "Hao Yu" left
+define d "Davonte" right
+
+show c happy
+c "Okay, we're up a round

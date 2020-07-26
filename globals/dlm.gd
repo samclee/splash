@@ -28,12 +28,21 @@ func load_save():
 	var save_game = File.new()
 	if not save_game.file_exists("user://savegame.save"):
 		print("No save found")
-		return null
+		create_save()
 	save_game.open("user://savegame.save", File.READ)
 	var save_data = parse_json(save_game.get_line())
+	print(save_data)
 	save_game.close()
 	
 	return save_data
+	
+func save(ending_number):
+	var data = load_save()
+	data[ending_number] = true
+	var save_game = File.new()
+	save_game.open("user://savegame.save", File.WRITE)
+	save_game.store_line(to_json(data))
+	save_game.close()
 	
 func delete_save():
 	print("Deleting save")
