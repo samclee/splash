@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Davonte.png-28bc7875cfcf52fbc84f9e2241e2f79c.stex"
+path="res://.import/old_school_gym.jpg-6df5c53e0f62fc8f3b3621a44446f0c8.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/vn_portraits/Davonte.png"
-dest_files=[ "res://.import/Davonte.png-28bc7875cfcf52fbc84f9e2241e2f79c.stex" ]
+source_file="res://assets/vn_bgs/old_school_gym.jpg"
+dest_files=[ "res://.import/old_school_gym.jpg-6df5c53e0f62fc8f3b3621a44446f0c8.stex" ]
 
 [params]
 

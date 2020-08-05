@@ -25,3 +25,12 @@ func play_song(song_name):
 	stop()
 	stream = songs[song_name]
 	play()
+
+func fade_out_song():
+	print("as")
+	$Tween.interpolate_property(self, "volume_db", -7, -35, 0.1, Tween.TRANS_LINEAR)
+	$Tween.start()
+
+func _on_Tween_tween_completed(object, key):
+	stop()
+	volume_db = -7

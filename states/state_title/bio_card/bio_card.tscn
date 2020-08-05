@@ -1,0 +1,24 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://assets/fonts/luximr.ttf" type="DynamicFontData" id=1]
+
+[sub_resource type="DynamicFont" id=1]
+size = 18
+outline_size = 3
+outline_color = Color( 0, 0, 0, 1 )
+font_data = ExtResource( 1 )
+
+[node name="bio_card" type="Node2D"]
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 500, 0 )
+
+[node name="Label" type="Label" parent="."]
+margin_left = 364.0
+margin_right = 960.0
+margin_bottom = 22.0
+custom_fonts/font = SubResource( 1 )
+autowrap = true
+__meta__ = {
+"_edit_use_anchors_": false
+}

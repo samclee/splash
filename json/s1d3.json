@@ -1,5 +1,19 @@
 [
     {
+        "func_name": "show_none",
+        "args": []
+    },
+    {
+        "func_name": "hide_nameplate",
+        "args": []
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "Story 1 Dialogue 3"
+        ]
+    },
+    {
         "func_name": "myshow",
         "args": [
             "Hao Yu_happy",

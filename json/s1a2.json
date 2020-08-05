@@ -22,80 +22,7 @@
     {
         "func_name": "text",
         "args": [
-            "test"
-        ]
-    },
-    {
-        "func_name": "myshow",
-        "args": [
-            "Davonte_happy",
-            "right"
-        ]
-    },
-    {
-        "func_name": "active",
-        "args": [
-            "right"
-        ]
-    },
-    {
-        "func_name": "nameplate",
-        "args": [
-            "Davonte",
-            "right"
-        ]
-    },
-    {
-        "func_name": "text",
-        "args": [
-            "test"
-        ]
-    },
-    {
-        "func_name": "show_none",
-        "args": []
-    },
-    {
-        "func_name": "hide_nameplate",
-        "args": []
-    },
-    {
-        "func_name": "text",
-        "args": [
-            "no speaker"
-        ]
-    },
-    {
-        "func_name": "label",
-        "args": [
-            "QUESTION"
-        ]
-    },
-    {
-        "func_name": "option",
-        "args": [
-            "\"This jumps to A\"",
-            "CHOICE_A"
-        ]
-    },
-    {
-        "func_name": "option",
-        "args": [
-            "\"This jumpps to B\"",
-            "CHOICE_B"
-        ]
-    },
-    {
-        "func_name": "myshow",
-        "args": [
-            "Hao Yu_happy",
-            "left"
-        ]
-    },
-    {
-        "func_name": "active",
-        "args": [
-            "left"
+            "Cool, we're up a round."
         ]
     },
     {
@@ -108,101 +35,247 @@
     {
         "func_name": "text",
         "args": [
-            "Option test"
+            "If we can just take this one, then the game's over."
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Hao Yu",
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "..."
+        ]
+    },
+    {
+        "func_name": "shake",
+        "args": []
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Hao Yu",
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "ARGH IT'S NO USE, I CAN'T STOP THINKING ABOUT HIM."
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Hao Yu",
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "It's just distracting how Davonte is so..."
         ]
     },
     {
         "func_name": "label",
         "args": [
-            "CHOICE_A"
+            "1A"
         ]
     },
     {
-        "func_name": "show_none",
+        "func_name": "shake",
         "args": []
     },
     {
-        "func_name": "hide_nameplate",
-        "args": []
+        "func_name": "nameplate",
+        "args": [
+            "Hao Yu",
+            "left"
+        ]
     },
     {
         "func_name": "text",
         "args": [
-            "You chose A"
+            "...COOL."
         ]
     },
     {
-        "func_name": "show_none",
-        "args": []
-    },
-    {
-        "func_name": "hide_nameplate",
-        "args": []
+        "func_name": "nameplate",
+        "args": [
+            "Hao Yu",
+            "left"
+        ]
     },
     {
         "func_name": "text",
         "args": [
-            "This jumps over B"
+            "He's super good at paint dodgeball [i]and[/i] he's super smart."
         ]
     },
     {
         "func_name": "jump",
         "args": [
-            "CHOICE_END"
+            "AFTER1"
         ]
     },
     {
         "func_name": "label",
         "args": [
-            "CHOICE_B"
+            "1B"
         ]
     },
     {
-        "func_name": "show_none",
+        "func_name": "shake",
         "args": []
     },
     {
-        "func_name": "hide_nameplate",
-        "args": []
+        "func_name": "nameplate",
+        "args": [
+            "Hao Yu",
+            "left"
+        ]
     },
     {
         "func_name": "text",
         "args": [
-            "You chose B"
+            "...CUTE."
         ]
     },
     {
-        "func_name": "show_none",
-        "args": []
-    },
-    {
-        "func_name": "hide_nameplate",
-        "args": []
+        "func_name": "nameplate",
+        "args": [
+            "Hao Yu",
+            "left"
+        ]
     },
     {
         "func_name": "text",
         "args": [
-            "This continues to the end"
+            "Like, in the same way a dog is cute of course."
+        ]
+    },
+    {
+        "func_name": "jump",
+        "args": [
+            "AFTER1"
         ]
     },
     {
         "func_name": "label",
         "args": [
-            "CHOICE_END"
+            "1C"
         ]
     },
     {
-        "func_name": "show_none",
+        "func_name": "shake",
         "args": []
     },
     {
-        "func_name": "hide_nameplate",
-        "args": []
+        "func_name": "nameplate",
+        "args": [
+            "Hao Yu",
+            "left"
+        ]
     },
     {
         "func_name": "text",
         "args": [
-            "End conv"
+            "...NICE."
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Hao Yu",
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "I've known him for so long, and he's always stuck by me."
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Hao Yu",
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "Even though we go to different colleges, he's still my best friend."
+        ]
+    },
+    {
+        "func_name": "label",
+        "args": [
+            "AFTER1"
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Hao Yu",
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "But most of all..."
+        ]
+    },
+    {
+        "func_name": "label",
+        "args": [
+            "2A"
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Hao Yu",
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "...I definitely have a crush on him."
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Hao Yu",
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "It's no use trying to pretend I don't."
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Hao Yu",
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "I've always told myself I just felt a really strong rivalry"
         ]
     }
 ]

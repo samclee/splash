@@ -3,6 +3,7 @@ extends Node2D
 export(String, FILE, "*.json") var conv_path
 export(String, FILE, "*.tscn") var next_scn_path
 export(String, FILE, "*.tscn") var alt_next_scn_path = ""
+export var last_scene = false
 
 var taking_input = false
 
@@ -22,6 +23,7 @@ func _on_overlay_fade_in_done():
 
 func _input(event):
 	if taking_input and event.is_action_pressed("primary"):
+		Sfm.play_sfx("text_beep")
 		proceed()
 		
 # proceeding and branching
@@ -47,7 +49,10 @@ func load_chunk():
 		if alt_ending:
 			$overlay.fade_to_next_scene(alt_next_scn_path)
 		else:
-			$overlay.fade_to_next_scene(next_scn_path)
+			if last_scene:
+				$overlay.fade_to_credits(next_scn_path)
+			else:
+				$overlay.fade_to_next_scene(next_scn_path)
 	else:
 		callv("text", conv[cur_ind].args)
 		cur_ind += 1

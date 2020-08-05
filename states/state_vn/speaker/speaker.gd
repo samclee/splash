@@ -40,6 +40,8 @@ func grow():
 
 func set_portrait(name):
 	texture = portraits[name]
+	h = texture.get_height()
+	offset.y = -h / 2
 	
 func load_portraits():
 	var dir = Directory.new()

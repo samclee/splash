@@ -3,14 +3,14 @@
 [ext_resource path="res://assets/fonts/luximr.ttf" type="DynamicFontData" id=1]
 [ext_resource path="res://states/state_title/menu_button/menu_button.gd" type="Script" id=2]
 
-[sub_resource type="DynamicFont" id=2]
-size = 48
+[sub_resource type="DynamicFont" id=1]
+size = 32
 outline_size = 3
 outline_color = Color( 0, 0, 0, 1 )
 font_data = ExtResource( 1 )
 
-[sub_resource type="DynamicFont" id=1]
-size = 36
+[sub_resource type="DynamicFont" id=2]
+size = 20
 outline_size = 3
 outline_color = Color( 0, 0, 0, 1 )
 font_data = ExtResource( 1 )
@@ -25,19 +25,20 @@ script = ExtResource( 2 )
 [node name="Label" type="Label" parent="big"]
 margin_right = 40.0
 margin_bottom = 14.0
-custom_fonts/font = SubResource( 2 )
+custom_fonts/font = SubResource( 1 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="small" type="Node2D" parent="."]
+position = Vector2( 0, 8 )
 
 [node name="Sprite" type="Sprite" parent="small"]
 
 [node name="Label" type="Label" parent="small"]
 margin_right = 40.0
 margin_bottom = 30.0
-custom_fonts/font = SubResource( 1 )
+custom_fonts/font = SubResource( 2 )
 __meta__ = {
 "_edit_use_anchors_": false
 }

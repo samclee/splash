@@ -5,3 +5,4 @@
 [node name="state_vn" instance=ExtResource( 1 )]
 conv_path = "res://json/s2e1.json"
 next_scn_path = "res://states/state_credits/st_credits.tscn"
+last_scene = true

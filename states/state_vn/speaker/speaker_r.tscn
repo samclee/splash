@@ -4,4 +4,5 @@
 [ext_resource path="res://states/state_vn/speaker/speaker_r.gd" type="Script" id=2]
 
 [node name="speaker_r" instance=ExtResource( 1 )]
+flip_h = true
 script = ExtResource( 2 )

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/ex_portraits.png-85e684f5202d5c346e0f61f7fbabc1f8.stex"
+path="res://.import/overlayw.png-97d6232736a3182beaee968b91e0c9da.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/vn_portraits/ex_portraits.png"
-dest_files=[ "res://.import/ex_portraits.png-85e684f5202d5c346e0f61f7fbabc1f8.stex" ]
+source_file="res://assets/ui/overlayw.png"
+dest_files=[ "res://.import/overlayw.png-97d6232736a3182beaee968b91e0c9da.stex" ]
 
 [params]
 

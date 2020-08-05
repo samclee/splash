@@ -6,6 +6,7 @@ show c happy
 c "What is that guy's deal???"
 c "His smug attitude always gets under my skin somehow."
 c "Ugh, I gotta calm down and get my head in the game."
+c "Especially if I wanna wing that favor from him."
 c "I should be focusing on..."
 
 options_path s1path1

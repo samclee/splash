@@ -1,5 +1,11 @@
 [
     {
+        "func_name": "ending",
+        "args": [
+            "0"
+        ]
+    },
+    {
         "func_name": "myshow",
         "args": [
             "Hao Yu_happy",
@@ -22,7 +28,7 @@
     {
         "func_name": "text",
         "args": [
-            "test"
+            "*Huff huff huff*"
         ]
     },
     {
@@ -48,41 +54,59 @@
     {
         "func_name": "text",
         "args": [
-            "test"
+            "*Pant pant*"
         ]
     },
     {
-        "func_name": "show_none",
-        "args": []
+        "func_name": "myshow",
+        "args": [
+            "Davonte_happy",
+            "right"
+        ]
     },
     {
-        "func_name": "hide_nameplate",
-        "args": []
+        "func_name": "active",
+        "args": [
+            "right"
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Davonte",
+            "right"
+        ]
     },
     {
         "func_name": "text",
         "args": [
-            "no speaker"
+            "Haha, damn."
         ]
     },
     {
-        "func_name": "label",
+        "func_name": "nameplate",
         "args": [
-            "QUESTION"
+            "Davonte",
+            "right"
         ]
     },
     {
-        "func_name": "option",
+        "func_name": "text",
         "args": [
-            "\"This jumps to A\"",
-            "CHOICE_A"
+            "Looks like you weren't just talking big this whole time."
         ]
     },
     {
-        "func_name": "option",
+        "func_name": "nameplate",
         "args": [
-            "\"This jumpps to B\"",
-            "CHOICE_B"
+            "Davonte",
+            "right"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "Good game man."
         ]
     },
     {
@@ -108,101 +132,693 @@
     {
         "func_name": "text",
         "args": [
-            "Option test"
+            "..."
         ]
     },
     {
-        "func_name": "label",
+        "func_name": "myshow",
         "args": [
-            "CHOICE_A"
+            "Davonte_happy",
+            "right"
         ]
     },
     {
-        "func_name": "show_none",
-        "args": []
+        "func_name": "active",
+        "args": [
+            "right"
+        ]
     },
     {
-        "func_name": "hide_nameplate",
-        "args": []
+        "func_name": "nameplate",
+        "args": [
+            "Davonte",
+            "right"
+        ]
     },
     {
         "func_name": "text",
         "args": [
-            "You chose A"
+            "Wow, didn't think you'd be speechless after winning."
         ]
     },
     {
-        "func_name": "show_none",
-        "args": []
-    },
-    {
-        "func_name": "hide_nameplate",
-        "args": []
+        "func_name": "nameplate",
+        "args": [
+            "Davonte",
+            "right"
+        ]
     },
     {
         "func_name": "text",
         "args": [
-            "This jumps over B"
+            "Eh, winning against me [i]is[/i] pretty surprising."
         ]
     },
     {
-        "func_name": "jump",
+        "func_name": "nameplate",
         "args": [
-            "CHOICE_END"
+            "Davonte",
+            "right"
         ]
-    },
-    {
-        "func_name": "label",
-        "args": [
-            "CHOICE_B"
-        ]
-    },
-    {
-        "func_name": "show_none",
-        "args": []
-    },
-    {
-        "func_name": "hide_nameplate",
-        "args": []
     },
     {
         "func_name": "text",
         "args": [
-            "You chose B"
+            "I can't blame you for-"
         ]
     },
     {
-        "func_name": "show_none",
-        "args": []
+        "func_name": "myshow",
+        "args": [
+            "Hao Yu_happy",
+            "left"
+        ]
     },
     {
-        "func_name": "hide_nameplate",
-        "args": []
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Hao Yu",
+            "left"
+        ]
     },
     {
         "func_name": "text",
         "args": [
-            "This continues to the end"
+            "Davonte listen."
         ]
     },
     {
-        "func_name": "label",
+        "func_name": "myshow",
         "args": [
-            "CHOICE_END"
+            "Davonte_happy",
+            "right"
         ]
     },
     {
-        "func_name": "show_none",
-        "args": []
+        "func_name": "active",
+        "args": [
+            "right"
+        ]
     },
     {
-        "func_name": "hide_nameplate",
-        "args": []
+        "func_name": "nameplate",
+        "args": [
+            "Davonte",
+            "right"
+        ]
     },
     {
         "func_name": "text",
         "args": [
-            "End conv"
+            "*Ulp*"
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Davonte",
+            "right"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "(I've never seen him this serious)."
+        ]
+    },
+    {
+        "func_name": "myshow",
+        "args": [
+            "Hao Yu_happy",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Hao Yu",
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "I need to tell you something."
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Hao Yu",
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "I love..."
+        ]
+    },
+    {
+        "func_name": "myshow",
+        "args": [
+            "Davonte_happy",
+            "right"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "right"
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Davonte",
+            "right"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "!!!"
+        ]
+    },
+    {
+        "func_name": "myshow",
+        "args": [
+            "Hao Yu_happy",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Hao Yu",
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "...playing paint dodgeball."
+        ]
+    },
+    {
+        "func_name": "myshow",
+        "args": [
+            "Davonte_happy",
+            "right"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "right"
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Davonte",
+            "right"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "Ah."
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Davonte",
+            "right"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "Of course."
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Davonte",
+            "right"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "Why did I expect anything-"
+        ]
+    },
+    {
+        "func_name": "myshow",
+        "args": [
+            "Hao Yu_happy",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Hao Yu",
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "And I love playing it with you."
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Hao Yu",
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "And I love hanging out with you downtown."
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Hao Yu",
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "And I love how you help me with my Chinese."
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Hao Yu",
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "And..."
+        ]
+    },
+    {
+        "func_name": "music",
+        "args": [
+            "success"
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Hao Yu",
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "and I love you."
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Hao Yu",
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "I've loved you for a long time."
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Hao Yu",
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "But I was afraid to admit it to myself."
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Hao Yu",
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "We only have a few months until we graduate, and if I messed up our friendship..."
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Hao Yu",
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "I don't know if I could handle that."
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Hao Yu",
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "SoItriedtoburyallmyfeelingsbutthatdidn'tworksoItriedtoonlythinkaboutpaintdodgeballbutsinceyoualsoplaythatalsodidn'tworkand-"
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Hao Yu",
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "thenwebothmadeittothefinalsandIwasafraidthatmyfeelingswouldgetinthewayofmyplayingwhichstressedmeoutevenmore-"
+        ]
+    },
+    {
+        "func_name": "myshow",
+        "args": [
+            "Davonte_happy",
+            "right"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "right"
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Davonte",
+            "right"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "Shh shh shh."
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Davonte",
+            "right"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "Hey you dork,"
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Davonte",
+            "right"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "I love you too."
+        ]
+    },
+    {
+        "func_name": "myshow",
+        "args": [
+            "Hao Yu_happy",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Hao Yu",
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "!!!"
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Hao Yu",
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "W-well, good then."
+        ]
+    },
+    {
+        "func_name": "shake",
+        "args": []
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Hao Yu",
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "But don't forget that you're still my rival okay???"
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Hao Yu",
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "And I did just defeat you in the finals!"
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Hao Yu",
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "So I get a favor from you!"
+        ]
+    },
+    {
+        "func_name": "myshow",
+        "args": [
+            "Davonte_happy",
+            "right"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "right"
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Davonte",
+            "right"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "Oh right, we did make a wager didn't we?"
+        ]
+    },
+    {
+        "func_name": "myshow",
+        "args": [
+            "Hao Yu_happy",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Hao Yu",
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "Yeah! And I wanna use it right now!"
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Hao Yu",
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "For my favor..."
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Hao Yu",
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "I want you to go on a date with me!"
+        ]
+    },
+    {
+        "func_name": "myshow",
+        "args": [
+            "Davonte_happy",
+            "right"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "right"
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Davonte",
+            "right"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "Haha guess I have no choice."
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Davonte",
+            "right"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "Let's go on a date..."
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Davonte",
+            "right"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "rival."
         ]
     }
 ]

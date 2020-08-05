@@ -2,6 +2,8 @@
 define c "Hao Yu" left
 define d "Davonte" right
 
+ending 3
+
 show c happy
 c "test"
 

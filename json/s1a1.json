@@ -61,6 +61,19 @@
     {
         "func_name": "text",
         "args": [
+            "Especially if I wanna wing that favor from him."
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Hao Yu",
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
             "I should be focusing on..."
         ]
     },

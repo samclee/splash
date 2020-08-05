@@ -1,5 +1,25 @@
 [
     {
+        "func_name": "ending",
+        "args": [
+            "1"
+        ]
+    },
+    {
+        "func_name": "show_none",
+        "args": []
+    },
+    {
+        "func_name": "hide_nameplate",
+        "args": []
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "Story 1 Ending 2"
+        ]
+    },
+    {
         "func_name": "myshow",
         "args": [
             "Hao Yu_happy",

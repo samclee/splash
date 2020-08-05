@@ -15,4 +15,9 @@ func hide():
 		$Tween.interpolate_property(self, "position",
 			right_pos, right_off_pos, slide_time, Tween.TRANS_EXPO, Tween.EASE_IN)
 		$Tween.start()
-
+		
+func ahide():
+	if $VisibilityNotifier2D.is_on_screen():
+		$Tween.interpolate_property(self, "position",
+			right_pos, left_off_pos, slide_time, Tween.TRANS_EXPO, Tween.EASE_IN)
+		$Tween.start()

@@ -3,4 +3,37 @@ define c "Hao Yu" left
 define d "Davonte" right
 
 show c happy
-c "Okay, we're up a round
+c "Cool, we're up a round."
+c "If we can just take this one, then the game's over."
+c "..."
+shake
+c "ARGH IT'S NO USE, I CAN'T STOP THINKING ABOUT HIM."
+c "It's just distracting how Davonte is so..."
+
+label 1A
+shake
+c "...COOL."
+c "He's super good at paint dodgeball [i]and[/i] he's super smart."
+
+jump AFTER1
+
+label 1B
+shake
+c "...CUTE."
+c "Like, in the same way a dog is cute of course."
+
+jump AFTER1
+
+label 1C
+shake
+c "...NICE."
+c "I've known him for so long, and he's always stuck by me."
+c "Even though we go to different colleges, he's still my best friend."
+
+label AFTER1
+c "But most of all..."
+
+label 2A
+c "...I definitely have a crush on him."
+c "It's no use trying to pretend I don't."
+c "I've always told myself I just felt a really strong rivalry"
