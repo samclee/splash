@@ -36,6 +36,14 @@ func set_active_button(ind):
 	Sfm.play_sfx("text_beep")
 	$davonte_bio_card.hide()
 	$hao_yu_bio.hide()
+	$red_bg.hide()
+	$blue_bg.hide()
+	
+	if ind % 2 == 0:
+		$red_bg.show()
+	else:
+		$blue_bg.show()
+	
 	if ind == 0:
 		$davonte_bio_card.show()
 	if ind == 1:

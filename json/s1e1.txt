@@ -36,7 +36,7 @@ c "I love..."
 show d neutral
 d "!!!"
 
-show c happy
+show c neutral
 c "...playing paint dodgeball."
 
 show d angry
@@ -51,6 +51,7 @@ c "And I love how you help me with my Chinese."
 c "And..."
 
 music success
+show c angryblush
 c "and I love you."
 c "I've loved you for a long time."
 c "But I was afraid to admit it to myself."
@@ -76,7 +77,7 @@ c "So I get a favor from you!"
 show d happy
 d "Oh right, we did make a wager didn't we?"
 
-show c happy
+show c happyblush
 c "Yeah! And I wanna use it right now!"
 c "For my favor..."
 c "I want you to go on a date with me!"

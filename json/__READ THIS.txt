@@ -1,0 +1,23 @@
+# This is a comment, you don't have to use these
+
+# Step 1, you HAVE to define symbols for Hao Yu and Davonte
+define h "Hao Yu" left
+define d "Davonte" right
+
+# Step 2, to show a sprite, you use "show <symbol> <emotion name>"
+# The 5 emotion names are smile, neutral, flirty, angry, surprised
+# You can add blush and paint by adding them to the end, ex: "smileblush", "neutralpaint", "angryblushpaint" <- it has to be "blushpaint" and not "paintblush"
+show h smileblush
+
+# Step 3 to have them speak, you use their symbol and then a quoted line
+h "Bleep bloop"
+
+# Step 4 if you want no one speaker, just do a quoted line
+"No one"
+
+# Step 5 to play music, use "music <song name>"
+# The songs you can use are in the music folder
+music dialog
+
+# Step 6 you can do screen shake
+shake

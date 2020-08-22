@@ -320,7 +320,7 @@
     {
         "func_name": "myshow",
         "args": [
-            "Hao Yu_happy",
+            "Hao Yu_neutral",
             "left"
         ]
     },
@@ -464,6 +464,19 @@
         "func_name": "music",
         "args": [
             "success"
+        ]
+    },
+    {
+        "func_name": "myshow",
+        "args": [
+            "Hao Yu_angryblush",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
         ]
     },
     {
@@ -720,7 +733,7 @@
     {
         "func_name": "myshow",
         "args": [
-            "Hao Yu_happy",
+            "Hao Yu_happyblush",
             "left"
         ]
     },

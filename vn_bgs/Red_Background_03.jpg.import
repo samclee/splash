@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/new_school_gym.jpg-02cb1b8f730ffd9b8a44c95d3358520b.stex"
+path="res://.import/Red_Background_03.jpg-599f2304efa7ddc5fb352ba2dca8c7c9.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/vn_bgs/new_school_gym.jpg"
-dest_files=[ "res://.import/new_school_gym.jpg-02cb1b8f730ffd9b8a44c95d3358520b.stex" ]
+source_file="res://vn_bgs/Red_Background_03.jpg"
+dest_files=[ "res://.import/Red_Background_03.jpg-599f2304efa7ddc5fb352ba2dca8c7c9.stex" ]
 
 [params]
 

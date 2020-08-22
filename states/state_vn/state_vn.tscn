@@ -13,7 +13,7 @@
 [ext_resource path="res://states/state_vn/speaker/speaker_l.tscn" type="PackedScene" id=11]
 [ext_resource path="res://assets/fonts/luximri.ttf" type="DynamicFontData" id=12]
 [ext_resource path="res://assets/fonts/luximbi.ttf" type="DynamicFontData" id=13]
-[ext_resource path="res://assets/vn_bgs/new_school_gym.jpg" type="Texture" id=14]
+[ext_resource path="res://vn_bgs/new_school_gym.jpg" type="Texture" id=14]
 
 [sub_resource type="DynamicFont" id=1]
 size = 36

@@ -31,7 +31,6 @@ func load_save():
 		create_save()
 	save_game.open("user://savegame.save", File.READ)
 	var save_data = parse_json(save_game.get_line())
-	print(save_data)
 	save_game.close()
 	
 	return save_data

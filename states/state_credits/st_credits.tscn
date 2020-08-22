@@ -6,7 +6,7 @@
 [ext_resource path="res://assets/ui/overlayw.png" type="Texture" id=4]
 
 [sub_resource type="DynamicFont" id=1]
-size = 52
+size = 36
 outline_size = 3
 outline_color = Color( 0, 0, 0, 1 )
 font_data = ExtResource( 1 )
@@ -20,29 +20,38 @@ texture = ExtResource( 4 )
 centered = false
 
 [node name="Node2D" type="Node2D" parent="."]
-position = Vector2( 218, 266 )
+position = Vector2( 227.524, 269.175 )
 
 [node name="Label" type="Label" parent="Node2D"]
-margin_right = 527.0
-margin_bottom = 261.0
+margin_left = -127.0
+margin_top = 368.0
+margin_right = 742.0
+margin_bottom = 1619.0
 custom_fonts/font = SubResource( 1 )
-text = "Splash!
+text = "Sam Lee - Code gremlin
+@sam_c_lee
 
+Michelle Pang - Character Design/Artist
+@waveoftheocean
 
+Jack Concordia - Narrative Design
+@spookybotgg
 
+=Music=
+https://soundcloud.com/sei_peridot/
 
+Nuh Na Nuh by Kevin MacLeod
+Link: https://incompetech.filmmusic.io/song/6429-nuh-na-nuh
+License: http://creativecommons.org/licenses/by/4.0/
 
-
-Credits
-Peepee poopoo
-Chungus McGrungus
-Dinkle Dirgleson"
+https://www.free-largeimages.com/red-background-5701/"
+autowrap = true
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="VisibilityNotifier2D" type="VisibilityNotifier2D" parent="Node2D"]
-rect = Rect2( -10, 800, 20, 20 )
+[node name="Sprite" type="Sprite" parent="Node2D"]
+position = Vector2( 178.18, -26.727 )
 
 [node name="overlay" parent="." instance=ExtResource( 2 )]
 initial_fade = false

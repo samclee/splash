@@ -56,6 +56,8 @@ def transform(fname):
   to_json = []
   with open(fname) as file:
     for raw_line in file:
+      if raw_line.startswith("#"):
+        continue
       raw_line = fill_quoted_spaces(raw_line)
       raw_line_ary = raw_line.split()
       raw_line_ary = unfill_quoted_spaces(raw_line_ary)

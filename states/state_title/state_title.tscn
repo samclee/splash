@@ -1,14 +1,24 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=8 format=2]
 
 [ext_resource path="res://states/state_title/state_title.gd" type="Script" id=1]
 [ext_resource path="res://states/state_title/menu_button/menu_button.tscn" type="PackedScene" id=2]
 [ext_resource path="res://states/general/overlay/overlay.tscn" type="PackedScene" id=3]
 [ext_resource path="res://states/state_title/bio_card/hao_yu_bio_card.tscn" type="PackedScene" id=4]
 [ext_resource path="res://states/state_title/bio_card/davonte_bio_card.tscn" type="PackedScene" id=5]
+[ext_resource path="res://vn_bgs/Red_Background_03.jpg" type="Texture" id=6]
+[ext_resource path="res://vn_bgs/Blue_Background_03.jpg" type="Texture" id=7]
 
 [node name="state_title" type="Node2D"]
 script = ExtResource( 1 )
 story_one_scene = "res://game/story1/vn_conversations/s1d1.tscn"
+
+[node name="red_bg" type="Sprite" parent="."]
+position = Vector2( 500, 300 )
+texture = ExtResource( 6 )
+
+[node name="blue_bg" type="Sprite" parent="."]
+position = Vector2( 500, 300 )
+texture = ExtResource( 7 )
 
 [node name="options" type="Node2D" parent="."]
 
@@ -70,9 +80,6 @@ margin_right = 660.0
 margin_bottom = 322.0
 
 [node name="overlay" parent="." instance=ExtResource( 3 )]
-
-[node name="Node2D" type="Node2D" parent="."]
-position = Vector2( 24, 16 )
 
 [editable path="options/start_story1"]
 

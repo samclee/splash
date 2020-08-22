@@ -1,0 +1,52 @@
+[
+    {
+        "func_name": "myshow",
+        "args": [
+            "Hao Yu_smileblush",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Hao Yu",
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "Bleep bloop"
+        ]
+    },
+    {
+        "func_name": "show_none",
+        "args": []
+    },
+    {
+        "func_name": "hide_nameplate",
+        "args": []
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "No one"
+        ]
+    },
+    {
+        "func_name": "music",
+        "args": [
+            "dialog"
+        ]
+    },
+    {
+        "func_name": "shake",
+        "args": []
+    }
+]
