@@ -45,7 +45,6 @@ func activate():
 	active = true
 
 func deactivate():
-	print("Deactivating normal options")
 	visible = false
 	active = false
 	for child in get_children():

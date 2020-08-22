@@ -46,7 +46,6 @@ shake
 c "Wait what!?"
 c "I mean, yeah of course."
 c "He'obviously a super good player."
-music soft
 c "Definitely someone I consider a..."
 
 label path3

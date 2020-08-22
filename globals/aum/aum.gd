@@ -25,10 +25,15 @@ func play_song(song_name):
 	stop()
 	stream = songs[song_name]
 	play()
+	
+func fade_in_song(song_name):
+	volume_db = -35
+	play_song(song_name)
+	$Tween.interpolate_property(self, "volume_db", -35, -7, 0.9, Tween.TRANS_LINEAR)
+	$Tween.start()
 
 func fade_out_song():
-	print("as")
-	$Tween.interpolate_property(self, "volume_db", -7, -35, 0.1, Tween.TRANS_LINEAR)
+	$Tween.interpolate_property(self, "volume_db", -7, -35, 0.9, Tween.TRANS_LINEAR)
 	$Tween.start()
 
 func _on_Tween_tween_completed(object, key):

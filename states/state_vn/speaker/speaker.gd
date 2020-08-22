@@ -33,7 +33,7 @@ func light():
 	modulate = Color(1.0, 1.0, 1.0)
 
 func shrink():
-	scale = Vector2(0.85, 0.85)
+	scale = Vector2(0.95, 0.95)
 
 func grow():
 	scale = Vector2(1, 1)
@@ -41,6 +41,9 @@ func grow():
 func set_portrait(name):
 	texture = portraits[name]
 	h = texture.get_height()
+	w = texture.get_width()
+	left_off_pos = Vector2(w / -2, 600)
+	right_off_pos = Vector2(1000 + w / 2, 600)
 	offset.y = -h / 2
 	
 func load_portraits():

@@ -391,12 +391,6 @@
         ]
     },
     {
-        "func_name": "music",
-        "args": [
-            "soft"
-        ]
-    },
-    {
         "func_name": "nameplate",
         "args": [
             "Hao Yu",

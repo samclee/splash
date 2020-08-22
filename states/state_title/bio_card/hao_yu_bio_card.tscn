@@ -7,17 +7,13 @@
 position = Vector2( 33.3354, 276.208 )
 
 [node name="Sprite" parent="." index="0"]
-position = Vector2( 665.09, 123.817 )
+position = Vector2( 688.901, 84.132 )
 texture = ExtResource( 1 )
 
 [node name="Label" parent="." index="1"]
+margin_top = -135.611
 text = "Lin Hao Yu
 Age: 22 (January 15)
 Major: Biology
 Likes: Davonte, but won’t admit it; cooking, but won’t admit it; video games, sleeping
-Dislikes: effort (more specifically, looking like he cares about anything); cats 
-Davonte Thompson:
-Age: 21 (April 4)
-Major: Communications and Linguistics double major
-Likes: Hao Yu; studying languages; exercise
-Dislikes: spiders; math"
+Dislikes: effort (more specifically, looking like he cares about anything); cats"

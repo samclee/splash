@@ -23,7 +23,6 @@ func _on_overlay_fade_in_done():
 
 func _input(event):
 	if taking_input and event.is_action_pressed("primary"):
-		Sfm.play_sfx("text_beep")
 		proceed()
 		
 # proceeding and branching
@@ -32,7 +31,7 @@ func proceed():
 		var target_label = $options.get_selected_label()
 		$options.deactivate()
 		jump(target_label)
-
+	Sfm.play_sfx("text_beep")
 	load_chunk()
 
 # dialog utility funcs
@@ -112,6 +111,10 @@ func nameplate(name, side):
 
 func hide_nameplate():
 	$DialogLayer/nameplate.hide()
+	
+# background
+func bg(bg_name):
+	pass
 	
 # dialog box
 func slide_dialog_down():

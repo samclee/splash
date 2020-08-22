@@ -4,17 +4,17 @@ define d "Davonte" right
 
 ending 0
 
-show c happy
+show c neutralblush
 c "*Huff huff huff*"
 
-show d happy
+show d neutralblush
 d "*Pant pant*"
-show d happy
+show d happyblush
 d "Haha, damn."
 d "Looks like you weren't just talking big this whole time."
 d "Good game man."
 
-show c happy
+show c neutralblush
 c "..."
 
 show d happy
@@ -22,29 +22,29 @@ d "Wow, didn't think you'd be speechless after winning."
 d "Eh, winning against me [i]is[/i] pretty surprising."
 d "I can't blame you for-"
 
-show c happy
+show c angry
 c "Davonte listen."
 
-show d happy
+show d neutral
 d "*Ulp*"
 d "(I've never seen him this serious)."
 
-show c happy
+show c angry
 c "I need to tell you something."
 c "I love..."
 
-show d happy
+show d neutral
 d "!!!"
 
 show c happy
 c "...playing paint dodgeball."
 
-show d happy
+show d angry
 d "Ah."
 d "Of course."
 d "Why did I expect anything-"
 
-show c happy
+show c angry
 c "And I love playing it with you."
 c "And I love hanging out with you downtown."
 c "And I love how you help me with my Chinese."

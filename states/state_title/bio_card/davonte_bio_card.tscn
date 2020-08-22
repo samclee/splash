@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://assets/vn_portraits/Davonte_happy.png" type="Texture" id=1]
+[ext_resource path="res://states/state_title/bio_card/bio_card.tscn" type="PackedScene" id=2]
+
+[node name="davonte_bio_card" instance=ExtResource( 2 )]
+
+[node name="Sprite" parent="." index="0"]
+position = Vector2( 682.414, 326.206 )
+texture = ExtResource( 1 )
+
+[node name="Label" parent="." index="1"]
+margin_top = 125.475
+text = "Davonte Thompson:
+Age: 21 (April 4)
+Major: Communications and Linguistics double major
+Likes: Hao Yu; studying languages; exercise
+Dislikes: spiders; math"

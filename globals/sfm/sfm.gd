@@ -17,6 +17,7 @@ func load_sfx():
 				var new_player = AudioStreamPlayer.new()
 				add_child(new_player)
 				new_player.stream = load(path + file_name)
+				new_player.volume_db = -7
 				sfx[file_name.left(file_name.length() - 4)] = new_player.name
 			file_name = dir.get_next()
 		dir.list_dir_end()
