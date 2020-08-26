@@ -1,8 +1,10 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=4 format=2]
 
 [ext_resource path="res://states/state_vn/speaker/speaker.tscn" type="PackedScene" id=1]
 [ext_resource path="res://states/state_vn/speaker/speaker_r.gd" type="Script" id=2]
+[ext_resource path="res://assets/vn_portraits/Hao Yu_neutral.png" type="Texture" id=3]
 
 [node name="speaker_r" instance=ExtResource( 1 )]
+texture = ExtResource( 3 )
 flip_h = true
 script = ExtResource( 2 )

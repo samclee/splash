@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=2]
 
-[ext_resource path="res://assets/vn_portraits/Hao Yu_happy.png" type="Texture" id=1]
+[ext_resource path="res://assets/vn_portraits/Hao Yu_angry.png" type="Texture" id=1]
 [ext_resource path="res://states/state_title/bio_card/bio_card.tscn" type="PackedScene" id=2]
 
 [node name="hao_yu_bio" instance=ExtResource( 2 )]

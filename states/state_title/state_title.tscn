@@ -10,7 +10,7 @@
 
 [node name="state_title" type="Node2D"]
 script = ExtResource( 1 )
-story_one_scene = "res://game/story1/vn_conversations/s1d1.tscn"
+story_one_scene = "res://game/Davonte_story/davonte1.tscn"
 
 [node name="red_bg" type="Sprite" parent="."]
 position = Vector2( 500, 300 )
@@ -62,6 +62,9 @@ text = "Exit"
 
 [node name="hao_yu_bio" parent="." instance=ExtResource( 4 )]
 
+[node name="Sprite" parent="hao_yu_bio" index="0"]
+position = Vector2( 734.665, 83.792 )
+
 [node name="Label" parent="hao_yu_bio" index="1"]
 margin_left = 30.6646
 margin_top = -76.208
@@ -71,7 +74,7 @@ margin_bottom = 95.792
 [node name="davonte_bio_card" parent="." instance=ExtResource( 5 )]
 
 [node name="Sprite" parent="davonte_bio_card" index="0"]
-position = Vector2( 680, 304 )
+position = Vector2( 736, 304 )
 
 [node name="Label" parent="davonte_bio_card" index="1"]
 margin_left = 64.0

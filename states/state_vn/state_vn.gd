@@ -100,6 +100,10 @@ func show_none():
 	$speaker_l.hide()
 	$speaker_r.hide()
 
+func show_all():
+	$speaker_l.show()
+	$speaker_r.show()
+
 # nameplate
 func nameplate(name, side):
 	$DialogLayer/nameplate.show()

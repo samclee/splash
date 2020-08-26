@@ -1,6 +1,0 @@
-
-define c "Hao Yu" left
-define d "Davonte" right
-
-show c happy
-c "bluh bluh bluh round 3 of the game"

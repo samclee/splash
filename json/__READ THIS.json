@@ -26,10 +26,6 @@
         ]
     },
     {
-        "func_name": "show_none",
-        "args": []
-    },
-    {
         "func_name": "hide_nameplate",
         "args": []
     },

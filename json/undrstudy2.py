@@ -16,7 +16,6 @@ def to_line(func_name, args):
 
 def to_narrator_text(text):
   return [
-    {"func_name": "show_none", "args": []},
     {"func_name": "hide_nameplate", "args": []},
     {"func_name": "text", "args": [text]}
   ]

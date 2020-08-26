@@ -63,7 +63,7 @@ func start_story_one():
 	
 func start_story_two():
 	if story2unlocked:
-		$overlay.fade_to_next_scene(story_one_scene)
+		$overlay.fade_to_next_scene(story_two_scene)
 		Aum.fade_out_song()
 	
 func delete_save_data():

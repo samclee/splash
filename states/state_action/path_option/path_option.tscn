@@ -15,6 +15,8 @@ radius = 50.0
 [node name="path_option" type="Node2D"]
 script = ExtResource( 2 )
 
+[node name="Node" type="Node2D" parent="."]
+
 [node name="wrapper" type="Node2D" parent="."]
 
 [node name="offset_wrapper" type="Node2D" parent="wrapper"]

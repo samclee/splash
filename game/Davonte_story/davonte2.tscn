@@ -1,0 +1,17 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://paths/davonte_path3.tscn" type="PackedScene" id=1]
+[ext_resource path="res://states/state_action/state_action.tscn" type="PackedScene" id=2]
+[ext_resource path="res://paths/davonte_path1.tscn" type="PackedScene" id=3]
+[ext_resource path="res://paths/davonte_path2.tscn" type="PackedScene" id=4]
+
+[node name="state_action" instance=ExtResource( 2 )]
+conv_path = "res://json/Davonte2.json"
+
+[node name="davonte_path1" parent="paths_collection/paths" index="0" instance=ExtResource( 3 )]
+
+[node name="davonte_path2" parent="paths_collection/paths" index="1" instance=ExtResource( 4 )]
+
+[node name="davonte_path3" parent="paths_collection/paths" index="2" instance=ExtResource( 1 )]
+
+[editable path="paths_collection"]
