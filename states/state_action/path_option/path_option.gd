@@ -18,12 +18,13 @@ func _ready():
 func activate():
 	selected = true
 	scale = Vector2(1.2, 1.2)
-	$wrapper.rotation_degrees = 20
+	$wrapper.rotation_degrees = 14
 	
 func deactivate():
 	selected = false
 	scale = Vector2(1, 1)
 	$wrapper.rotation_degrees = 0
+	
 
 func _on_Area2D_area_entered(area):
 	activate()

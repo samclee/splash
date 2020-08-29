@@ -1,0 +1,545 @@
+[
+    {
+        "func_name": "music",
+        "args": [
+            "title"
+        ]
+    },
+    {
+        "func_name": "myshow",
+        "args": [
+            "Davonte_neutral",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Davonte",
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "\"(It's not that I want to let him win...)"
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Davonte",
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "(...but things won't exactly be interesting if I just take the win here, right?)"
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Davonte",
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "So let's come up with a clever way to throw this round."
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Davonte",
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "(And that means I'll...)"
+        ]
+    },
+    {
+        "func_name": "options_path",
+        "args": [
+            "davonte_path4"
+        ]
+    },
+    {
+        "func_name": "label",
+        "args": [
+            "1a"
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Davonte",
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "(...slip and fall!)"
+        ]
+    },
+    {
+        "func_name": "myshow",
+        "args": [
+            "Davonte_smile",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Davonte",
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "Oh no, looks like I slipped!\""
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Davonte",
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "Whoops!"
+        ]
+    },
+    {
+        "func_name": "hide_nameplate",
+        "args": []
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "Davonte takes an exaggerated fall."
+        ]
+    },
+    {
+        "func_name": "jump",
+        "args": [
+            "after1"
+        ]
+    },
+    {
+        "func_name": "label",
+        "args": [
+            "1b"
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Davonte",
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "(...miss on purpose!)"
+        ]
+    },
+    {
+        "func_name": "myshow",
+        "args": [
+            "Davonte_smile",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Davonte",
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "Oh no, my aim is so off!"
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Davonte",
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "I can't hit any of my targets!"
+        ]
+    },
+    {
+        "func_name": "hide_nameplate",
+        "args": []
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "Davonte throws the ball straight upwards."
+        ]
+    },
+    {
+        "func_name": "jump",
+        "args": [
+            "after1"
+        ]
+    },
+    {
+        "func_name": "label",
+        "args": [
+            "1c"
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Davonte",
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "(...dab!)"
+        ]
+    },
+    {
+        "func_name": "myshow",
+        "args": [
+            "Davonte_smile",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Davonte",
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "(This is what young people do right?)"
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Davonte",
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "(Hm I'm not too sure, but maybe Hao Yu will enjoy it?)"
+        ]
+    },
+    {
+        "func_name": "hide_nameplate",
+        "args": []
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "Davonte hesitantly dabs."
+        ]
+    },
+    {
+        "func_name": "label",
+        "args": [
+            "after1"
+        ]
+    },
+    {
+        "func_name": "myshow",
+        "args": [
+            "Hao Yu_angrypaint",
+            "right"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "right"
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Hao Yu",
+            "right"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "Stop messing around asshole!"
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Hao Yu",
+            "right"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "I don't know what you're trying to do, but you better take this seriously!"
+        ]
+    },
+    {
+        "func_name": "myhide",
+        "args": [
+            "right"
+        ]
+    },
+    {
+        "func_name": "myshow",
+        "args": [
+            "Davonte_neutral",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Davonte",
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "Hmmm, he saw through that."
+        ]
+    },
+    {
+        "func_name": "myshow",
+        "args": [
+            "Davonte_smile",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Davonte",
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "(Still though, he's not getting the hints.)"
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Davonte",
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "(Subtley doesn't work so well on Hao Yu.)"
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Davonte",
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "(Maybe I need to do something...spicier)"
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Davonte",
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "(I wonder how he'd respond if I...)"
+        ]
+    },
+    {
+        "func_name": "label",
+        "args": [
+            "path2"
+        ]
+    },
+    {
+        "func_name": "options_path",
+        "args": [
+            "davonte_path5"
+        ]
+    },
+    {
+        "func_name": "label",
+        "args": [
+            "2a"
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Davonte",
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "(...blow him a kiss.)"
+        ]
+    },
+    {
+        "func_name": "hide_nameplate",
+        "args": []
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "Davonte lightly blows Hao Yu a kiss!"
+        ]
+    },
+    {
+        "func_name": "jump",
+        "args": [
+            "path2"
+        ]
+    },
+    {
+        "func_name": "label",
+        "args": [
+            "2b"
+        ]
+    },
+    {
+        "func_name": "myshow",
+        "args": [
+            "Davonte_flirty",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Davonte",
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "(...shoot him a flirty look.)"
+        ]
+    },
+    {
+        "func_name": "hide_nameplate",
+        "args": []
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "Davonte gives Hao Yu a suggestive wink."
+        ]
+    },
+    {
+        "func_name": "label",
+        "args": [
+            "path2"
+        ]
+    },
+    {
+        "func_name": "myshow",
+        "args": [
+            "Hao Yu_surprisedpaintblush",
+            "right"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "right"
+        ]
+    }
+]

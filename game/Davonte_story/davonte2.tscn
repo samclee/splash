@@ -7,6 +7,7 @@
 
 [node name="state_action" instance=ExtResource( 2 )]
 conv_path = "res://json/Davonte2.json"
+next_scn_path = "res://game/Davonte_story/davonte3.tscn"
 
 [node name="davonte_path1" parent="paths_collection/paths" index="0" instance=ExtResource( 3 )]
 

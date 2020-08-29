@@ -18,7 +18,7 @@ show d smile
 d "(The best defense is a good offense after all!)"
 show d angry
 d "(...that doesn't sound right.)"
-"Davonte gracefully weaves through a volley of projetciles!"
+"Davonte gracefully weaves through a volley of projectiles!"
 jump after1
 
 label 1b
@@ -55,12 +55,13 @@ d "(I think I'll...)"
 options_path davonte_path3
 
 label 3a
-d "(...call out his name.)"
+d "(...call out to him.)"
 d "(That should get his attention.)"
 shake
-d "Hey Hao Yu!"
+d "Hey bro, how's it going!"
+"Davonte waves both arms energetically!"
 show h angry
-h "What?!"
+h "What do you want?!"
 h "Stop talking, can't you see I'm-"
 jump game_end
 

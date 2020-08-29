@@ -1,0 +1,33 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://states/state_action/path_option/path_option.tscn" type="PackedScene" id=1]
+[ext_resource path="res://states/state_action/options_path/options_path.tscn" type="PackedScene" id=2]
+
+[sub_resource type="Curve2D" id=1]
+_data = {
+"points": PoolVector2Array( 105.511, 96.5317, -105.511, -96.5317, 70.8775, 370.8, 74.0825, -150.41, -74.0825, 150.41, 303.227, 177.736, -154.9, -1.12246, 154.9, 1.12246, 79.8572, 58.7551, 84.1847, 96.5317, -84.1847, -96.5317, 67.5102, 365.187 )
+}
+
+[node name="davonte_path4" instance=ExtResource( 2 )]
+spd = 0.007
+
+[node name="path_option" parent="options" index="0" instance=ExtResource( 1 )]
+position = Vector2( 85.3071, 62.8579 )
+text = "Slip and fall"
+tag = "1a"
+
+[node name="path_option2" parent="options" index="1" instance=ExtResource( 1 )]
+position = Vector2( 307.555, 147.043 )
+text = "Miss on purpose"
+tag = "1b"
+
+[node name="path_option3" parent="options" index="2" instance=ExtResource( 1 )]
+position = Vector2( 76.3275, 361.433 )
+text = "Dab"
+tag = "1c"
+
+[node name="Path2D" parent="." index="1"]
+curve = SubResource( 1 )
+
+[node name="cursor" parent="Path2D" index="0"]
+position = Vector2( 70.8775, 370.8 )

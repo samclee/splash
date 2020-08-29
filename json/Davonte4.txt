@@ -1,0 +1,76 @@
+
+define h "Hao Yu" right
+define d "Davonte" left
+
+music title
+show d neutral
+d "(It's not that I want to let him win...)
+d "(...but things won't exactly be interesting if I just take the win here, right?)"
+d "So let's come up with a clever way to throw this round."
+d "(And that means I'll...)"
+
+options_path davonte_path4
+
+label 1a
+d "(...slip and fall!)"
+show d smile
+d "Oh no, looks like I slipped!""
+d "Whoops!"
+"Davonte takes an exaggerated fall!"
+jump after1
+
+label 1b
+d "(...miss on purpose!)"
+show d smile
+d "Oh no, my aim is so off!"
+d "I can't hit any of my targets!"
+"Davonte throws the ball straight upwards!"
+jump after1
+
+label 1c
+d "(...dab!)"
+show d smile
+d "(This is what young people do right?)"
+d "(Hm I'm not too sure, but maybe Hao Yu will enjoy it?)"
+"Davonte hesitantly dabs!"
+
+
+label after1
+
+show h angrypaint
+h "Stop messing around asshole!"
+h "I don't know what you're trying to do, but you better take this seriously!"
+myhide right
+show d neutral
+d "Hmmm, he saw through that."
+
+show d smile
+d "(Still though, he's not getting the hints.)"
+d "(Subtley doesn't work so well on Hao Yu.)"
+d "(Maybe I need to do something...spicier)"
+d "(I wonder how he'd respond if I...)"
+
+label path2
+options_path davonte_path5
+
+label 2a
+show d flirty
+d "(...blow him a kiss.)"
+"Davonte lightly blows Hao Yu a kiss!"
+jump after2
+
+label 2b
+show d flirty
+d "(...shoot him a flirty look.)"
+"Davonte gives Hao Yu a suggestive wink."
+
+label after2
+
+show h surprisedpaintblush
+shake
+h "Stop messing around!"
+h "I'm sick of this, you're going down!"
+"Hao Yu readies a killer throw!"
+show d happy
+d "Ooh, well that got your attention."
+d ""

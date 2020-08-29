@@ -167,7 +167,7 @@
     {
         "func_name": "text",
         "args": [
-            "Davonte gracefully weaves through a volley of projetciles!"
+            "Davonte gracefully weaves through a volley of projectiles!"
         ]
     },
     {
@@ -471,7 +471,7 @@
     {
         "func_name": "text",
         "args": [
-            "(...call out his name.)"
+            "(...call out to him.)"
         ]
     },
     {
@@ -501,7 +501,17 @@
     {
         "func_name": "text",
         "args": [
-            "Hey Hao Yu!"
+            "Hey bro, how's it going!"
+        ]
+    },
+    {
+        "func_name": "hide_nameplate",
+        "args": []
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "Davonte waves both arms energetically!"
         ]
     },
     {
@@ -527,7 +537,7 @@
     {
         "func_name": "text",
         "args": [
-            "What?!"
+            "What do you want?!"
         ]
     },
     {

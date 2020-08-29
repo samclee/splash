@@ -4,4 +4,4 @@
 
 [node name="state_vn" instance=ExtResource( 1 )]
 conv_path = "res://json/placeholder.json"
-next_scn_path = "res://game/Davonte_story/davonte2.tscn"
+next_scn_path = "res://game/Davonte_story/davonte4.tscn"

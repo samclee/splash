@@ -21,3 +21,6 @@ music dialog
 
 # Step 6 you can do screen shake
 shake
+
+# Step 7 you can also change the bg
+bg black
