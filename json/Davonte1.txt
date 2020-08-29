@@ -1,0 +1,117 @@
+define h "Hao Yu" right
+define d "Davonte" left
+
+# Start story here.
+# Story 1 | Intro + Pre-Round 1
+# Still need to fix: italics, gym background change, hiding Hao Yu's character art toward the bottom.
+
+bg black
+"In the year 2076, the world hasn't changed much."
+
+"Within the sports world, every fan still roots for the underdog."
+
+# Need to check this line for length.
+"But this story doesn't revolved around the royalty of volleyball, tennis, card games, swimming, figure skating, card games on motorcycles or basketball."
+
+"No, this story is much more important than any of those."
+
+# bg change here
+
+"Today marks the grand finals of the National Collegiate Paint Dodgeball Tournament."
+
+"The top two universities in the country have brought their A-game — and their team captains: Davonte Thompson from B University and Lin Hao Yu from I University."
+
+"Both are seniors who are hoping to end theiryear with a well-fought victory — and, perhaps, something more."
+
+"This story is about two guys — and how their rivalry flourished into love..."
+
+"...through paint dodgeball."
+
+show d smile
+d "(Okay, Davonte. This is it — this is your chance to prove to Hao Yu just how much he means to you.)"
+
+d "(And since he's such a hard-headed dumbass, I have to beat him at his own game.)
+
+show d surprised
+d "(Then confess to him. Because that's how tsunderes work, right?)"
+
+d "(He just doesn’t know that he’s madly in love with me, right?)"
+
+show d smile
+d "(Nah. I’m certain he’s in denial.)"
+
+show d surprised
+d "(...Right?)"
+
+show d flirty
+d "(Well, either way, I’ll put on my princely charms and let the magic happen.)"
+
+show h neutral
+h "..."
+
+show d smile
+d "Well? Anything you wanna say before we start?"
+
+show h angry
+h "Rival…!"
+
+show h neutral
+h "*ahem*"
+
+show h angry
+h "You’re going down."
+
+show d smile
+d "(Oh, this idiot is adorable.)"
+
+show d neutral
+d "Someone’s overconfident."
+
+d "In that case, why don’t we make things a little more interesting?"
+
+show h neutral
+h "Yeah? You’ve got my attention."
+
+d "I know you’re mad that I won the tournament last season, and —"
+
+show h angry
+h "Who said I’m mad? I’m not mad."
+
+d "— and I wanted to give you the opportunity to redeem yourself."
+
+show d flirty
+d "So, we’ll have a little wager. Whoever wins gets to make the other team captain do whatever he wants."
+
+h "You’re on."
+
+show d surprised
+d "You’re not even going to ask any questions? Set any limitations or parameters?"
+
+show h angry
+h "Hell no. I know I’m going to win, so why would I limit myself?"
+
+h "Like I said — you’re going down, rival."
+
+show h flirty
+h "And when I win this, I’m gonna embarrass the hell out of you."
+
+show d flirty
+d "That’s cute. Because when I win, I’m planning to do the same for you."
+
+d "I hope you’re prepared for a long night."
+
+show h surprised
+h "…"
+
+show d smile
+d "…"
+
+d "Oh? Are you imagining something lewd?"
+
+show h angryblush
+h "Hell no! Shut up!"
+
+h "I’m going to win that wager! We’ll see who’s laughing after that!"
+
+show d smile
+h "(Gods, I love it when he’s all flustered like that.)"
