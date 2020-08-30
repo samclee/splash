@@ -30,6 +30,12 @@
         ]
     },
     {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
         "func_name": "text",
         "args": [
             "test"
@@ -52,6 +58,12 @@
         "func_name": "nameplate",
         "args": [
             "Davonte",
+            "right"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
             "right"
         ]
     },
@@ -114,6 +126,12 @@
         "func_name": "nameplate",
         "args": [
             "Hao Yu",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
             "left"
         ]
     },

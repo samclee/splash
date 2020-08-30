@@ -14,7 +14,7 @@ d "(Not that I had any doubt in my mind that I could beat him.)"
 show h angrypaint
 h "I demand a rematch!"
 
-d "No can do, bud. This was an officially sanctioned tournament, and —"
+d "No can do, bud. This was an officially sanctioned tournament, and -"
 
 h "Fuck the rules! You and me, right now. One on one."
 
@@ -25,28 +25,28 @@ show h surprisedpaint
 h "..."
 
 show h neutralpaint
-h "Fine. I’m nothing if not reasonable and trustworthy."
+h "Fine. I'm nothing if not reasonable and trustworthy."
 
 h "Hit me with whatever stupid thing you want me to do."
 
 show d surprisedpaint
-d "I have a lot of doubts about that first thing you said, but that’s not important right now."
+d "I have a lot of doubts about that first thing you said, but that's not important right now."
 
 d "(Okay. Here we go, Thompson.)"
 
 show d neutralpaint
 d "Listen."
 
-d "We’ve been friends a long time. Ever since elementary school —"
+d "We've been friends a long time. Ever since elementary school -"
 
 show h angrypaint
-h "Correction: rivals. We’ve been rivals a long time."
+h "Correction: rivals. We've been rivals a long time."
 
 show d smilepaint
-d "So, ever since elementary school, I’ve always admired you."
+d "So, ever since elementary school, I've always admired you."
 
 show d smileblushpaint
-d "You’ve always been such a passionate and stubborn person who never gave up until he got what he wanted."
+d "You've always been such a passionate and stubborn person who never gave up until he got what he wanted."
 
 show h surprisedpaint
 h "Is that supposed to be a compliment?"
@@ -56,9 +56,9 @@ d "Shush."
 
 show h neutralpaint
 show d neutralpaint
-d "You’re forward, aggressive, and honest in all the ways that I couldn’t be."
+d "You're forward, aggressive, and honest in all the ways that I couldn't be."
 
-d "And I think that’s amazing — to live your life without caring about all of the bullshit others sling at you."
+d "And I think that's amazing - to live your life without caring about all of the bullshit others sling at you."
 
 show h surprisedpaint
 h "Shit, did you just swear?"
@@ -85,9 +85,9 @@ h "What?"
 show d smileblushpaint
 d "Do I need to say it louder?"
 
-d "I’m in love with you, dumbass."
+d "I'm in love with you, dumbass."
 
-d "I’ve been in love with you for years."
+d "I've been in love with you for years."
 
 show h surprisedblushpaint
 h "I..."
@@ -95,10 +95,10 @@ h "I..."
 h "Uh..."
 
 show h angryblushpaint
-h "Wait, that’s not a request! You just... you know, made me stand here and listen to you drone on about... love and whatever!"
+h "Wait, that's not a request! You just... you know, made me stand here and listen to you drone on about... love and whatever!"
 
 show d angryblushpaint
-d "God, I didn’t think you could get more frustrating."
+d "God, I didn't think you could get more frustrating."
 
 show d flirtyblushpaint
 d "What, did you want me to make you kiss me?"
@@ -110,13 +110,13 @@ show h angryblushpaint
 h "Of course not!"
 
 show d smilepaint
-d "(He’s too easy to read.)"
+d "(He's too easy to read.)"
 
 d "Hao Yu, take me on a date."
 
 d "Next Saturday. I want you to plan it out meticulously from start to finish."
 
-d "I don’t care where we go, what we eat, or how long you keep me up."
+d "I don't care where we go, what we eat, or how long you keep me up."
 
 show d flirtypaint
 d "I just want you to be mine for an entire day."
@@ -130,7 +130,7 @@ h "...Really?"
 show d surprisedpaint
 d "Oh."
 
-d "Well, I mean... if you’re seriously against the idea, then I can —"
+d "Well, I mean... if you're seriously against the idea, then I can -"
 
 h "Just one day?"
 
@@ -147,12 +147,12 @@ h "Why settle for one day when you could..."
 # Music change here, probably.
 
 show h flirtyblushpaint
-h "...y’know. Be with me forever. Or whatever."
+h "...y'know. Be with me forever. Or whatever."
 
 d "I..."
 
 show d surprisedblushpaint
-d "I didn’t think of it like that."
+d "I didn't think of it like that."
 
 show d smileblushpaint
 d "That sounds like a great idea to me."
@@ -160,13 +160,13 @@ d "That sounds like a great idea to me."
 show h smileblushpaint
 h "Good. Then, wear your best on Saturday."
 
-h "You’re in for a date you’ll never forget, rival."
+h "You're in for a date you'll never forget, rival."
 
-d 'I wouldn’t have it any other way..."
+d 'I wouldn't have it any other way..."
 
 d "...rival."
 
-show bg black
+bg black
 # And hide character models.
 
 "..."
@@ -177,10 +177,10 @@ show bg black
 show h angrypaint
 h "God, finally! Why the fuck did it take you so long to call me your rival?"
 
-h "I’ve been waiting for this moment for years —"
+h "I've been waiting for this moment for years -"
 
 show d smileblushpaint
-d "Hao Yu, I’ve literally been waiting years to confess to you."
+d "Hao Yu, I've literally been waiting years to confess to you."
 
 show h surprisedpaint
 h "Right! Right. Well, I guess, uh..."

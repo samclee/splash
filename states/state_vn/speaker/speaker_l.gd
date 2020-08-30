@@ -20,3 +20,12 @@ func ahide():
 		$Tween.interpolate_property(self, "position",
 			left_pos, right_off_pos, slide_time, Tween.TRANS_EXPO, Tween.EASE_IN)
 		$Tween.start()
+		
+func bump():
+	$Tween.interpolate_property(self, "position", left_pos, left_pos + Vector2(100, 0),
+		0.1, Tween.TRANS_LINEAR)
+	$Tween.start()
+	yield($Tween, "tween_completed")
+	$Tween.interpolate_property(self, "position", null, left_pos,
+		0.1, Tween.TRANS_LINEAR)
+	$Tween.start()

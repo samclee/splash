@@ -24,6 +24,7 @@ def to_character_text(name, side, text):
   args = [name, side]
   return [
     {"func_name": "nameplate", "args": args},
+    {"func_name": "active", "args": [side]},
     {"func_name": "text", "args": [text]}
   ]
 
@@ -53,7 +54,8 @@ def transform(fname):
   fname_no_ext = fname[:-4]
   char_map = {}
   to_json = []
-  with open(fname) as file:
+  with open(fname, encoding="utf8") as file:
+    print(fname)
     for raw_line in file:
       if raw_line.startswith("#"):
         continue

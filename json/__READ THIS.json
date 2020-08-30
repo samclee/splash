@@ -20,6 +20,12 @@
         ]
     },
     {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
         "func_name": "text",
         "args": [
             "Bleep bloop"
@@ -44,5 +50,11 @@
     {
         "func_name": "shake",
         "args": []
+    },
+    {
+        "func_name": "bg",
+        "args": [
+            "black"
+        ]
     }
 ]

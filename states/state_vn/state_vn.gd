@@ -96,6 +96,13 @@ func myhide(side):
 	elif side == 'right':
 		$speaker_r.hide()
 		
+func bump(side):
+	if side == 'left':
+		$speaker_l.bump()
+	elif side == 'right':
+		$speaker_r.bump()
+		
+		
 func show_none():
 	$speaker_l.hide()
 	$speaker_r.hide()
@@ -118,8 +125,8 @@ func hide_nameplate():
 	
 # background
 func bg(bg_name):
-	pass
-	
+	$bgLayer/bg.texture = load("res://vn_bgs/" + bg_name + ".jpg")
+
 # dialog box
 func slide_dialog_down():
 	$DialogLayer.slide_down()

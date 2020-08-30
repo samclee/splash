@@ -18,6 +18,7 @@ show d smile
 d "(The best defense is a good offense after all!)"
 show d angry
 d "(...that doesn't sound right.)"
+bump left
 "Davonte gracefully weaves through a volley of projectiles!"
 jump after1
 
@@ -26,6 +27,7 @@ d "(...scoring points!)"
 show d smile
 d "(The point of every game is to get points!)"
 d "(That's why they're called "points"!)"
+bump left
 "Davonte hurls the paintballs with frightening precision!"
 
 label after1
@@ -70,6 +72,8 @@ d "(...throw a paintball at him.)"
 show d smile
 d "(In general, playing paint dodgeball is the best way to get Hao Yu's attention.)"
 d "(I'll lob this nice and easy...)"
+bump left
+"Davonte slowly lobs a paintball at Hao Yu"
 
 jump game_end
 
@@ -79,16 +83,16 @@ d "(He's really getting into it, so I guess I'll let him play.)"
 d "(He's dodging so well, no one can even-)"
 
 label game_end
-show_none
+shake
 "THWACK!"
 show d surprised
 show h surprisedblushpaint
 hide_nameplate
 "Hao Yu is out!"
-"This round goes to the blue team!"
+"This round goes to the B. University!"
 show h angrypaint
 h "Grrrrrrrr."
 myhide right
-show d surprised
+show d neutral
 d ".....huh."
 d "Well I didn't expect that to happen."

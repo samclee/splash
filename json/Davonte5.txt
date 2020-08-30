@@ -6,51 +6,51 @@ define d "Davonte" left
 # Still need to fix: italics. Check character movement if possible.
 
 show d smilepaint
-d "(He’ll be running to my side of the field in three... two...)"
+d "(He'll be running to my side of the field in three... two...)"
 
 show h angrypaint
 h "Hey! Asshole!"
 
 show d surprisedblushpaint
-d "What? You shouldn’t address a friend like that."
+d "What? You shouldn't address a friend like that."
 
 show h neutralpaint
-h "Don’t pretend like you don’t know what I’m talking about!"
+h "Don't pretend like you don't know what I'm talking about!"
 
 show h angrypaint
 h "You absolutely sucked that last round, dumbass!"
 
 show d smilepaint
-d "I haven’t the faintest idea what you’re talking about. You won, didn’t you?"
+d "I haven't the faintest idea what you're talking about. You won, didn't you?"
 
-d "Shouldn’t you be happy?"
+d "Shouldn't you be happy?"
 
-h "Hell no! Not when you’re sitting on your ass and letting me win."
+h "Hell no! Not when you're sitting on your ass and letting me win."
 
-h "You’d better try harder, or I won’t consider you my rival anymore!"
+h "You'd better try harder, or I won't consider you my rival anymore!"
 
 show d surprisedpaint
-d "…"
+d "..."
 
 show h surprisedpaint
 h "What? Why are you looking at me like that?"
 
 show d smilepaint
-d "Won’t it hurt you more if we’re not rivals?"
+d "Won't it hurt you more if we're not rivals?"
 
 show h surprisedblushpaint
 h "N-no!"
 
 show h neutralblushpaint
-h "Of course not. I’m just saying that this is our last year in university."
+h "Of course not. I'm just saying that this is our last year in university."
 
 show h angryblushpaint
-h "And you’d better not be slacking off on me now!"
+h "And you'd better not be slacking off on me now!"
 
 show d flirtypaint
-d "Okay, okay, I won’t. Whatever makes you happy."
+d "Okay, okay, I won't. Whatever makes you happy."
 
-h "Hey! I’m not happy about this at all!"
+h "Hey! I'm not happy about this at all!"
 
 show h angrypaint
 h "I want to beat your ass at paint dodgeball, not let you hand me the win!"
@@ -58,34 +58,34 @@ h "I want to beat your ass at paint dodgeball, not let you hand me the win!"
 d "I hear you loud and clear."
 
 show d smilepaint
-d "I’ll put in 110% next round, just for you."
+d "I'll put in 110% next round, just for you."
 
 h "Oh, get over yourself!"
 
 show h smilepaint
-h "I’m going to demolish you."
+h "I'm going to demolish you."
 
 show d flirtypaint
 d "Sounds good to me."
 
 show h angrypaint
-h "You’re my rival, damn it! You should be spitting hot fire right back at me!"
+h "You're my rival, damn it! You should be spitting hot fire right back at me!"
 
 h "Why are you taking my insults so coolly?"
 
-d "Because it’s more fun to see you get riled up like this."
+d "Because it's more fun to see you get riled up like this."
 
 show h surprisedpaint
-h "…"
+h "..."
 
 show h surprisedblushpaint
-h "Jeez, I don’t get you."
+h "Jeez, I don't get you."
 
 show h neutralpaint
-h "Well, whatever. Don’t hold back this time, or I’ll get really pissed off."
+h "Well, whatever. Don't hold back this time, or I'll get really pissed off."
 
 show d smilepaint
-d "Are you trying to tell me that you’re not pissed off right now?"
+d "Are you trying to tell me that you're not pissed off right now?"
 
 show h angryblushpaint
 h "Oh, shut up!"

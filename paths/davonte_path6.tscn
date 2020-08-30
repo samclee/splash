@@ -1,0 +1,33 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://states/state_action/path_option/path_option.tscn" type="PackedScene" id=1]
+[ext_resource path="res://states/state_action/options_path/options_path.tscn" type="PackedScene" id=2]
+
+[sub_resource type="Curve2D" id=1]
+_data = {
+"points": PoolVector2Array( -340, 400, 340, -400, 12, 209, 0, 0, 0, 0, 321, 410, 90, 103, -90, -103, 354, 64, 279, 327, -279, -327, 12, 209 )
+}
+
+[node name="davonte_path6" instance=ExtResource( 2 )]
+spd = 0.01
+
+[node name="path_option" parent="options" index="0" instance=ExtResource( 1 )]
+position = Vector2( 13, 208 )
+text = "Dodge immediately"
+tag = "3a"
+
+[node name="path_option2" parent="options" index="1" instance=ExtResource( 1 )]
+position = Vector2( 357, 66 )
+text = "Dodge just in time"
+tag = "3b"
+
+[node name="path_option3" parent="options" index="2" instance=ExtResource( 1 )]
+position = Vector2( 325, 401 )
+text = "Fake-dodge"
+tag = "3c"
+
+[node name="Path2D" parent="." index="1"]
+curve = SubResource( 1 )
+
+[node name="cursor" parent="Path2D" index="0"]
+position = Vector2( 12, 209 )

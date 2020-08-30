@@ -6,11 +6,11 @@ define d "Davonte" left
 # Still need to fix: italics. Any way to move characters across the screen?
 
 show d smile
-d "(Ha! I can’t believe I beat Hao Yu this easily.)"
+d "(Ha! I can't believe I beat Hao Yu this easily.)"
 
-d "(But, to be honest, that kind of battle didn’t hit me with the usual excitement.)"
+d "(But, to be honest, that kind of battle didn't hit me with the usual excitement.)"
 
-d "(He’s gonna need a push in the right direction.)"
+d "(He's gonna need a push in the right direction.)"
 
 show h neutralpaint
 # Davonte movement here if we can do that.
@@ -18,58 +18,58 @@ show d flirty
 d "Thanks for handing me the win, bud."
 
 show h angrypaint
-h "The hell are you talking about? I didn’t hand you a win, jackass."
+h "The hell are you talking about? I didn't hand you a win, jackass."
 
 show d smile
-d "Oh, so you’re saying that I’m the better player. Got it."
+d "Oh, so you're saying that I'm the better player. Got it."
 
 h "Hell no. You distracted me!"
 
-h "I would’ve destroyed you if I just focused on the game instead of —"
+h "I would've destroyed you if I just focused on the game instead of -"
 
 show h surprisedpaint
-h "…"
+h "..."
 
 show h surprisedblushpaint
-h "…Never mind."
+h "...Never mind."
 
 show d flirty
-d "Uh-huh. Tell me, little fish — who, exactly, were you so preoccupied with?"
+d "Uh-huh. Tell me, little fish - who, exactly, were you so preoccupied with?"
 
 show h angryblushpaint
-h "Shut up! I wasn’t staring at you or anything!"
+h "Shut up! I wasn't staring at you or anything!"
 
 d "Uh-huh."
 
-h "…"
+h "..."
 
 show h angrypaint
-h "And quit calling me “little fish.” That’s not what the characters of my name mean."
+h "And quit calling me “little fish.” That's not what the characters of my name mean."
 
 show h neutral
 d "Of course I know that. No one in their right mind would name themselves “good fish.”"
 
 show h smile
-d "Plus, I’m the one who picked out the right characters for you."
+d "Plus, I'm the one who picked out the right characters for you."
 
-h "That’s true, but also: fuck you."
+h "That's true, but also: fuck you."
 
-h "…"
+h "..."
 
 show d flirty
-d "…"
+d "..."
 
 show h angryblushpaint
-h "And, you know… thanks for helping me with the characters or whatever."
+h "And, you know... thanks for helping me with the characters or whatever."
 
 show d flirtyblush
-d "You’re welcome."
+d "You're welcome."
 
 show h angrypaint
-h "But don’t get so cocky, rival!"
+h "But don't get so cocky, rival!"
 
 show h flirtypaint
-h "I’m taking the next round. Just you watch."
+h "I'm taking the next round. Just you watch."
 
 show d smile
 d "Whatever you say, pal."
