@@ -4,57 +4,78 @@ define d "Davonte" right
 # Start story here.
 # Story 1 (Hao Yu) | Pre-round 2
 
+music dialog
 show h surprised
-h "(Hah?)"
+h "(Haah?)"
 
-h "(I won? There’s no way — he shouldn’t have made it this easy!)"
+h "(I won? There's no way — he shouldn't have made it this easy!)"
 
-h "(He’s the second best paint dodgeball player in the entire country!)"
+show h angry
+h "(He's the second best paint dodgeball player in the entire country!)"
 
-d "You’re pretty good at this, aren’t you, buddy?"
+show d smilepaint
+d "You're pretty good at this, aren't you, buddy?"
 
 h "Oh, quit slacking, you liar!"
 
+show d surprisedpaint
 d "What are you talking about?"
 
+show h neutral
 h "I know you let me win, rival."
 
 h "I want to battle you at your best, not take your damn scraps."
 
-h "Don’t treat me like I’m stupid."
+show h angry
+h "Don't treat me like I'm stupid."
 
+show d smilepaint
 d "Okay, okay. You caught me. I just wanted to make things interesting."
 
-d "Besides, how’d you know I wasn’t trying my hardest?
+d "Besides, how'd you know I wasn't trying my hardest?"
 
+show d flirtypaint
 d "Have you been paying close attention to me?"
 
-h "What? Of course not! I just know you’re better than this, and you’d better show it!"
+show h angryblush
+h "What? Of course not! I just know you're better than this, and you'd better show it!"
 
-d "Whoa, is the little fish actually complimenting me? I never thought I’d see the day."
+show d smilepaint
+d "Whoa, is the little fish actually complimenting me? I never thought I'd see the day."
 
-h "I’m not giving you a compliment!"
+h "I'm not giving you a compliment!"
 
-h "And quit calling me “little fish.” That’s not what the characters of my name mean."
+show h angry
+h "And quit calling me “little fish.” That's not what the characters of my name mean."
 
 d "Of course I know that. No one in their right mind would name themselves “good fish.”"
 
-d "Plus, I’m the one who picked out the right characters for you."
+show d flirtypaint
+d "Plus, I'm the one who picked out the right characters for you."
 
 h "Yeah? Well, fuck you."
 
 h "..."
 
+show d smilepaint
 d "..."
 
-h "And, you know… thanks for helping me with the characters or whatever."
+show h neutralblush
+h "And, you know... thanks for helping me with the characters or whatever."
 
-d "That’s all I wanted to hear."
+show d smileblushpaint
+d "That's all I wanted to hear."
 
-d "You’re welcome."
+d "You're welcome."
+myhide right
 
+show h surprised
+h "Hey, don't just -"
+
+show h angry
 h "(Damn bastard.)"
 
-h "(I hate how good he is at everything, but I swear he won’t beat me!)"
+h "(I hate how good he is at everything, but I swear he won't beat me!)"
 
-h "I haven’t trained this hard at paint dodgeball for nothing!)"
+show h smile
+h "(I haven't trained this hard at paint dodgeball for nothing!)"

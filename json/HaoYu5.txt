@@ -4,49 +4,66 @@ define d "Davonte" right
 # Start story here.
 # Story 1 (Hao Yu) | Pre-round 3
 
+music dialog
 show h angryblushpaint
 h "(Damn him and his face and his eyes and just...)"
 
 h "(Damn it.)"
 
+show d smilepaint
 d "So, little fish?"
 
+show d flirtypaint
 d "What do you think of my performance in that round?"
 
-h "Holy — I just — fuck you, cheater!"
+show h angrypaint
+h "Holy — I just — fuck you, [i]cheater[/i]!"
 
+show d surprisedpaint
 d "Uh, what? I wanted to impress —"
 
-d "Wait, how am I a cheater? You’re the one who threw that round."
+show d neutralpaint
+d "Wait, how am [i]I[/i] a cheater? [i]You're[/i] the one who threw that round."
 
-h "I’m going to make you eat my dust, rival. Why would I throw it?"
+show h neutralpaint
+h "I'm going to make you eat my dust, rival. Why would I throw it?"
 
+show d smilepaint
 d "So we could get to a climactic final round, obviously."
 
-d "You’ve always been a sucker for that kind of corny stuff."
+d "You've always been a sucker for that kind of corny stuff."
 
-h "Stop talking like you know me, idiot."
+show h angrypaint
+h "Stop talking like you [i]know[/i] me, idiot."
 
-h "...It’s weird."
+show h angryblushpaint
+h "...It's weird."
 
 d "But I do know you."
 
-d "We’ve know each other for years."
+show d neutralpaint
+d "We've know each other for [i]years[/i]."
 
 d "I know your strengths and weaknesses better than you do."
 
-h "That’s not true. You don’t know me at all."
+h "That's not true. You don't know me at all."
 
-d "Come on. Do you really think we’re rivals? You don’t understand our relationship at all."
+show d surprisedpaint
+d "Do you really think we're rivals? You don't understand our relationship at all."
 
-d "We’re not rivals. Not even close."
+d "We're not rivals. Not even close!"
 
-d "Honestly, it’s funny that you think we’re equals."
+show d smilepaint
+d "Honestly, it's funny that you think we're equals."
 
-d "You’re —"
+d "You're —"
 
+show h angrypaint
 h "Oh, I hear you loud and clear, asshole."
 
-h "I’m going to demolish you."
+show h smilepaint
+h "I'm going to [i]demolish[/i] you."
+myhide left
 
+show d surprisedpaint
 d "...?"

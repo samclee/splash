@@ -12,7 +12,7 @@
     {
         "func_name": "text",
         "args": [
-            "In the year 2076, the world hasn\u2019t changed much."
+            "In the year 2076, the world hasn't changed much."
         ]
     },
     {
@@ -32,7 +32,7 @@
     {
         "func_name": "text",
         "args": [
-            "But this story doesn\u2019t revolve around the royalty of volleyball, tennis, card games,"
+            "But this story doesn't revolve around the royalty of volleyball, tennis, card games,"
         ]
     },
     {
@@ -126,7 +126,20 @@
     {
         "func_name": "text",
         "args": [
-            "(Damn that Davonte. He\u2019s going to regret beating me last season.)"
+            "(Damn that Davonte. He's going to regret beating me last season.)"
+        ]
+    },
+    {
+        "func_name": "myshow",
+        "args": [
+            "Hao Yu_angryblush",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
         ]
     },
     {
@@ -145,7 +158,7 @@
     {
         "func_name": "text",
         "args": [
-            "(I basically [i]gave[/i] him that win! It\u2019s not [i]my[/i] damn fault that his face is distracting.)"
+            "(I basically [i]gave[/i] him that win! It's not [i]my[/i] damn fault that his face is distracting.)"
         ]
     },
     {
@@ -245,9 +258,9 @@
         ]
     },
     {
-        "func_name": "nameplate",
+        "func_name": "myshow",
         "args": [
-            "Hao Yu",
+            "Hao Yu_angry",
             "left"
         ]
     },
@@ -255,31 +268,6 @@
         "func_name": "active",
         "args": [
             "left"
-        ]
-    },
-    {
-        "func_name": "text",
-        "args": [
-            "Yup. You\u2019re going down."
-        ]
-    },
-    {
-        "func_name": "nameplate",
-        "args": [
-            "Davonte",
-            "right"
-        ]
-    },
-    {
-        "func_name": "active",
-        "args": [
-            "right"
-        ]
-    },
-    {
-        "func_name": "text",
-        "args": [
-            "Someone\u2019s overconfident."
         ]
     },
     {
@@ -298,7 +286,20 @@
     {
         "func_name": "text",
         "args": [
-            "Hell no. I just know I\u2019ll win."
+            "Yup. You're going down."
+        ]
+    },
+    {
+        "func_name": "myshow",
+        "args": [
+            "Davonte_smile",
+            "right"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "right"
         ]
     },
     {
@@ -317,45 +318,7 @@
     {
         "func_name": "text",
         "args": [
-            "That\u2019s literally the definition of \u2014"
-        ]
-    },
-    {
-        "func_name": "nameplate",
-        "args": [
-            "Davonte",
-            "right"
-        ]
-    },
-    {
-        "func_name": "active",
-        "args": [
-            "right"
-        ]
-    },
-    {
-        "func_name": "text",
-        "args": [
-            "You know what? That doesn\u2019t matter."
-        ]
-    },
-    {
-        "func_name": "nameplate",
-        "args": [
-            "Davonte",
-            "right"
-        ]
-    },
-    {
-        "func_name": "active",
-        "args": [
-            "right"
-        ]
-    },
-    {
-        "func_name": "text",
-        "args": [
-            "So, why don\u2019t we make things a little more interesting?"
+            "Someone's overconfident."
         ]
     },
     {
@@ -374,7 +337,20 @@
     {
         "func_name": "text",
         "args": [
-            "Yeah? You\u2019ve got my attention."
+            "Hell no. I just know I'll win."
+        ]
+    },
+    {
+        "func_name": "myshow",
+        "args": [
+            "Davonte_surprised",
+            "right"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "right"
         ]
     },
     {
@@ -393,7 +369,71 @@
     {
         "func_name": "text",
         "args": [
-            "I know you\u2019re mad that I won the tournament last season, and \u2014"
+            "That's literally the definition of \u2014"
+        ]
+    },
+    {
+        "func_name": "myshow",
+        "args": [
+            "Davonte_smile",
+            "right"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "right"
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Davonte",
+            "right"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "right"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "You know what? That doesn't matter."
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Davonte",
+            "right"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "right"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "So, why don't we make things a little more interesting?"
+        ]
+    },
+    {
+        "func_name": "myshow",
+        "args": [
+            "Hao Yu_neutral",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
         ]
     },
     {
@@ -412,7 +452,58 @@
     {
         "func_name": "text",
         "args": [
-            "Who said I\u2019m mad? I\u2019m not mad."
+            "Yeah? You've got my attention."
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Davonte",
+            "right"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "right"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "I know you're mad that I won the tournament last season, and \u2014"
+        ]
+    },
+    {
+        "func_name": "myshow",
+        "args": [
+            "Hao Yu_angry",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Hao Yu",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "Who said I'm mad? I'm not mad."
         ]
     },
     {
@@ -450,7 +541,20 @@
     {
         "func_name": "text",
         "args": [
-            "So, we\u2019ll have a little wager."
+            "So, we'll have a little wager."
+        ]
+    },
+    {
+        "func_name": "myshow",
+        "args": [
+            "Davonte_flirty",
+            "right"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "right"
         ]
     },
     {
@@ -488,7 +592,20 @@
     {
         "func_name": "text",
         "args": [
-            "You\u2019re on."
+            "You're on."
+        ]
+    },
+    {
+        "func_name": "myshow",
+        "args": [
+            "Davonte_surprised",
+            "right"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "right"
         ]
     },
     {
@@ -507,7 +624,20 @@
     {
         "func_name": "text",
         "args": [
-            "You\u2019re not even going to ask any questions? Set any limitations or parameters?"
+            "You're not even going to ask any questions? Set any limitations or parameters?"
+        ]
+    },
+    {
+        "func_name": "myshow",
+        "args": [
+            "Hao Yu_angry",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
         ]
     },
     {
@@ -526,7 +656,7 @@
     {
         "func_name": "text",
         "args": [
-            "Hell no. I know I\u2019m going to win, so why would I limit myself?"
+            "Hell no. I [i]know[/i] I'm going to win, so why would I limit myself?"
         ]
     },
     {
@@ -545,7 +675,20 @@
     {
         "func_name": "text",
         "args": [
-            "Like I said \u2014 you\u2019re going down, rival."
+            "Like I said \u2014 you're going down, rival."
+        ]
+    },
+    {
+        "func_name": "myshow",
+        "args": [
+            "Hao Yu_flirty",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
         ]
     },
     {
@@ -564,7 +707,20 @@
     {
         "func_name": "text",
         "args": [
-            "And [i]when[/i] I win this, I\u2019m gonna embarrass the hell out of you."
+            "And [i]when[/i] I win this, I'm gonna embarrass the hell out of you."
+        ]
+    },
+    {
+        "func_name": "myshow",
+        "args": [
+            "Davonte_flirty",
+            "right"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "right"
         ]
     },
     {
@@ -583,7 +739,7 @@
     {
         "func_name": "text",
         "args": [
-            "That\u2019s cute. Because when [i]I[/i] win, I\u2019m planning to do the same for you."
+            "That's cute. Because when [i]I[/i] win, I'm planning to do the same for you."
         ]
     },
     {
@@ -602,7 +758,20 @@
     {
         "func_name": "text",
         "args": [
-            "Good. This won\u2019t be any fun if you don\u2019t put up a fight."
+            "Good. This won't be any fun if you don't put up a fight."
+        ]
+    },
+    {
+        "func_name": "myshow",
+        "args": [
+            "Hao Yu_angry",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
         ]
     },
     {
@@ -625,6 +794,19 @@
         ]
     },
     {
+        "func_name": "myshow",
+        "args": [
+            "Hao Yu_angryblush",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
         "func_name": "nameplate",
         "args": [
             "Hao Yu",
@@ -641,6 +823,19 @@
         "func_name": "text",
         "args": [
             "You keep leaving me on read, asshole."
+        ]
+    },
+    {
+        "func_name": "myshow",
+        "args": [
+            "Davonte_surprised",
+            "right"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "right"
         ]
     },
     {
@@ -663,6 +858,19 @@
         ]
     },
     {
+        "func_name": "myshow",
+        "args": [
+            "Hao Yu_angry",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
         "func_name": "nameplate",
         "args": [
             "Hao Yu",
@@ -679,6 +887,19 @@
         "func_name": "text",
         "args": [
             "Because you [i]are[/i] bad at paint dodgeball."
+        ]
+    },
+    {
+        "func_name": "myshow",
+        "args": [
+            "Davonte_flirty",
+            "right"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "right"
         ]
     },
     {
@@ -701,6 +922,19 @@
         ]
     },
     {
+        "func_name": "myshow",
+        "args": [
+            "Davonte_smile",
+            "right"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "right"
+        ]
+    },
+    {
         "func_name": "nameplate",
         "args": [
             "Davonte",
@@ -716,7 +950,26 @@
     {
         "func_name": "text",
         "args": [
-            "I\u2019ll text you back when you actually have something useful to tell me."
+            "I'll text you back when you actually have something useful to tell me."
+        ]
+    },
+    {
+        "func_name": "myhide",
+        "args": [
+            "right"
+        ]
+    },
+    {
+        "func_name": "myshow",
+        "args": [
+            "Hao Yu_angryblush",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
         ]
     },
     {
@@ -739,6 +992,19 @@
         ]
     },
     {
+        "func_name": "myshow",
+        "args": [
+            "Hao Yu_angry",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
         "func_name": "nameplate",
         "args": [
             "Hao Yu",
@@ -754,7 +1020,7 @@
     {
         "func_name": "text",
         "args": [
-            "(I figured he\u2019d be more fired up, considering [i]he[/i] made [i]me[/i] take a stupid wager.)"
+            "(I figured he'd be more fired up, considering [i]he[/i] made [i]me[/i] take a stupid wager.)"
         ]
     }
 ]

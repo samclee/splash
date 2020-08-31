@@ -98,7 +98,7 @@ show d surprised
 d "You're not even going to ask any questions? Set any limitations or parameters?"
 
 show h angry
-h "Hell no. I know I'm going to win, so why would I limit myself?"
+h "Hell no. I [i]know[/i] I'm going to win, so why would I limit myself?"
 
 h "Like I said - you're going down, rival."
 

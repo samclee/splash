@@ -6,11 +6,11 @@ define d "Davonte" right
 
 bg black
 
-"In the year 2076, the world hasn’t changed much."
+"In the year 2076, the world hasn't changed much."
 
 "Within the sports world, every fan still roots for the underdog."
 
-"But this story doesn’t revolve around the royalty of volleyball, tennis, card games,"
+"But this story doesn't revolve around the royalty of volleyball, tennis, card games,"
 "swimming, figure skating, card games on motorcycles, or basketball."
 
 "No, this story is much more important than any of those."
@@ -25,9 +25,10 @@ music dialog
 "This is a story about love, dumbasses, and paint dodgeball."
 
 show h angry
-h "(Damn that Davonte. He’s going to regret beating me last season.)"
+h "(Damn that Davonte. He's going to regret beating me last season.)"
 
-h "(I basically [i]gave[/i] him that win! It’s not [i]my[/i] damn fault that his face is distracting.)"
+show h angryblush
+h "(I basically [i]gave[/i] him that win! It's not [i]my[/i] damn fault that his face is distracting.)"
 
 show d flirty
 d "So, bud? Anything you wanna say before we start?"
@@ -38,56 +39,77 @@ h "(Jeez, when the hell did he sneak up on me?)"
 show h angryblush
 h "(Play it cool, Hao Yu. You know how much Davonte likes to mess with you!)"
 
-h "Yup. You’re going down."
+show h angry
+h "Yup. You're going down."
 
-d "Someone’s overconfident."
+show d smile
+d "Someone's overconfident."
 
-h "Hell no. I just know I’ll win."
+h "Hell no. I just know I'll win."
 
-d "That’s literally the definition of —"
+show d surprised
+d "That's literally the definition of —"
 
-d "You know what? That doesn’t matter."
+show d smile
+d "You know what? That doesn't matter."
 
-d "So, why don’t we make things a little more interesting?"
+d "So, why don't we make things a little more interesting?"
 
-h "Yeah? You’ve got my attention."
+show h neutral
+h "Yeah? You've got my attention."
 
-d "I know you’re mad that I won the tournament last season, and —"
+d "I know you're mad that I won the tournament last season, and —"
 
-h "Who said I’m mad? I’m not mad."
+show h angry
+h "Who said I'm mad? I'm not mad."
 
 d "— and I wanted to give you the opportunity to redeem yourself."
 
-d "So, we’ll have a little wager."
+d "So, we'll have a little wager."
 
+show d flirty
 d "Whoever wins gets to make the other team captain do whatever he wants."
 
-h "You’re on."
+h "You're on."
 
-d "You’re not even going to ask any questions? Set any limitations or parameters?"
+show d surprised
+d "You're not even going to ask any questions? Set any limitations or parameters?"
 
-h "Hell no. I know I’m going to win, so why would I limit myself?"
+show h angry
+h "Hell no. I [i]know[/i] I'm going to win, so why would I limit myself?"
 
-h "Like I said — you’re going down, rival."
+h "Like I said — you're going down, rival."
 
-h "And [i]when[/i] I win this, I’m gonna embarrass the hell out of you."
+show h flirty
+h "And [i]when[/i] I win this, I'm gonna embarrass the hell out of you."
 
-d "That’s cute. Because when [i]I[/i] win, I’m planning to do the same for you."
+show d flirty
+d "That's cute. Because when [i]I[/i] win, I'm planning to do the same for you."
 
-h "Good. This won’t be any fun if you don’t put up a fight."
+h "Good. This won't be any fun if you don't put up a fight."
 
+show h angry
 h "And speaking of which — quit ignoring my texts unless you wanna fight!"
 
+show h angryblush
 h "You keep leaving me on read, asshole."
 
+show d surprised
 d "[i]You[/i] keep sending [i]me[/i] angry texts about how bad I am at paint dodgeball."
 
+show h angry
 h "Because you [i]are[/i] bad at paint dodgeball."
 
+show d flirty
 d "Then tell me this: why would I respond?"
 
-d "I’ll text you back when you actually have something useful to tell me."
+show d smile
+d "I'll text you back when you actually have something useful to tell me."
 
+myhide right
+
+show h angryblush
 h "(Who does he think he is?)"
 
-h "(I figured he’d be more fired up, considering [i]he[/i] made [i]me[/i] take a stupid wager.)"
+show h angry
+h "(I figured he'd be more fired up, considering [i]he[/i] made [i]me[/i] take a stupid wager.)"

@@ -2,7 +2,7 @@
     {
         "func_name": "myshow",
         "args": [
-            "Hao Yu_smile",
+            "Hao Yu_smilepaint",
             "left"
         ]
     },
@@ -28,7 +28,7 @@
     {
         "func_name": "text",
         "args": [
-            "(Finally... It\u2019s over.)"
+            "(Finally... It's over.)"
         ]
     },
     {
@@ -47,7 +47,7 @@
     {
         "func_name": "text",
         "args": [
-            "Well? How\u2019s that for a dominating win, Davonte?"
+            "Well? How's that for a dominating win, rival?"
         ]
     },
     {
@@ -72,7 +72,7 @@
     {
         "func_name": "myshow",
         "args": [
-            "Davonte_neutral",
+            "Davonte_neutralpaint",
             "right"
         ]
     },
@@ -102,6 +102,25 @@
         ]
     },
     {
+        "func_name": "myhide",
+        "args": [
+            "right"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "\"<This is a sentence with spaces.>\""
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Davonte",
+            "right"
+        ]
+    },
+    {
         "func_name": "nameplate",
         "args": [
             "Davonte",
@@ -117,7 +136,20 @@
     {
         "func_name": "text",
         "args": [
-            "I didn\u2019t think much of it."
+            "I didn't think much of it."
+        ]
+    },
+    {
+        "func_name": "myshow",
+        "args": [
+            "Hao Yu_surprisedpaint",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
         ]
     },
     {
@@ -159,6 +191,19 @@
         ]
     },
     {
+        "func_name": "myshow",
+        "args": [
+            "Hao Yu_angrypaint",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
         "func_name": "nameplate",
         "args": [
             "Hao Yu",
@@ -174,7 +219,20 @@
     {
         "func_name": "text",
         "args": [
-            "Even after I wont, you still think you can talk down to me like I\u2019m nothing?"
+            "Even after I won, you still think you can talk down to me like I'm nothing?"
+        ]
+    },
+    {
+        "func_name": "myshow",
+        "args": [
+            "Davonte_surprisedpaint",
+            "right"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "right"
         ]
     },
     {
@@ -216,6 +274,19 @@
         ]
     },
     {
+        "func_name": "myshow",
+        "args": [
+            "Davonte_smilepaint",
+            "right"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "right"
+        ]
+    },
+    {
         "func_name": "nameplate",
         "args": [
             "Davonte",
@@ -231,7 +302,7 @@
     {
         "func_name": "text",
         "args": [
-            "When I said, \u201cNothing,\u201d I meant that I\u2019m not surprised you won."
+            "When I said, \u201cNothing,\u201d I meant that I'm not surprised you won."
         ]
     },
     {
@@ -250,7 +321,20 @@
     {
         "func_name": "text",
         "args": [
-            "I\u2019ve been trying to tell you this all day. You\u2019re an incredible guy."
+            "I've been trying to tell you this all day. You're an incredible guy."
+        ]
+    },
+    {
+        "func_name": "myshow",
+        "args": [
+            "Hao Yu_surprisedpaint",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
         ]
     },
     {
@@ -288,7 +372,7 @@
     {
         "func_name": "text",
         "args": [
-            "Seriously! You\u2019ve always been such a badass dude, and I\u2019m proud I know you."
+            "Seriously! You've always been such a badass dude, and I'm proud I know you."
         ]
     },
     {
@@ -307,7 +391,20 @@
     {
         "func_name": "text",
         "args": [
-            "You always face obstacles head-on, and I admire that about. To be honest, I \u2014"
+            "You always face obstacles head-on, and I admire that about you. To be honest, I \u2014"
+        ]
+    },
+    {
+        "func_name": "myshow",
+        "args": [
+            "Hao Yu_angryblushpaint",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
         ]
     },
     {
@@ -330,6 +427,19 @@
         ]
     },
     {
+        "func_name": "myshow",
+        "args": [
+            "Hao Yu_neutralblushpaint",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
         "func_name": "nameplate",
         "args": [
             "Hao Yu",
@@ -345,7 +455,20 @@
     {
         "func_name": "text",
         "args": [
-            "I... can\u2019t believe you think of me like that!"
+            "I... can't believe you think of me like that!"
+        ]
+    },
+    {
+        "func_name": "myshow",
+        "args": [
+            "Hao Yu_angryblushpaint",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
         ]
     },
     {
@@ -365,6 +488,19 @@
         "func_name": "text",
         "args": [
             "What the hell, dude?"
+        ]
+    },
+    {
+        "func_name": "myshow",
+        "args": [
+            "Davonte_surprisedpaint",
+            "right"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "right"
         ]
     },
     {
@@ -402,7 +538,20 @@
     {
         "func_name": "text",
         "args": [
-            "All day, you\u2019ve been taunting me, saying shit like, \u201cWe\u2019re not equals\u201d and \u201cSay something useful next time.\u201d"
+            "All day, you've been taunting me, saying shit like, \u201cWe're not equals\u201d and \u201cSay something useful next time.\u201d"
+        ]
+    },
+    {
+        "func_name": "myshow",
+        "args": [
+            "Davonte_neutralpaint",
+            "right"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "right"
         ]
     },
     {
@@ -425,6 +574,19 @@
         ]
     },
     {
+        "func_name": "myshow",
+        "args": [
+            "Hao Yu_angrypaint",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
         "func_name": "nameplate",
         "args": [
             "Hao Yu",
@@ -441,6 +603,19 @@
         "func_name": "text",
         "args": [
             "Yes, you did! You totally did."
+        ]
+    },
+    {
+        "func_name": "myshow",
+        "args": [
+            "Davonte_surprisedpaint",
+            "right"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "right"
         ]
     },
     {
@@ -482,6 +657,19 @@
         ]
     },
     {
+        "func_name": "myshow",
+        "args": [
+            "Davonte_smilepaint",
+            "right"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "right"
+        ]
+    },
+    {
         "func_name": "nameplate",
         "args": [
             "Davonte",
@@ -501,6 +689,19 @@
         ]
     },
     {
+        "func_name": "myshow",
+        "args": [
+            "Davonte_flirtypaint",
+            "right"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "right"
+        ]
+    },
+    {
         "func_name": "nameplate",
         "args": [
             "Davonte",
@@ -517,6 +718,19 @@
         "func_name": "text",
         "args": [
             "...fleeting."
+        ]
+    },
+    {
+        "func_name": "myshow",
+        "args": [
+            "Hao Yu_surprisedpaint",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
         ]
     },
     {
@@ -573,7 +787,52 @@
     {
         "func_name": "text",
         "args": [
-            "Hakanai\u2026 You know what? It doesn\u2019t matter."
+            "[i]Hakanai[/i]..."
+        ]
+    },
+    {
+        "func_name": "myshow",
+        "args": [
+            "Davonte_neutralpaint",
+            "right"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "right"
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Davonte",
+            "right"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "right"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "You know what? It doesn't matter."
+        ]
+    },
+    {
+        "func_name": "myshow",
+        "args": [
+            "Davonte_smilepaint",
+            "right"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "right"
         ]
     },
     {
@@ -596,9 +855,9 @@
         ]
     },
     {
-        "func_name": "nameplate",
+        "func_name": "myshow",
         "args": [
-            "Hao Yu",
+            "Hao Yu_neutralpaint",
             "left"
         ]
     },
@@ -606,31 +865,6 @@
         "func_name": "active",
         "args": [
             "left"
-        ]
-    },
-    {
-        "func_name": "text",
-        "args": [
-            "Of course! We\u2019ve known each other since forever."
-        ]
-    },
-    {
-        "func_name": "nameplate",
-        "args": [
-            "Hao Yu",
-            "left"
-        ]
-    },
-    {
-        "func_name": "active",
-        "args": [
-            "left"
-        ]
-    },
-    {
-        "func_name": "text",
-        "args": [
-            "And I\u2019ve wanted to one-up you for years."
         ]
     },
     {
@@ -649,7 +883,20 @@
     {
         "func_name": "text",
         "args": [
-            "But you\u2019ve always been better than me."
+            "Of course! We've known each other since forever."
+        ]
+    },
+    {
+        "func_name": "myshow",
+        "args": [
+            "Hao Yu_angrypaint",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
         ]
     },
     {
@@ -668,7 +915,71 @@
     {
         "func_name": "text",
         "args": [
-            "You\u2019ve always been out of reach."
+            "And I've wanted to one-up you for [i]years[/i]."
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Hao Yu",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "But you've always been better than me."
+        ]
+    },
+    {
+        "func_name": "myshow",
+        "args": [
+            "Hao Yu_angryblushpaint",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Hao Yu",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "You've always been out of reach."
+        ]
+    },
+    {
+        "func_name": "myshow",
+        "args": [
+            "Davonte_neutralpaint",
+            "right"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "right"
         ]
     },
     {
@@ -691,6 +1002,19 @@
         ]
     },
     {
+        "func_name": "myshow",
+        "args": [
+            "Davonte_smilepaint",
+            "right"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "right"
+        ]
+    },
+    {
         "func_name": "nameplate",
         "args": [
             "Davonte",
@@ -706,7 +1030,20 @@
     {
         "func_name": "text",
         "args": [
-            "I\u2019m right here now, aren\u2019t I?"
+            "I'm right here now, aren't I?"
+        ]
+    },
+    {
+        "func_name": "myshow",
+        "args": [
+            "Hao Yu_surprisedpaint",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
         ]
     },
     {
@@ -725,7 +1062,7 @@
     {
         "func_name": "text",
         "args": [
-            "I guess you\u2019re right..."
+            "I guess you're right..."
         ]
     },
     {
@@ -748,6 +1085,19 @@
         ]
     },
     {
+        "func_name": "myshow",
+        "args": [
+            "Hao Yu_smilepaint",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
         "func_name": "nameplate",
         "args": [
             "Hao Yu",
@@ -763,7 +1113,20 @@
     {
         "func_name": "text",
         "args": [
-            "Yeah. Yeah! You know what? You\u2019re right!"
+            "Yeah. Yeah! You know what? You're right!"
+        ]
+    },
+    {
+        "func_name": "myshow",
+        "args": [
+            "Davonte_surprisedpaint",
+            "right"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "right"
         ]
     },
     {
@@ -801,7 +1164,20 @@
     {
         "func_name": "text",
         "args": [
-            "Well, I just\u2026 I might\u2026 There\u2019s a possibility that I feel..."
+            "Well, I just\u2026 I might\u2026 There's a possibility that I feel..."
+        ]
+    },
+    {
+        "func_name": "myshow",
+        "args": [
+            "Hao Yu_smileblushpaint",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
         ]
     },
     {
@@ -824,6 +1200,19 @@
         ]
     },
     {
+        "func_name": "myshow",
+        "args": [
+            "Davonte_smileblushpaint",
+            "right"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "right"
+        ]
+    },
+    {
         "func_name": "nameplate",
         "args": [
             "Davonte",
@@ -840,6 +1229,19 @@
         "func_name": "text",
         "args": [
             "Really now?"
+        ]
+    },
+    {
+        "func_name": "myshow",
+        "args": [
+            "Hao Yu_angryblushpaint",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
         ]
     },
     {
@@ -862,6 +1264,19 @@
         ]
     },
     {
+        "func_name": "myshow",
+        "args": [
+            "Davonte_neutralblushpaint",
+            "right"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "right"
+        ]
+    },
+    {
         "func_name": "nameplate",
         "args": [
             "Davonte",
@@ -877,7 +1292,26 @@
     {
         "func_name": "text",
         "args": [
-            "I guess I shouldn\u2019t have expected \u2014"
+            "Oh. Well, I guess I shouldn't have expected \u2014"
+        ]
+    },
+    {
+        "func_name": "music",
+        "args": [
+            "success"
+        ]
+    },
+    {
+        "func_name": "myshow",
+        "args": [
+            "Hao Yu_flirtyblushpaint",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
         ]
     },
     {
@@ -896,7 +1330,7 @@
     {
         "func_name": "text",
         "args": [
-            "Davonte, I\u2019m in love with you."
+            "Davonte, I'm in love with you."
         ]
     },
     {
@@ -919,6 +1353,19 @@
         ]
     },
     {
+        "func_name": "myshow",
+        "args": [
+            "Davonte_neutralpaint",
+            "right"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "right"
+        ]
+    },
+    {
         "func_name": "nameplate",
         "args": [
             "Davonte",
@@ -938,6 +1385,19 @@
         ]
     },
     {
+        "func_name": "myshow",
+        "args": [
+            "Hao Yu_smileblushpaint",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
         "func_name": "nameplate",
         "args": [
             "Hao Yu",
@@ -953,7 +1413,7 @@
     {
         "func_name": "text",
         "args": [
-            "I don\u2019t... you know. I don\u2019t words as well as you do."
+            "I don't... you know. I don't [i]words[/i] as well as you do."
         ]
     },
     {
@@ -976,6 +1436,19 @@
         ]
     },
     {
+        "func_name": "myshow",
+        "args": [
+            "Hao Yu_neutralblushpaint",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
         "func_name": "nameplate",
         "args": [
             "Hao Yu",
@@ -991,7 +1464,20 @@
     {
         "func_name": "text",
         "args": [
-            "Me? I don\u2019t really have anything to offer."
+            "Me? I don't really have anything to offer."
+        ]
+    },
+    {
+        "func_name": "myshow",
+        "args": [
+            "Davonte_smileblushpaint",
+            "right"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "right"
         ]
     },
     {
@@ -1010,7 +1496,20 @@
     {
         "func_name": "text",
         "args": [
-            "Don\u2019t put yourself down like that. You beat me fair and square, remember?"
+            "Don't put yourself down like that. You beat me fair and square, remember?"
+        ]
+    },
+    {
+        "func_name": "myshow",
+        "args": [
+            "Hao Yu_surprisedpaint",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
         ]
     },
     {
@@ -1033,6 +1532,19 @@
         ]
     },
     {
+        "func_name": "myshow",
+        "args": [
+            "Hao Yu_flirtypaint",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
         "func_name": "nameplate",
         "args": [
             "Hao Yu",
@@ -1052,6 +1564,19 @@
         ]
     },
     {
+        "func_name": "myshow",
+        "args": [
+            "Hao Yu_flirtyblushpaint",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
         "func_name": "nameplate",
         "args": [
             "Hao Yu",
@@ -1067,7 +1592,20 @@
     {
         "func_name": "text",
         "args": [
-            "Tell the whole world we\u2019re rivals, rival. Right now."
+            "Tell the whole world we're rivals, [i]rival[/i]. Right now."
+        ]
+    },
+    {
+        "func_name": "myshow",
+        "args": [
+            "Davonte_flirtyblushpaint",
+            "right"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "right"
         ]
     },
     {
@@ -1090,6 +1628,12 @@
         ]
     },
     {
+        "func_name": "bump",
+        "args": [
+            "right"
+        ]
+    },
+    {
         "func_name": "nameplate",
         "args": [
             "Davonte",
@@ -1105,7 +1649,20 @@
     {
         "func_name": "text",
         "args": [
-            "We\u2019re rivals."
+            "[i]We're rivals.[i]"
+        ]
+    },
+    {
+        "func_name": "myshow",
+        "args": [
+            "Hao Yu_neutralblushpaint",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
         ]
     },
     {
@@ -1125,6 +1682,19 @@
         "func_name": "text",
         "args": [
             "..."
+        ]
+    },
+    {
+        "func_name": "myshow",
+        "args": [
+            "Hao Yu_surprisedpaint",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
         ]
     },
     {
@@ -1181,7 +1751,26 @@
     {
         "func_name": "text",
         "args": [
-            "Because you\u2019re my whole world, rival."
+            "Because you're my whole world, rival."
+        ]
+    },
+    {
+        "func_name": "myhide",
+        "args": [
+            "right"
+        ]
+    },
+    {
+        "func_name": "myshow",
+        "args": [
+            "Hao Yu_surprisedblushpaint",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
         ]
     },
     {
@@ -1223,6 +1812,23 @@
         ]
     },
     {
+        "func_name": "myshow",
+        "args": [
+            "Hao Yu_angryblushpaint",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
+        "func_name": "shake",
+        "args": []
+    },
+    {
         "func_name": "nameplate",
         "args": [
             "Hao Yu",
@@ -1261,6 +1867,10 @@
         ]
     },
     {
+        "func_name": "shake",
+        "args": []
+    },
+    {
         "func_name": "nameplate",
         "args": [
             "Hao Yu",
@@ -1276,7 +1886,7 @@
     {
         "func_name": "text",
         "args": [
-            "YOU DIDN\u2019T ACTUALLY LISTEN TO MY REQUEST!"
+            "YOU DIDN'T ACTUALLY LISTEN TO MY REQUEST!"
         ]
     },
     {
@@ -1314,7 +1924,20 @@
     {
         "func_name": "text",
         "args": [
-            "I can\u2019t hear you over the sound of our height difference."
+            "I can't hear you over the sound of our height difference."
+        ]
+    },
+    {
+        "func_name": "myshow",
+        "args": [
+            "Hao Yu_surprisedblushpaint",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
         ]
     },
     {
@@ -1352,8 +1975,25 @@
     {
         "func_name": "text",
         "args": [
-            "I\u2019m changing my request \u2014 you have to make me dinner!"
+            "I'm changing my request \u2014 you have to make me dinner!"
         ]
+    },
+    {
+        "func_name": "myshow",
+        "args": [
+            "Hao Yu_angryblushpaint",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
+        "func_name": "shake",
+        "args": []
     },
     {
         "func_name": "nameplate",
@@ -1390,8 +2030,25 @@
     {
         "func_name": "text",
         "args": [
-            "We\u2019re going on \u201cIt\u2019s a Small World\u201d five times!"
+            "We're going on \u201cIt's a Small World\u201d five times!"
         ]
+    },
+    {
+        "func_name": "myshow",
+        "args": [
+            "Hao Yu_surprisedblushpaint",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
+        "func_name": "shake",
+        "args": []
     },
     {
         "func_name": "nameplate",
@@ -1410,6 +2067,19 @@
         "func_name": "text",
         "args": [
             "Then make me dinner! No, scratch that! Make me meals for the entire day!"
+        ]
+    },
+    {
+        "func_name": "myshow",
+        "args": [
+            "Hao Yu_angryblushpaint",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
         ]
     },
     {

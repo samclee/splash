@@ -18,14 +18,26 @@ h "You won fair and square."
 
 h "Do what you wish."
 
-d "Then listen closely."
+d "...Are you sure? You're being oddly reasonable."
+
+show h angrypaint
+h "Hey! I can be perfectly reasonable and trustworthy!"
+
+show d surprisedpaint
+d "Well, whatever you say."
+
+d "Listen closely."
 
 h "Okay, okay. You don’t have to tell me twice."
 
 d "I’m in love with you."
 
-d "To clarify, I’ve been in love with you… for years now."
+show h surprisedblushpaint
+h "What?"
 
+d "To clarify, I’ve been in love with you... for years now."
+
+show h angryblushpaint
 h "What."
 
 d "Seriously. Ever since we were kids, I’ve always admired you."

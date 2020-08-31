@@ -4,151 +4,208 @@ define d "Davonte" right
 # Start story here.
 # Story 1 (Hao Yu) | Epilogue - Win
 
-show h smile
-h "(Finally... It’s over.)"
+show h smilepaint
+h "(Finally... It's over.)"
 
-h "Well? How’s that for a dominating win, Davonte?"
+h "Well? How's that for a dominating win, rival?"
 
 h "What do you think?"
 
-show d neutral
+show d neutralpaint
 d "Nothing, really."
 
-d "I didn’t think much of it."
+d "I didn't think much of it."
 
+show h surprisedpaint
 h "..."
 
 h "Seriously?"
 
-h "Even after I wont, you still think you can talk down to me like I’m nothing?"
+show h angrypaint
+h "Even after I won, you still think you can talk down to me like I'm nothing?"
 
+show d surprisedpaint
 d "...What are you talking about?"
 
 h "You still wanna pick a fight with me? Huh?"
 
-d "When I said, “Nothing,” I meant that I’m not surprised you won."
+show d smilepaint
+d "When I said, “Nothing,” I meant that I'm not surprised you won."
 
-d "I’ve been trying to tell you this all day. You’re an incredible guy."
+d "I've been trying to tell you this all day. You're an incredible guy."
 
+show h surprisedpaint
 h "What."
 
-d "Seriously! You’ve always been such a badass dude, and I’m proud I know you."
+d "Seriously! You've always been such a badass dude, and I'm proud I know you."
 
-d "You always face obstacles head-on, and I admire that about. To be honest, I —"
+d "You always face obstacles head-on, and I admire that about you. To be honest, I —"
 
+show h angryblushpaint
 h "Shut up! Shut up, shut up, shut up!"
-h "I... can’t believe you think of me like that!"
 
+show h neutralblushpaint
+h "I... can't believe you think of me like that!"
+
+show h angryblushpaint
 h "What the hell, dude?"
 
+show d surprisedpaint
 d "Did I misunderstand something?"
 
-h "All day, you’ve been taunting me, saying shit like, “We’re not equals” and “Say something useful next time.”"
+h "All day, you've been taunting me, saying shit like, “We're not equals” and “Say something useful next time.”"
 
+show d neutralpaint
 d "What? I never said any of that."
 
+show h angrypaint
 h "Yes, you did! You totally did."
 
+show d surprisedpaint
 d "What? No way. You must have misunderstood me."
 
 h "Hell no! Your words made no sense, dude!"
 
+show d smilepaint
 d "How could you say that? My word choice is absolutely..."
 
+show d flirtypaint
 d "...fleeting."
 
+show h surprisedpaint
 h "What?"
 
 h "What the hell does that even mean?"
 
-d "Hakanai… You know what? It doesn’t matter."
+d "[i]Hakanai[/i]..."
 
+show d neutralpaint
+d "You know what? It doesn't matter."
+
+show d smilepaint
 d "Did you really think we were rivals?"
 
-h "Of course! We’ve known each other since forever."
+show h neutralpaint
+h "Of course! We've known each other since forever."
 
-h "And I’ve wanted to one-up you for years."
+show h angrypaint
+h "And I've wanted to one-up you for [i]years[/i]."
 
-h "But you’ve always been better than me."
+h "But you've always been better than me."
 
-h "You’ve always been out of reach."
+show h angryblushpaint
+h "You've always been out of reach."
 
+show d neutralpaint
 d "Well..."
 
-d "I’m right here now, aren’t I?"
+show d smilepaint
+d "I'm right here now, aren't I?"
 
-h "I guess you’re right..."
+show h surprisedpaint
+h "I guess you're right..."
 
 d "And you get to order me around for a day because you won."
 
-h "Yeah. Yeah! You know what? You’re right!"
+show h smilepaint
+h "Yeah. Yeah! You know what? You're right!"
 
+show d surprisedpaint
 d "Oh? Jeez, what lit a fire under you?"
 
-h "Well, I just… I might… There’s a possibility that I feel..."
+h "Well, I just… I might… There's a possibility that I feel..."
 
+show h smileblushpaint
 h "...something. For you."
 
+show d smileblushpaint
 d "Really now?"
 
+show h angryblushpaint
 h "..."
 
-d "I guess I shouldn’t have expected —"
+show d neutralblushpaint
+d "Oh. Well, I guess I shouldn't have expected —"
 
-h "Davonte, I’m in love with you."
+music success
+show h flirtyblushpaint
+h "Davonte, I'm in love with you."
 
 h "And I have been. For a long time."
 
+show d neutralpaint
 d "Hao Yu..."
 
-h "I don’t... you know. I don’t words as well as you do."
+show h smileblushpaint
+h "I don't... you know. I don't [i]words[/i] as well as you do."
 
 h "You got all these fancy words and different languages and big brain shit."
 
-h "Me? I don’t really have anything to offer."
+show h neutralblushpaint
+h "Me? I don't really have anything to offer."
 
-d "Don’t put yourself down like that. You beat me fair and square, remember?"
+show d smileblushpaint
+d "Don't put yourself down like that. You beat me fair and square, remember?"
 
+show h surprisedpaint
 h "..."
 
+show h flirtypaint
 h "..."
 
-h "Tell the whole world we’re rivals, rival. Right now."
+show h flirtyblushpaint
+h "Tell the whole world we're rivals, [i]rival[/i]. Right now."
 
+show d flirtyblushpaint
 d "Is that all? Easy."
 
-d "We’re rivals."
+bump right
+d "[i]We're rivals.[i]"
 
+show h neutralblushpaint
 h "..."
 
+show h surprisedpaint
 h "...?"
 
 h "What the hell was that? You just whispered in my ear."
 
-d "Because you’re my whole world, rival."
+d "Because you're my whole world, rival."
+myhide right
 
+show h surprisedblushpaint
 h "..."
 
 h "WHAT?"
 
+show h angryblushpaint
+shake
 h "WHAT THE HELL WAS THAT?"
 
 h "GET BACK HERE, DAVONTE!"
 
-h "YOU DIDN’T ACTUALLY LISTEN TO MY REQUEST!"
+shake
+h "YOU DIDN'T ACTUALLY LISTEN TO MY REQUEST!"
 
+# should be hidden for the next two lines here
 d "Sorry, what was that?"
 
-d "I can’t hear you over the sound of our height difference."
+d "I can't hear you over the sound of our height difference."
 
+show h surprisedblushpaint
 h "Get back here!"
 
-h "I’m changing my request — you have to make me dinner!"
+h "I'm changing my request — you have to make me dinner!"
 
+show h angryblushpaint
+shake
 h "No, wait — take me to Disneyland and ride all the rides with me, you dick!"
 
-h "We’re going on “It’s a Small World” five times!"
+h "We're going on “It's a Small World” five times!"
 
+show h surprisedblushpaint
+shake
 h "Then make me dinner! No, scratch that! Make me meals for the entire day!"
 
+show h angryblushpaint
 h "You owe me for winning, you asshoooooooooooole!"
