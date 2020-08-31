@@ -188,9 +188,10 @@ shake
 h "YOU DIDN'T ACTUALLY LISTEN TO MY REQUEST!"
 
 # should be hidden for the next two lines here
-d "Sorry, what was that?"
+nameplate Davonte right
+text "Sorry, what was that?"
 
-d "I can't hear you over the sound of our height difference."
+text "I can't hear you over the sound of our height difference."
 
 show h surprisedblushpaint
 h "Get back here!"
