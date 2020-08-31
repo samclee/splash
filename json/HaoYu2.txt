@@ -61,7 +61,7 @@ label 2c
 h "(fast ball!)"
 h "(Even if he tries to dodge...)"
 shake
-bump right
+bump left
 h "(...There's no escape from my lightspeed throws!)"
 h "(He looks like he's deciding which way to dodge.)"
 show h smile

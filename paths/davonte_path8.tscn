@@ -26,4 +26,4 @@ tag = "8b"
 curve = SubResource( 1 )
 
 [node name="cursor" parent="Path2D" index="0"]
-position = Vector2( 17, 164 )
+position = Vector2( 17, 167 )
