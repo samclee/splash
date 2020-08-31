@@ -5,19 +5,19 @@
 
 [sub_resource type="Curve2D" id=1]
 _data = {
-"points": PoolVector2Array( -434.043, -105.833, 434.043, 105.833, 47.4948, 394.141, -406.854, -96.3334, 406.854, 96.3334, 175.482, 49.2945, 128.168, -87.8996, -128.168, 87.8996, 38.5972, 256.706, 0, 0, 0, 0, 47.4948, 394.141 )
+"points": PoolVector2Array( -269.858, -83.1407, 269.858, 83.1407, 80.234, 311.818, -225.316, -68.3018, 225.316, 68.3018, 162.994, 103.583, 46.743, -63.8724, -46.743, 63.8724, 32.1793, 249.081, 0, 0, 0, 0, 81.5688, 310.483 )
 }
 
 [node name="davonte_path2" instance=ExtResource( 1 )]
 spd = 0.006
 
 [node name="path_option" parent="options" index="0" instance=ExtResource( 2 )]
-position = Vector2( 105.422, 384.326 )
+position = Vector2( 133.454, 300.231 )
 text = "Close out the game"
 tag = "2a"
 
 [node name="path_option2" parent="options" index="1" instance=ExtResource( 2 )]
-position = Vector2( 242.217, 58.7417 )
+position = Vector2( 222.194, 94.7824 )
 text = "Go tease Hao Yu"
 tag = "2b"
 
@@ -26,4 +26,4 @@ position = Vector2( 55.886, -6.94745 )
 curve = SubResource( 1 )
 
 [node name="cursor" parent="Path2D" index="0"]
-position = Vector2( 47.4948, 394.141 )
+position = Vector2( 80.234, 311.818 )

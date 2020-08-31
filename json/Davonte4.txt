@@ -4,7 +4,7 @@ define d "Davonte" left
 
 music title
 show d neutral
-d "(It's not that I want to let him win...)""
+d "(It's not that I want to let him win...)"
 d "(...but things won't exactly be interesting if I just take the win here, right?)"
 d "So let's come up with a clever way to throw this round."
 d "(And that means I'll...)"
@@ -14,7 +14,7 @@ options_path davonte_path4
 label 1a
 show d smile
 d "(...slip and fall!)"
-d "Oh no, looks like I slipped!""
+d "Oh no, looks like I slipped!"
 d "Whoops!"
 bump left
 "Davonte takes an exaggerated fall!"
@@ -113,7 +113,7 @@ shake
 show d surprisedpaint
 "SPLAT!"
 "Davonte is out!"
-"This round goes to the I. University!"
+"This round goes to the I University!"
 
 myhide right
 show d neutralpaint

@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=2]
+[gd_scene load_steps=10 format=2]
 
 [ext_resource path="res://states/state_title/state_title.gd" type="Script" id=1]
 [ext_resource path="res://states/state_title/menu_button/menu_button.tscn" type="PackedScene" id=2]
@@ -7,6 +7,13 @@
 [ext_resource path="res://states/state_title/bio_card/davonte_bio_card.tscn" type="PackedScene" id=5]
 [ext_resource path="res://vn_bgs/Red_Background_03.jpg" type="Texture" id=6]
 [ext_resource path="res://vn_bgs/Blue_Background_03.jpg" type="Texture" id=7]
+[ext_resource path="res://assets/fonts/luximr.ttf" type="DynamicFontData" id=8]
+
+[sub_resource type="DynamicFont" id=1]
+size = 32
+outline_size = 3
+outline_color = Color( 0, 0, 0, 1 )
+font_data = ExtResource( 8 )
 
 [node name="state_title" type="Node2D"]
 script = ExtResource( 1 )
@@ -21,6 +28,7 @@ position = Vector2( 500, 300 )
 texture = ExtResource( 7 )
 
 [node name="options" type="Node2D" parent="."]
+position = Vector2( -40, 16 )
 
 [node name="start_story1" parent="options" instance=ExtResource( 2 )]
 position = Vector2( 64, 400 )
@@ -52,7 +60,7 @@ text = "Clear save data
 "
 
 [node name="exit" parent="options" instance=ExtResource( 2 )]
-position = Vector2( 64, 520 )
+position = Vector2( 64, 528 )
 
 [node name="Label" parent="options/exit/big" index="1"]
 text = ">Exit"
@@ -65,24 +73,34 @@ text = "Exit"
 [node name="Sprite" parent="hao_yu_bio" index="0"]
 position = Vector2( 734.665, 83.792 )
 
-[node name="Label" parent="hao_yu_bio" index="1"]
-margin_left = 30.6646
-margin_top = -76.208
-margin_right = 626.665
-margin_bottom = 95.792
-
 [node name="davonte_bio_card" parent="." instance=ExtResource( 5 )]
 
 [node name="Sprite" parent="davonte_bio_card" index="0"]
 position = Vector2( 736, 304 )
 
-[node name="Label" parent="davonte_bio_card" index="1"]
-margin_left = 64.0
-margin_top = 200.0
-margin_right = 660.0
-margin_bottom = 322.0
-
 [node name="overlay" parent="." instance=ExtResource( 3 )]
+
+[node name="Davonte_endings" type="Label" parent="."]
+margin_left = 408.0
+margin_top = 512.0
+margin_right = 788.0
+margin_bottom = 551.0
+custom_fonts/font = SubResource( 1 )
+text = "X/4 Endings Unlocked"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="HaoYu_endings" type="Label" parent="."]
+margin_left = 408.0
+margin_top = 552.0
+margin_right = 788.0
+margin_bottom = 591.0
+custom_fonts/font = SubResource( 1 )
+text = "X/4 Endings Unlocked"
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [editable path="options/start_story1"]
 

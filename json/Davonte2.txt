@@ -8,7 +8,7 @@ d "(I may have caught him off-guard, but that doesn't mean I can take this round
 d "(Let's see if Hao Yu can keep up with my lightning throws.)"
 d " (...You know, he's going to look real damn good with some paint all over his shirt.)"
 d "(Wait, get your head in the game.)"
-d "(Right now I should be focusing on)"
+d "(Right now I should be focusing on...)"
 
 options_path davonte_path1
 
@@ -89,7 +89,7 @@ show d surprised
 show h surprisedblushpaint
 hide_nameplate
 "Hao Yu is out!"
-"This round goes to the B. University!"
+"This round goes to the B University!"
 show h angrypaint
 h "Grrrrrrrr."
 myhide right

@@ -28,23 +28,24 @@ margin_top = 368.0
 margin_right = 742.0
 margin_bottom = 1619.0
 custom_fonts/font = SubResource( 1 )
-text = "Sam Lee - Code gremlin
-@sam_c_lee
-
-Michelle Pang - Character Design/Artist
+text = "Michelle Pang - Character Design/
+Character Art
 @waveoftheocean
 
-Jack Concordia - Narrative Design
+Jack Concordia - Narrative Design/
+Story
 @spookybotgg
+
+Sam Lee - Code/code accessories
+@sam_c_lee
 
 =Music=
 https://soundcloud.com/sei_peridot/
 
-Nuh Na Nuh by Kevin MacLeod
-Link: https://incompetech.filmmusic.io/song/6429-nuh-na-nuh
-License: http://creativecommons.org/licenses/by/4.0/
+=Backgrounds=
+https://www.free-largeimages.com/red-background-5701/
 
-https://www.free-largeimages.com/red-background-5701/"
+https://studiomugenjohncel.wordpress.com/tag/school-gym/"
 autowrap = true
 __meta__ = {
 "_edit_use_anchors_": false
@@ -59,4 +60,15 @@ initial_fade = false
 [node name="Timer" type="Timer" parent="."]
 wait_time = 5.0
 autostart = true
+
+[node name="skip" type="Label" parent="."]
+margin_left = 659.024
+margin_top = 541.644
+margin_right = 989.024
+margin_bottom = 585.644
+custom_fonts/font = SubResource( 1 )
+text = "Press Z to skip"
+__meta__ = {
+"_edit_use_anchors_": false
+}
 [connection signal="timeout" from="Timer" to="." method="_on_Timer_timeout"]

@@ -77,6 +77,8 @@ func quit():
 func update_unlocks():
 	var save_data = dlm.load_save()
 	story2unlocked = save_data[0] or save_data[1]
+	$Davonte_endings.text = str(int(save_data[0]) + int(save_data[1])) + "/2 Davonte Endings viewed"
+	$HaoYu_endings.text = str(int(save_data[2]) + int(save_data[3])) + "/2 Hao Yu Endings viewed"
 	if not story2unlocked:
 		$options/start_story2.modulate = Color(0.5, 0.5,0.5)
 	else:

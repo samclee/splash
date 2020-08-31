@@ -1,5 +1,11 @@
 [
     {
+        "func_name": "ending",
+        "args": [
+            "1"
+        ]
+    },
+    {
         "func_name": "myshow",
         "args": [
             "Davonte_neutralpaint",
@@ -837,6 +843,12 @@
         ]
     },
     {
+        "func_name": "music",
+        "args": [
+            "success"
+        ]
+    },
+    {
         "func_name": "nameplate",
         "args": [
             "Davonte",
@@ -954,7 +966,26 @@
     {
         "func_name": "text",
         "args": [
-            "Wait, that's not a request! You just... you know, made me stand here and listen to you drone on about... love and whatever!"
+            "Wait, that's not a request!"
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Hao Yu",
+            "right"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "right"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "You just... you know, made me stand here and listen to you drone on about... love and whatever!"
         ]
     },
     {
@@ -1624,7 +1655,7 @@
     {
         "func_name": "text",
         "args": [
-            "'I"
+            "I wouldn't have it any other way..."
         ]
     },
     {
@@ -1653,6 +1684,10 @@
         ]
     },
     {
+        "func_name": "show_none",
+        "args": []
+    },
+    {
         "func_name": "hide_nameplate",
         "args": []
     },
@@ -1661,6 +1696,16 @@
         "args": [
             "..."
         ]
+    },
+    {
+        "func_name": "bg",
+        "args": [
+            "gym"
+        ]
+    },
+    {
+        "func_name": "show_all",
+        "args": []
     },
     {
         "func_name": "myshow",

@@ -1,5 +1,11 @@
 [
     {
+        "func_name": "music",
+        "args": [
+            "dialog"
+        ]
+    },
+    {
         "func_name": "myshow",
         "args": [
             "Davonte_smile",
@@ -417,7 +423,7 @@
     {
         "func_name": "myshow",
         "args": [
-            "Hao Yu_neutral",
+            "Hao Yu_neutralpaint",
             "right"
         ]
     },
@@ -449,7 +455,7 @@
     {
         "func_name": "myshow",
         "args": [
-            "Hao Yu_smile",
+            "Hao Yu_smilepaint",
             "right"
         ]
     },

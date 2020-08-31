@@ -5,6 +5,7 @@ define d "Davonte" left
 # Use both Hao Yu and Davonte's paint art here.
 # Still need to fix: italics. Check character movement if possible.
 
+ending 1
 show d neutralpaint
 d "(There. I win.)"
 
@@ -85,6 +86,7 @@ h "What?"
 show d smileblushpaint
 d "Do I need to say it louder?"
 
+music success
 d "I'm in love with you, dumbass."
 
 d "I've been in love with you for years."
@@ -95,7 +97,8 @@ h "I..."
 h "Uh..."
 
 show h angryblushpaint
-h "Wait, that's not a request! You just... you know, made me stand here and listen to you drone on about... love and whatever!"
+h "Wait, that's not a request!"
+h "You just... you know, made me stand here and listen to you drone on about... love and whatever!"
 
 show d angryblushpaint
 d "God, I didn't think you could get more frustrating."
@@ -162,16 +165,18 @@ h "Good. Then, wear your best on Saturday."
 
 h "You're in for a date you'll never forget, rival."
 
-d 'I wouldn't have it any other way..."
+d "I wouldn't have it any other way..."
 
 d "...rival."
 
 bg black
+show_none
 # And hide character models.
 
 "..."
 
-# show bg gym
+bg gym
+show_all
 # and unhide character models.
 
 show h angrypaint

@@ -5,6 +5,7 @@ define d "Davonte" left
 # Use Hao Yu's paint art here.
 # Still need to fix: italics. Any way to move characters across the screen?
 
+music dialog
 show d smile
 d "(Ha! I can't believe I beat Hao Yu this easily.)"
 
@@ -46,10 +47,10 @@ h "..."
 show h angrypaint
 h "And quit calling me “little fish.” That's not what the characters of my name mean."
 
-show h neutral
+show h neutralpaint
 d "Of course I know that. No one in their right mind would name themselves “good fish.”"
 
-show h smile
+show h smilepaint
 d "Plus, I'm the one who picked out the right characters for you."
 
 h "That's true, but also: fuck you."

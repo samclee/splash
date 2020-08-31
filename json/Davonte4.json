@@ -1,5 +1,11 @@
 [
     {
+        "func_name": "music",
+        "args": [
+            "title"
+        ]
+    },
+    {
         "func_name": "myshow",
         "args": [
             "Davonte_neutral",
@@ -28,7 +34,7 @@
     {
         "func_name": "text",
         "args": [
-            "(It's not that I want to let him win...)\""
+            "(It's not that I want to let him win...)"
         ]
     },
     {
@@ -148,7 +154,7 @@
     {
         "func_name": "text",
         "args": [
-            "Oh no, looks like I slipped!\""
+            "Oh no, looks like I slipped!"
         ]
     },
     {
@@ -1165,7 +1171,7 @@
     {
         "func_name": "text",
         "args": [
-            "This round goes to the I. University!"
+            "This round goes to the I University!"
         ]
     },
     {

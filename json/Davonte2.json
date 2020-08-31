@@ -110,7 +110,7 @@
     {
         "func_name": "text",
         "args": [
-            "(Right now I should be focusing on)"
+            "(Right now I should be focusing on...)"
         ]
     },
     {
@@ -961,7 +961,7 @@
     {
         "func_name": "text",
         "args": [
-            "This round goes to the B. University!"
+            "This round goes to the B University!"
         ]
     },
     {

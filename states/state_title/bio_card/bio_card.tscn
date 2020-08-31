@@ -14,7 +14,9 @@ font_data = ExtResource( 1 )
 position = Vector2( 500, 0 )
 flip_h = true
 
-[node name="Label" type="Label" parent="."]
+[node name="Node2D" type="Node2D" parent="."]
+
+[node name="Label" type="Label" parent="Node2D"]
 margin_left = 364.0
 margin_right = 960.0
 margin_bottom = 22.0

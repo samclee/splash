@@ -1,0 +1,59 @@
+[
+    {
+        "func_name": "music",
+        "args": [
+            "title"
+        ]
+    },
+    {
+        "func_name": "myshow",
+        "args": [
+            "Davonte_neutral",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Davonte",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "(Well, final round, this is it.)"
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Davonte",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "(...a bit sad.)"
+        ]
+    }
+]

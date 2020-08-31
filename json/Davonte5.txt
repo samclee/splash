@@ -5,6 +5,7 @@ define d "Davonte" left
 # Use both Hao Yu and Davonte's paint art here.
 # Still need to fix: italics. Check character movement if possible.
 
+music dialog
 show d smilepaint
 d "(He'll be running to my side of the field in three... two...)"
 

@@ -9,8 +9,10 @@
 position = Vector2( 706.186, 309.383 )
 texture = ExtResource( 1 )
 
-[node name="Label" parent="." index="1"]
-margin_top = 125.475
+[node name="Node2D" parent="." index="1"]
+position = Vector2( 75.5952, 225.526 )
+
+[node name="Label" parent="Node2D" index="0"]
 text = "Davonte Thompson:
 Age: 21 (April 4)
 Major: Communications and Linguistics double major

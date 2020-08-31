@@ -5,7 +5,7 @@
 
 [sub_resource type="Curve2D" id=1]
 _data = {
-"points": PoolVector2Array( -340, 400, 340, -400, 12, 209, 0, 0, 0, 0, 321, 410, 90, 103, -90, -103, 354, 64, 279, 327, -279, -327, 12, 209 )
+"points": PoolVector2Array( 21.7049, 355.455, -21.7049, -355.455, 12, 209, 0, 0, 0, 0, 321, 410, 90, 103, -90, -103, 231, 44, 168.529, 150.602, -168.529, -150.602, 12, 209 )
 }
 
 [node name="davonte_path6" instance=ExtResource( 2 )]
@@ -17,7 +17,7 @@ text = "Dodge immediately"
 tag = "3a"
 
 [node name="path_option2" parent="options" index="1" instance=ExtResource( 1 )]
-position = Vector2( 357, 66 )
+position = Vector2( 225, 42 )
 text = "Dodge just in time"
 tag = "3b"
 

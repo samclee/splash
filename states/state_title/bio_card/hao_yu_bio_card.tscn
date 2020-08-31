@@ -10,10 +10,12 @@ position = Vector2( 33.3354, 276.208 )
 position = Vector2( 688.901, 84.132 )
 texture = ExtResource( 1 )
 
-[node name="Label" parent="." index="1"]
-margin_top = -135.611
-text = "Lin Hao Yu
+[node name="Node2D" parent="." index="1"]
+position = Vector2( -1.3354, -68.208 )
+
+[node name="Label" parent="Node2D" index="0"]
+text = "Lin Hao Yu:
 Age: 22 (January 15)
 Major: Biology
 Likes: Davonte, but won’t admit it; cooking, but won’t admit it; video games, sleeping
-Dislikes: effort (more specifically, looking like he cares about anything); cats"
+Dislikes: effort (more specifically, looking like he cares about anything); cats "

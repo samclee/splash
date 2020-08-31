@@ -1,5 +1,11 @@
 [
     {
+        "func_name": "music",
+        "args": [
+            "dialog"
+        ]
+    },
+    {
         "func_name": "myshow",
         "args": [
             "Davonte_smilepaint",
