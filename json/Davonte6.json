@@ -34,7 +34,7 @@
     {
         "func_name": "text",
         "args": [
-            "(Well, final round, this is it.)"
+            "(Okay. It's time for me to win this.)"
         ]
     },
     {
@@ -53,7 +53,39 @@
     {
         "func_name": "text",
         "args": [
-            "(...a bit sad.)"
+            "(To be honest, I've been having a lot of fun.)"
+        ]
+    },
+    {
+        "func_name": "myshow",
+        "args": [
+            "Davonte_smile",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Davonte",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "(I hope Hao Yu's having fun, too.)"
         ]
     }
 ]

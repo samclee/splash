@@ -4,6 +4,7 @@
 [ext_resource path="res://vn_bgs/black.jpg" type="Texture" id=2]
 
 [node name="state_vn" instance=ExtResource( 1 )]
+conv_path = "res://json/HaoYu1.json"
 next_scn_path = "res://game/HaoYu_story/haoyu2.tscn"
 
 [node name="bg" parent="bgLayer" index="0"]

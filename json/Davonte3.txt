@@ -1,4 +1,5 @@
-﻿define h "Hao Yu" right
+﻿
+define h "Hao Yu" right
 define d "Davonte" left
 
 # Story 1 | Pre-Round 2

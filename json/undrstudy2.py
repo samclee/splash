@@ -55,51 +55,53 @@ def transform(fname):
   char_map = {}
   to_json = []
   with open(fname, encoding="utf8") as file:
-    print(fname)
     for raw_line in file:
       if raw_line.startswith("#"):
         continue
-      raw_line = fill_quoted_spaces(raw_line)
-      raw_line_ary = raw_line.split()
-      raw_line_ary = unfill_quoted_spaces(raw_line_ary)
-      if len(raw_line_ary) == 0:
-        continue
+      try:
+        raw_line = fill_quoted_spaces(raw_line)
+        raw_line_ary = raw_line.split()
+        raw_line_ary = unfill_quoted_spaces(raw_line_ary)
+        if len(raw_line_ary) == 0:
+          continue
 
-      cmd_name = raw_line_ary[0]
-      # raw dialog
-      if cmd_name[0] == "\"":
-        text = clean_str(cmd_name)
-        narrator_lines = to_narrator_text(text)
-        to_json += narrator_lines
-      # meta func
-      elif cmd_name == "define":
-        symbol = raw_line_ary[1]
-        name = clean_str(raw_line_ary[2])
-        side = raw_line_ary[3]
-        char_map[symbol] = {"name": name, "side": side}
-      # character dialog
-      elif cmd_name in char_map:
-        char = char_map[cmd_name]
-        text = clean_str(raw_line_ary[1])
-        char_lines = to_character_text(char["name"], char["side"], text)
-        to_json += char_lines
-      # show
-      elif cmd_name == "show":
-        name = char_map[raw_line_ary[1]]["name"]
-        side = char_map[raw_line_ary[1]]["side"]
-        portrait_name = map_char_and_emotion_to_portrait(name, raw_line_ary[2])
+        cmd_name = raw_line_ary[0]
+        # raw dialog
+        if cmd_name[0] == "\"":
+          text = clean_str(cmd_name)
+          narrator_lines = to_narrator_text(text)
+          to_json += narrator_lines
+        # meta func
+        elif cmd_name == "define":
+          symbol = raw_line_ary[1]
+          name = clean_str(raw_line_ary[2])
+          side = raw_line_ary[3]
+          print(name)
+          char_map[symbol] = {"name": name, "side": side}
+        # character dialog
+        elif cmd_name in char_map:
+          char = char_map[cmd_name]
+          text = clean_str(raw_line_ary[1])
+          char_lines = to_character_text(char["name"], char["side"], text)
+          to_json += char_lines
+        # show
+        elif cmd_name == "show":
+          name = char_map[raw_line_ary[1]]["name"]
+          side = char_map[raw_line_ary[1]]["side"]
+          portrait_name = map_char_and_emotion_to_portrait(name, raw_line_ary[2])
 
-        func_line = to_line("myshow", [portrait_name, side])
-        to_json += func_line
-        func_line = to_line("active", [side])
-        to_json += func_line
-      elif cmd_name == "hide":
-        side = char_map[raw_line_ary[1]]["side"]
-        func_line = to_line("myhide", [side])
-        to_json += func_line
-      else:
-        func_line = to_line(cmd_name, raw_line_ary[1:])
-        to_json += func_line
+          func_line = to_line("myshow", [portrait_name, side])
+          to_json += func_line
+          func_line = to_line("active", [side])
+          to_json += func_line
+        elif cmd_name == "hide":
+          side = char_map[raw_line_ary[1]]["side"]
+          func_line = to_line("myhide", [side])
+          to_json += func_line
+        else:
+          func_line = to_line(cmd_name, raw_line_ary[1:])
+          to_json += func_line
+      except:
 
 
   json_str = json.dumps(to_json, indent=4)
@@ -109,5 +111,6 @@ def transform(fname):
 
 for filename in os.listdir("."):
     if filename.endswith(".txt"):
-        print(filename)
+        print(filename + " started")
         transform(filename)
+        print(filename + " completed\n")
