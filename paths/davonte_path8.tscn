@@ -1,0 +1,29 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://states/state_action/options_path/options_path.tscn" type="PackedScene" id=1]
+[ext_resource path="res://states/state_action/path_option/path_option.tscn" type="PackedScene" id=2]
+
+[sub_resource type="Curve2D" id=1]
+_data = {
+"points": PoolVector2Array( 0, 0, 0, 0, 17, 167, 0, 0, 0, 0, 347, 361, 0, 0, 0, 0, 19, 158 )
+}
+
+[node name="davonte_path8" instance=ExtResource( 1 )]
+position = Vector2( 1, 0 )
+spd = 0.013
+
+[node name="path_option" parent="options" index="0" instance=ExtResource( 2 )]
+position = Vector2( 18, 167 )
+text = "Tease Hao Yu and take the win!"
+tag = "8a"
+
+[node name="path_option2" parent="options" index="1" instance=ExtResource( 2 )]
+position = Vector2( 349, 356 )
+text = "Battle Hao Yu head-on!"
+tag = "8b"
+
+[node name="Path2D" parent="." index="1"]
+curve = SubResource( 1 )
+
+[node name="cursor" parent="Path2D" index="0"]
+position = Vector2( 17, 164 )
