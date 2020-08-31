@@ -7,17 +7,20 @@ define d "Davonte" right
 show h angrypaint
 h "(Damn it! How could I lose?)"
 
-h "I guess that’s it, huh?"
+h "I guess that's it, huh?"
 
-show d surprised
-d "You’re not going to get mad that you lost?"
+show d surprisedpaint
+d "You're not mad that you lost?"
 
-h "Hell no. Why would I do that?"
+show h surprisedpaint
+h "Hell no. Why would I be?"
 
+show h neutralpaint
 h "You won fair and square."
 
 h "Do what you wish."
 
+show d neutralpaint
 d "...Are you sure? You're being oddly reasonable."
 
 show h angrypaint
@@ -26,156 +29,220 @@ h "Hey! I can be perfectly reasonable and trustworthy!"
 show d surprisedpaint
 d "Well, whatever you say."
 
+show d smilepaint
 d "Listen closely."
 
-h "Okay, okay. You don’t have to tell me twice."
+show h neutralpaint
+h "Okay, okay. You don't have to tell me twice."
 
-d "I’m in love with you."
+d "I'm in love with you."
 
 show h surprisedblushpaint
 h "What?"
 
-d "To clarify, I’ve been in love with you... for years now."
+d "To clarify, I've [i]been[/i] in love with you... for years now."
 
 show h angryblushpaint
 h "What."
 
-d "Seriously. Ever since we were kids, I’ve always admired you."
+show smileblushpaint
+d "Seriously. Ever since we were kids, I've always admired you."
 
 d "You were so cool and strong, and you never —"
 
-h "Hold up. This is me you’re talking about, right?"
+show h surprisedblushpaint
+h "Hold up. This is me you're talking about, right?"
 
-h "Because it legit sounds like you’re talking about someone else."
+h "Because it legit sounds like you're talking about someone else."
 
+show d angryblushpaint
 d "I need you to take me seriously."
 
-d "This isn’t a joke, Hao Yu."
+d "This isn't a joke, Hao Yu."
 
+show h neutralblushpaint
 h "Finally!"
 
-h "God, do you know how long I’ve been waiting for you to say my name?"
+show smileblushpaint
+h "God, do you know how long I've been waiting for you to say my [i]name[/i]?"
 
+show d surprisedpaint
 d "Huh?"
 
-h "You haven’t said my name all day, asshole."
+h "You haven't said my name [i]all day[/i], asshole."
 
-h "You kept going on about “buddy” and “friend” and “pal” like we’re just two dudes in a hot tub sitting six feet apart from each other."
+show h neutralblushpaint
+h "You kept going on about “buddy” and “friend” and “pal” like we're just two dudes in a hot tub sitting six feet apart from each other."
 
-h "If you’re in love with me, then you’d better say my damn name, idiot."
+show h angryblushpaint
+h "If you're in love with me, then you'd better say my damn name, [i]idiot[/i]."
 
-d "Me? I’m the idiot?"
+show d neutralblushpaint
+d "Me? [i]I'm[/i] the idiot?"
 
-d "You haven’t said my name the entire day either!"
+show d angryblushpaint
+d "You haven't said my name the entire day either!"
 
-h "Oh, you noticed? Good. Then we’re even, Davonte!"
+show h smilepaint
+h "Oh, you noticed? Good. Then we're even, [i]Davonte[/i]!"
 
-d "No, we’re not! I’ve been trying to flirt with you all day, and you’ve done nothing but reject my advances."
+show d neutralpaint
+d "No, we're not! I've been trying to flirt with you all day, and you've done nothing but reject my advances."
 
+show d flirtypaint
 d "Are my words not fleeting enough for you?"
 
+show h surprisedpaint
 h "Fleeting — what the hell are you talking about?"
 
-d "You know, like… hakanai? Fleeting?"
+show d flirtyblushpaint
+d "You know, like… [i]hakanai[/i]? Fleeting?"
 
 h "What?"
 
-h "(Man, Davonte likes such obscure anime. I don’t get it.)"
+show h neutralpaint
+h "(Man, Davonte likes such obscure anime. I don't get it.)"
 
 h "Jeez, dude, you just ruined the mood."
 
-d "Well, excuse me, Hao Yu. I’m not the person who gets all tsundere when a guy compliments me."
+show d neutralblushpaint
+d "Well, [i]excuse me[/i], Hao Yu. I'm not the person who gets all tsundere when a guy compliments me."
 
-h "Hey! I am always a tsundere, thank you very much."
+show h angryblushpaint
+h "Hey! I am [i]always[/i] a tsundere, thank you very much."
 
-h "Don’t flatter yourself. It’s not like I only act this way around you."
+show h neutralblushpaint
+h "Don't flatter yourself. It's not like I only act this way around you."
 
+show d smilepaint
 d "Uh-huh."
 
-d "I’d believe that if you weren’t confessing your undying love to me right now."
+d "I'd believe that if you weren't confessing your undying love to me right now."
 
-h "Oh, you are unbelievable!"
-h "I can’t believe I fell in love with an idiot like you!"
+h "Oh, you are [i]unbelievable[/i]!"
 
-h "I’m going home."
+show h angryblushpaint
+h "I can't believe I fell in love with an idiot like you!"
 
+h "I'm going home."
+myhide left
+
+show d surprisedpaint
+shake
 d "Wait, wait. What did you just say?"
 
-h "I’m going home?"
+show h surprisedpaint
+h "I'm going home?"
 
+show d smilepaint
 d "No, before that."
 
-h "You’re unbelievable."
+show h neutralblushpaint
+h "You're [i]unbelievable[/i]."
 
+show d flirtypaint
 d "In between those two sentences."
 
+show h angrypaint
 h "..."
-h "I can’t believe I fell in love with an idiot like you? (small text)"
 
+show h angryblushpaint
+h "[fade start=12]I can't believe I fell in love with an idiot like you?[/fade]"
+
+show d smilepaint
 d "Yeah, that one!"
 
+show d flirtypaint
 d "I think I know what my little request is going to be."
 
+show h surprisedpaint
 h "Oh, damn it."
 
-d "Tell me you’re in love with me."
+d "Tell me you're in love with me."
 
+show h surprisedblushpaint
 h "What?"
 
-d "I mean, unless it’s not true, of course."
+show d surprisedpaint
+d "I mean, unless it's not true, of course."
 
+show h angrypaint
 h "Grr..."
 
-h "Davonte, I’m in love with you."
+show h angryblushpaint
+h "Davonte, I'm in love with you."
 
-d "Wow. I never thought I’d hear you say that."
+show d neutralblushpaint
+d "Wow. I never thought I'd hear you say that."
 
+show d smileblushpaint
 d "Say it again."
 
-h "I’m in love with you."
+h "I'm in love with you."
 
+show d flirtyblushpaint
 d "One more time."
 
+show h surprisedblushpaint
 h "Seriously?"
 
+show d smileblushpaint
 d "One more time!"
 
+show h neutralblushpaint
 h "Ugh. Fine."
 
-h "I’m in love with you."
+show h angryblushpaint
+h "I'm in love with you."
 
 d "Okay, now —"
 
-h "If you make me say it again, I’m punching you."
+h "If you make me say it again, I'm punching you."
 
-d "Okay, okay. I hear you loud and clear."
+d "Okay, fine. No more of that."
 
+show d flirtyblushpaint
 d "This weekend, I want you to take me out on a date. Okay? Plan it from start to finish."
 
 d "I want to be wowed by you, little fish."
 
+show h surprisedpaint
 h "Quit calling me that."
 
+show d smilepaint
 d "Oh, and I get to call you little fish until our date is over."
 
+show h angryblushpaint
 h "Fine. Anything else?"
 
+show d flirtypaint
 d "A kiss would be nice."
 
+show h surprisedblushpaint
 h "Hell no."
 
+show d neutralpaint
 d "Aww. You were listening to my requests so well up until now."
 
+show h neutralblushpaint
 h "..."
 
-h "You’re supposed to save the kiss for after the date."
+show h angrypaint
+h "You're supposed to save the kiss for after the date."
 
+show h angryblushpaint
 h "So, just wait till then, okay?"
 
+show d smilepaint
 d "Really?"
 
+show h smileblushpaint
 h "Really."
 
-d "Okay. I’ll hold you to it, rival."
+show d smileblushpaint
+d "Okay. I'll hold you to it, rival."
 
-h "I wouldn’t want it any other way."
+show h smileblushpaint
+h "I wouldn't want it any other way."
+
+# fade into credits

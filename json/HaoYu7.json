@@ -102,25 +102,6 @@
         ]
     },
     {
-        "func_name": "myhide",
-        "args": [
-            "right"
-        ]
-    },
-    {
-        "func_name": "text",
-        "args": [
-            "\"<This is a sentence with spaces.>\""
-        ]
-    },
-    {
-        "func_name": "nameplate",
-        "args": [
-            "Davonte",
-            "right"
-        ]
-    },
-    {
         "func_name": "nameplate",
         "args": [
             "Davonte",
