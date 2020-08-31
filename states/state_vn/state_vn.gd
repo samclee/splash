@@ -163,3 +163,9 @@ func set_next(path):
 	
 func ending(num):
 	dlm.save(int(num))
+	
+func musicstop():
+	Aum.stop()
+	
+func musicplay():
+	Aum.play()
