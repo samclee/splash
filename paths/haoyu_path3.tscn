@@ -1,0 +1,38 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://states/state_action/options_path/options_path.tscn" type="PackedScene" id=1]
+[ext_resource path="res://states/state_action/path_option/path_option.tscn" type="PackedScene" id=2]
+
+[sub_resource type="Curve2D" id=1]
+_data = {
+"points": PoolVector2Array( 0, 0, 0, 0, 18, 244, 0, 0, 0, 0, 81, 178, 0, 0, 0, 0, 137, 146, 0, 0, 0, 0, 211, 171, 0, 0, 0, 0, 271, 183, 0, 0, 0, 0, 311, 223, 0, 0, 0, 0, 334, 262, 0, 0, 0, 0, 340, 324, 0, 0, 0, 0, 324, 370, 0, 0, 0, 0, 306, 391, 0, 0, 0, 0, 268, 423, 0, 0, 0, 0, 235, 431, 0, 0, 0, 0, 211, 413, 0, 0, 0, 0, 188, 393, 0, 0, 0, 0, 168, 348, 0, 0, 0, 0, 176, 309, 0, 0, 0, 0, 173, 279, 0, 0, 0, 0, 191, 234, 0, 0, 0, 0, 245, 211, 0, 0, 0, 0, 289, 183, 0, 0, 0, 0, 329, 177, 0, 0, 0, 0, 363, 180, 0, 0, 0, 0, 398, 197, 0, 0, 0, 0, 414, 231, 0, 0, 0, 0, 392, 266, 0, 0, 0, 0, 344, 279, 0, 0, 0, 0, 305, 279, 0, 0, 0, 0, 276, 273, 0, 0, 0, 0, 253, 265, 0, 0, 0, 0, 213, 247, 0, 0, 0, 0, 166, 209, 0, 0, 0, 0, 155, 196, 0, 0, 0, 0, 133, 114, 0, 0, 0, 0, 144, 86, 0, 0, 0, 0, 166, 63, 0, 0, 0, 0, 188, 48, 0, 0, 0, 0, 237, 22, 0, 0, 0, 0, 285, 37, 0, 0, 0, 0, 329, 68, 0, 0, 0, 0, 332, 95, 0, 0, 0, 0, 331, 132, 0, 0, 0, 0, 313, 162, 0, 0, 0, 0, 294, 187, 0, 0, 0, 0, 267, 218, 0, 0, 0, 0, 239, 237, 0, 0, 0, 0, 208, 259, 0, 0, 0, 0, 140, 292, 0, 0, 0, 0, 91, 310, 0, 0, 0, 0, 19, 276, 0, 0, 0, 0, 11, 266 )
+}
+
+[node name="haoyu_path3" instance=ExtResource( 1 )]
+spd = 0.007
+
+[node name="path_option" parent="options" index="0" instance=ExtResource( 2 )]
+position = Vector2( 226, 35 )
+text = "Don't look"
+tag = "3a"
+
+[node name="path_option2" parent="options" index="1" instance=ExtResource( 2 )]
+position = Vector2( 17, 237 )
+text = "Don't look"
+tag = "3a"
+
+[node name="path_option3" parent="options" index="2" instance=ExtResource( 2 )]
+position = Vector2( 390, 236 )
+text = "Don't look"
+tag = "3a"
+
+[node name="path_option4" parent="options" index="3" instance=ExtResource( 2 )]
+position = Vector2( 236, 428 )
+text = "Look"
+tag = "3b"
+
+[node name="Path2D" parent="." index="1"]
+curve = SubResource( 1 )
+
+[node name="cursor" parent="Path2D" index="0"]
+position = Vector2( 18, 244 )

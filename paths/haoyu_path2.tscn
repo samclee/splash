@@ -1,0 +1,33 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://states/state_action/options_path/options_path.tscn" type="PackedScene" id=1]
+[ext_resource path="res://states/state_action/path_option/path_option.tscn" type="PackedScene" id=2]
+
+[sub_resource type="Curve2D" id=1]
+_data = {
+"points": PoolVector2Array( 0, 0, 0, 0, 3.34879, 102.341, -64.0723, -10.6787, 64.0723, 10.6787, 152.851, 64.9654, 0, 0, 0, 0, 263.643, 107.68, -14.6832, -56.0633, 14.6832, 56.0633, 359.751, 221.142, 0, 0, 0, 0, 337.059, 392.001, 48.0542, 4.00452, -48.0542, -4.00452, 232.941, 405.35, 33.371, 48.0542, -33.371, -48.0542, 138.168, 354.626, -76.0859, 40.0452, 76.0859, -40.0452, 163.53, 207.793, 0, 0, 0, 0, 267.647, 214.467, -20.0226, -46.7194, 20.0226, 46.7194, 357.081, 294.558, 52.0588, -32.0362, -52.0588, 32.0362, 353.077, 410.689, 45.3846, 96.1085, -45.3846, -96.1085, 47.3985, 309.241, 0, 0, 0, 0, -12.6693, 115.689 )
+}
+
+[node name="haoyu_path2" instance=ExtResource( 1 )]
+spd = 0.012
+
+[node name="path_option" parent="options" index="0" instance=ExtResource( 2 )]
+position = Vector2( 4, 97 )
+text = "Fake-out"
+tag = "2a"
+
+[node name="path_option2" parent="options" index="1" instance=ExtResource( 2 )]
+position = Vector2( 168, 221 )
+text = "Slow ball"
+tag = "2b"
+
+[node name="path_option3" parent="options" index="2" instance=ExtResource( 2 )]
+position = Vector2( 334, 393 )
+text = "Fast ball"
+tag = "2c"
+
+[node name="Path2D" parent="." index="1"]
+curve = SubResource( 1 )
+
+[node name="cursor" parent="Path2D" index="0"]
+position = Vector2( 3.34879, 102.341 )

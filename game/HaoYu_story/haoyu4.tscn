@@ -1,8 +1,15 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=4 format=2]
 
 [ext_resource path="res://states/state_action/state_action.tscn" type="PackedScene" id=1]
+[ext_resource path="res://paths/haoyu_path3.tscn" type="PackedScene" id=2]
+[ext_resource path="res://paths/haoyu_path4.tscn" type="PackedScene" id=3]
 
 [node name="state_action" instance=ExtResource( 1 )]
+conv_path = "res://json/HaoYu4.json"
 next_scn_path = "res://game/HaoYu_story/haoyu5.tscn"
+
+[node name="haoyu_path3" parent="paths_collection/paths" index="0" instance=ExtResource( 2 )]
+
+[node name="haoyu_path4" parent="paths_collection/paths" index="1" instance=ExtResource( 3 )]
 
 [editable path="paths_collection"]

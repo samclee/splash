@@ -8,48 +8,73 @@ h "(Get it together Hao Yu. We're going to him back extra hard.)"
 show h angry
 h "(There's no way I'm losing to that damn idiot!)"
 
-bump right
+bump left
 shake
 "Hao Yu bobs and weaves through incoming projectiles!"
 show h neutral
 h "(Nice, this is going smoothly.)"
 h "(Next I'll-)"
-h "(What the hell is that dumbass doing?)"
-h "(Ugh, does he honestly think I'm going to look.)"
+h "(Ugh, is Davonte trying to pull some dumbassery.)"
 
-label path1
-options_path haoyu_path1
-
-label 1a
-h "..."
-h ".........."
-h "................"
 show h angry
-h "Urghhhhhhh..."
-jump path1
-
-label 1b
-d "..."
-show h angry
-d "(Fuck it,  FINE.)"
-show d smile
-bump right
-"Davonte catches Hao Yu's eyes!"
+h "Stop messing around asshole!"
+h "I don't know what you're trying to do, but you better take this seriously!"
 show h surprised
-h "(Oh fuck, he's about to throw.)"
-h "(I know for a fact his aim is hella precise.)"
-h "(I'll have to...)"
+h "(Wait is he...?)"
+show h angry
+shake
+h "(Fake-flirting with me!?)"
+h "Stop messing around!"
+h "I'm sick of this, you're going down!"
+show h neutral
+h "(This throw should will make him take me seriously.)"
+h "(I'll go with a...)"
+
+options_path haoyu_path2
 
 label 2a
-h "(...wait and see.)"
-h "(I have to know where he's aiming to dodge.)"
-h "(Moving too early is too risky.)"
+h "...fake-out."
+h "(I'll show him he's not the only one who can do mind-games.)"
+h "(First I'll pretend to aim left...)"
+shake
+bump left
+h "(...And then pivot and throw right!)"
+show h smile
+h "(HA, it worked!)"
+h "(That dumbass just slipped and fell!)"
+show d surprised
+d "Oh crap."
+jump after2
 
 label 2b
-"(...dodge immediately.)"
-"(Davonte's throws are wicked fast, I have to pick a direction and go for it.)"
-
+h "(...slow ball!)"
+h "(I'll show him he's not the only one who can do mind-games.)"
+h "([i]I[/i] know that [i]he[/i] knows that my throws are aweseome...)"
+bump left
+h "(...So [i]this[/i] should trip him up.)"
+h "(Huh, he's not even trying to move.)"
+show h angry
+h "(Is he gonna...?)"
+jump after2
 
 label 2c
+h "(fast ball!)"
+h "(Even if he tries to dodge...)"
+shake
+bump right
+h "(...There's no escape from my lightspeed throws!)"
+h "(He looks like he's deciding which way to dodge.)"
+show h smile
+h "Well don't think for too long..."
+
 
 label after2
+shake
+show d surprisedpaint
+"SPLAT!"
+"Davonte is out!"
+"This round goes to the I University!"
+show h smile
+h "HELL YES."
+show h neutral
+h "Wait..."

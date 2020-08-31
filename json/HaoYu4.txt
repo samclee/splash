@@ -1,0 +1,91 @@
+
+define h "Hao Yu" left
+define d "Davonte" right
+
+music title
+show h neutral
+h "(If that guy thinks he can slack off while facing ME, he'd got another thing coming.)"
+show h angry
+h "(He better bring it, or I'm ending the while game this round.)"
+h "(If he keeps goofing off he isn't even worth my attention.)"
+h "(...)"
+h "(What the hell is that dumbass doing?)"
+h "(Ugh, does he honestly think I'm going to look.)"
+
+label path1
+options_path haoyu_path3
+
+label 3a
+h "..."
+h ".........."
+h "................"
+show h angry
+h "Urghhhhhhh..."
+jump path1
+
+label 3b
+h "..."
+show h angry
+h "(Fuck it,  FINE.)"
+show d smilepaint
+bump right
+"Davonte catches Hao Yu's eyes!"
+show h surprised
+h "(Oh fuck, he's about to throw.)"
+h "(I know for a fact his aim is hella precise.)"
+h "(I'll have to...)"
+
+options_path haoyu_path4
+
+label 4a
+h "(...wait and see.)"
+h "(I have to know what he's gonna do before I try anything.)"
+h "(Acting too early is too risky.)"
+h "(I'll just bide my time and...)"
+h "(...)"
+show h angry
+h "(He's not doing anything.)"
+h "(Well this was a waste of-)"
+
+jump after2
+
+label 4b
+h "(...dodge immediately.)"
+h "(Davonte's throws are wicked fast, I have to pick a direction and go for it.)"
+show h surprised
+h "(I'll dive to the right!)"
+shake
+"Hao Yu makes an amazing jumping dive!"
+h "(...)"
+show h neutral
+h "(What the hell.)"
+h "(He's just standing there waving.)"
+show d smilepaint
+d "Hey bro, how's it going!"
+show h angry
+h "What do you want?!"
+h "Stop talking, can't you see I'm-"
+jump after2
+
+label 4c
+h "(...throw immediately.)"
+h "(No fear, let's fucking DO THIS!)"
+h "(There's no way I'll miss, I'll laser-focus all of my attention on getting him out!)"
+show h surprised
+h "(Wait wasn't he holding a paintball a minute ago?)"
+h "(I could've sworn he wa-)"
+
+label after2
+show h surprisedpaint
+shake
+"THWACK!"
+show d surprisedpaint
+show h surprisedpaint
+hide_nameplate
+"Hao Yu is out!"
+"This round goes to the B University!"
+show h angrypaint
+h "Grrrrrrrr."
+myhide right
+h "(ARGH WHY DID I LET MY GUARD DOWN.)"
+h "(This fucking blows, why did I get distracted so easily?!)"
