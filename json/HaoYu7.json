@@ -1878,34 +1878,15 @@
         ]
     },
     {
-        "func_name": "active",
+        "func_name": "text",
         "args": [
-            "right"
+            "\"Sorry, what was that?\""
         ]
     },
     {
         "func_name": "text",
         "args": [
-            "Sorry, what was that?"
-        ]
-    },
-    {
-        "func_name": "nameplate",
-        "args": [
-            "Davonte",
-            "right"
-        ]
-    },
-    {
-        "func_name": "active",
-        "args": [
-            "right"
-        ]
-    },
-    {
-        "func_name": "text",
-        "args": [
-            "I can't hear you over the sound of our height difference."
+            "\"I can't hear you over the sound of our height difference.\""
         ]
     },
     {

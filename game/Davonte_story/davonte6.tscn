@@ -1,10 +1,13 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=3 format=2]
 
 [ext_resource path="res://states/state_action/state_action.tscn" type="PackedScene" id=1]
+[ext_resource path="res://paths/davonte_path8.tscn" type="PackedScene" id=2]
 
 [node name="state_action" instance=ExtResource( 1 )]
 conv_path = "res://json/placeholder.json"
 next_scn_path = "res://game/Davonte_story/davonte7.tscn"
 alt_next_scn_path = "res://game/Davonte_story/davonte8.tscn"
+
+[node name="davonte_path8" parent="paths_collection/paths" index="0" instance=ExtResource( 2 )]
 
 [editable path="paths_collection"]
