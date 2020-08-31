@@ -385,7 +385,7 @@
     {
         "func_name": "text",
         "args": [
-            "Correction: rivals. We've been rivals a long time."
+            "Correction: [i]rivals[/i]. We've been [i]rivals[/i] a long time."
         ]
     },
     {
@@ -883,7 +883,7 @@
     {
         "func_name": "text",
         "args": [
-            "I've been in love with you for years."
+            "I've [i]been[/i] in love with you for years."
         ]
     },
     {
@@ -985,7 +985,7 @@
     {
         "func_name": "text",
         "args": [
-            "You just... you know, made me stand here and listen to you drone on about... love and whatever!"
+            "You just... you know, made me [i]stand[/i] here and listen to you drone on about... [i]love[/i] and whatever!"
         ]
     },
     {
@@ -1372,6 +1372,19 @@
         ]
     },
     {
+        "func_name": "myshow",
+        "args": [
+            "Davonte_neutralpaint",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
         "func_name": "nameplate",
         "args": [
             "Davonte",
@@ -1419,7 +1432,7 @@
     {
         "func_name": "text",
         "args": [
-            "You want me to be yours for one day?"
+            "You want me to be yours for [i]one day[/i]?"
         ]
     },
     {
@@ -1451,7 +1464,7 @@
     {
         "func_name": "text",
         "args": [
-            "What was all of that about being in love with me for years?"
+            "What was all of that about being in love with me for [i]years[/i]?"
         ]
     },
     {
@@ -1688,6 +1701,10 @@
         "args": []
     },
     {
+        "func_name": "musicstop",
+        "args": []
+    },
+    {
         "func_name": "hide_nameplate",
         "args": []
     },
@@ -1698,6 +1715,30 @@
         ]
     },
     {
+        "func_name": "hide_nameplate",
+        "args": []
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "...."
+        ]
+    },
+    {
+        "func_name": "hide_nameplate",
+        "args": []
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "....."
+        ]
+    },
+    {
+        "func_name": "musicplay",
+        "args": []
+    },
+    {
         "func_name": "bg",
         "args": [
             "gym"
@@ -1706,6 +1747,19 @@
     {
         "func_name": "show_all",
         "args": []
+    },
+    {
+        "func_name": "myshow",
+        "args": [
+            "Davonte_neutralpaint",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
     },
     {
         "func_name": "myshow",
@@ -1787,7 +1841,7 @@
     {
         "func_name": "text",
         "args": [
-            "Hao Yu, I've literally been waiting years to confess to you."
+            "Hao Yu, I've literally been waiting [i]years[/i] to confess to you."
         ]
     },
     {
@@ -1902,7 +1956,7 @@
     {
         "func_name": "text",
         "args": [
-            "Seriously? Did you seriously just say that?"
+            "Seriously? Did you [i]seriously[/i] just say that?"
         ]
     },
     {

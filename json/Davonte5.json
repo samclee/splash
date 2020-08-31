@@ -577,7 +577,7 @@
     {
         "func_name": "text",
         "args": [
-            "I'll put in 110% next round, just for you."
+            "I'll put in 110 percent next round, just for you."
         ]
     },
     {
@@ -628,7 +628,7 @@
     {
         "func_name": "text",
         "args": [
-            "I'm going to demolish you."
+            "I'm going to [i]demolish[/i] you."
         ]
     },
     {
@@ -826,7 +826,7 @@
     {
         "func_name": "text",
         "args": [
-            "Well, whatever. Don't hold back this time, or I'll get really pissed off."
+            "Well, whatever. Don't hold back this time, or I'll get [i]really[/i] pissed off."
         ]
     },
     {
@@ -891,6 +891,12 @@
         "func_name": "text",
         "args": [
             "Oh, shut up!"
+        ]
+    },
+    {
+        "func_name": "myhide",
+        "args": [
+            "right"
         ]
     }
 ]

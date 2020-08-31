@@ -4,6 +4,8 @@ define d "Davonte" left
 
 music title
 show d neutral
-d "(Well, final round, this is it.)"
-d "(...a bit sad.)"
+d "(Okay. It's time for me to win this.)"
+d "(To be honest, I've been having a lot of fun.)"
+show d smile
+d "(I hope Hao Yu's having fun, too.)"
  

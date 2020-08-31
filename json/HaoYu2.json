@@ -1,0 +1,551 @@
+[
+    {
+        "func_name": "music",
+        "args": [
+            "title"
+        ]
+    },
+    {
+        "func_name": "myshow",
+        "args": [
+            "Hao Yu_neutral",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Hao Yu",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "(Get it together Hao Yu. We're going to him back extra hard.)"
+        ]
+    },
+    {
+        "func_name": "myshow",
+        "args": [
+            "Hao Yu_angry",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Hao Yu",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "(There's no way I'm losing to that damn idiot!)"
+        ]
+    },
+    {
+        "func_name": "bump",
+        "args": [
+            "right"
+        ]
+    },
+    {
+        "func_name": "shake",
+        "args": []
+    },
+    {
+        "func_name": "hide_nameplate",
+        "args": []
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "Hao Yu bobs and weaves through incoming projectiles!"
+        ]
+    },
+    {
+        "func_name": "myshow",
+        "args": [
+            "Hao Yu_neutral",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Hao Yu",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "(Nice, this is going smoothly.)"
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Hao Yu",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "(Next I'll-)"
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Hao Yu",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "(What the hell is that dumbass doing?)"
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Hao Yu",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "(Ugh, does he honestly think I'm going to look.)"
+        ]
+    },
+    {
+        "func_name": "label",
+        "args": [
+            "path1"
+        ]
+    },
+    {
+        "func_name": "options_path",
+        "args": [
+            "haoyu_path1"
+        ]
+    },
+    {
+        "func_name": "label",
+        "args": [
+            "1a"
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Hao Yu",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "..."
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Hao Yu",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            ".........."
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Hao Yu",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "................"
+        ]
+    },
+    {
+        "func_name": "myshow",
+        "args": [
+            "Hao Yu_angry",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Hao Yu",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "Urghhhhhhh..."
+        ]
+    },
+    {
+        "func_name": "jump",
+        "args": [
+            "path1"
+        ]
+    },
+    {
+        "func_name": "label",
+        "args": [
+            "1b"
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Davonte",
+            "right"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "right"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "..."
+        ]
+    },
+    {
+        "func_name": "myshow",
+        "args": [
+            "Hao Yu_angry",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Davonte",
+            "right"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "right"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "(Fuck it,  FINE.)"
+        ]
+    },
+    {
+        "func_name": "myshow",
+        "args": [
+            "Davonte_smile",
+            "right"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "right"
+        ]
+    },
+    {
+        "func_name": "bump",
+        "args": [
+            "right"
+        ]
+    },
+    {
+        "func_name": "hide_nameplate",
+        "args": []
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "Davonte catches Hao Yu's eyes!"
+        ]
+    },
+    {
+        "func_name": "myshow",
+        "args": [
+            "Hao Yu_surprised",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Hao Yu",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "(Oh fuck, he's about to throw.)"
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Hao Yu",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "(I know for a fact his aim is hella precise.)"
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Hao Yu",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "(I'll have to...)"
+        ]
+    },
+    {
+        "func_name": "label",
+        "args": [
+            "2a"
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Hao Yu",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "(...wait and see.)"
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Hao Yu",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "(I have to know where he's aiming to dodge.)"
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Hao Yu",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "(Moving too early is too risky.)"
+        ]
+    },
+    {
+        "func_name": "label",
+        "args": [
+            "2b"
+        ]
+    },
+    {
+        "func_name": "hide_nameplate",
+        "args": []
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "(...dodge immediately.)"
+        ]
+    },
+    {
+        "func_name": "hide_nameplate",
+        "args": []
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "(Davonte's throws are wicked fast, I have to pick a direction and go for it.)"
+        ]
+    },
+    {
+        "func_name": "label",
+        "args": [
+            "2c"
+        ]
+    },
+    {
+        "func_name": "label",
+        "args": [
+            "after2"
+        ]
+    }
+]

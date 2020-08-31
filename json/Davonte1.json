@@ -42,7 +42,7 @@
     {
         "func_name": "text",
         "args": [
-            "swimming, figure skating, card games on motorcycles or basketball."
+            "swimming, figure skating, card games on motorcycles, or basketball."
         ]
     },
     {
@@ -88,13 +88,16 @@
         ]
     },
     {
-        "func_name": "hide_nameplate",
-        "args": []
+        "func_name": "myshow",
+        "args": [
+            "Davonte_flirty",
+            "left"
+        ]
     },
     {
-        "func_name": "text",
+        "func_name": "active",
         "args": [
-            "Davonte Thompson from B University"
+            "left"
         ]
     },
     {
@@ -104,7 +107,26 @@
     {
         "func_name": "text",
         "args": [
-            "and Lin Hao Yu from I University."
+            "Davonte Thompson from B University..."
+        ]
+    },
+    {
+        "func_name": "myhide",
+        "args": [
+            "left"
+        ]
+    },
+    {
+        "func_name": "myshow",
+        "args": [
+            "Hao Yu_angry",
+            "right"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "right"
         ]
     },
     {
@@ -114,7 +136,23 @@
     {
         "func_name": "text",
         "args": [
-            "Both are seniors who are hoping to end theiryear with a well-fought victory - and, perhaps, something more."
+            "...and Lin Hao Yu from I University."
+        ]
+    },
+    {
+        "func_name": "myhide",
+        "args": [
+            "right"
+        ]
+    },
+    {
+        "func_name": "hide_nameplate",
+        "args": []
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "Both are seniors who are hoping to end their year with a well-fought victory - and, perhaps, something more."
         ]
     },
     {
@@ -460,7 +498,7 @@
     {
         "func_name": "text",
         "args": [
-            "*ahem*"
+            "*[i]ahem[/i]*"
         ]
     },
     {
@@ -709,7 +747,26 @@
     {
         "func_name": "text",
         "args": [
-            "So, we'll have a little wager. Whoever wins gets to make the other team captain do whatever he wants."
+            "So, we'll have a little wager."
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Davonte",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "Whoever wins gets to make the other team captain do whatever he wants."
         ]
     },
     {
@@ -843,7 +900,7 @@
     {
         "func_name": "text",
         "args": [
-            "And when I win this, I'm gonna embarrass the hell out of you."
+            "And [i]when[/i] I win this, I'm gonna embarrass the hell out of you."
         ]
     },
     {
@@ -875,7 +932,7 @@
     {
         "func_name": "text",
         "args": [
-            "That's cute. Because when I win, I'm planning to do the same for you."
+            "That's cute. Because when [i]I[/i] win, I'm planning to do the same for you."
         ]
     },
     {
@@ -1029,6 +1086,12 @@
         "func_name": "text",
         "args": [
             "I'm going to win that wager! We'll see who's laughing after that!"
+        ]
+    },
+    {
+        "func_name": "myhide",
+        "args": [
+            "right"
         ]
     },
     {

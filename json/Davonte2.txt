@@ -5,10 +5,18 @@ define d "Davonte" left
 music title
 show d neutral
 d "(I may have caught him off-guard, but that doesn't mean I can take this round lightly!)"
+
+show d smile
 d "(Let's see if Hao Yu can keep up with my lightning throws.)"
-d " (...You know, he's going to look real damn good with some paint all over his shirt.)"
-d "(Wait, get your head in the game.)"
-d "(Right now I should be focusing on...)"
+
+show d flirty
+d "(He's going to look amazing with some paint all over his shirt.)"
+
+show d surprised
+d "(...Wait, get your head in the game.)"
+
+show d neutral
+d "(Right now, I should be focusing on...)"
 
 options_path davonte_path1
 
@@ -17,7 +25,8 @@ d "(...dodging!)"
 show d smile
 d "(The best defense is a good offense after all!)"
 show d angry
-d "(...that doesn't sound right.)"
+d "(...That doesn't sound right.)"
+show d neutral
 bump left
 "Davonte gracefully weaves through a volley of projectiles!"
 jump after1
@@ -27,6 +36,7 @@ d "(...scoring points!)"
 show d smile
 d "(The point of every game is to get points!)"
 d "(That's why they're called "points"!)"
+d "(Get it? Points? I'll see myself out.)"
 bump left
 "Davonte hurls the paintballs with frightening precision!"
 
@@ -34,23 +44,27 @@ label after1
 
 show d smile
 d "(Nice! I'm getting into the groove now.)"
-d "(Next I think I should...)"
+d "(Next, I should...)"
 
-label path2
+label path2z
 options_path davonte_path2
 
 label 2a
-d "(..close out the game.)"
+d "(...close out the game.)"
 d "(Taking the first round should give us some good momentum.)"
+show d surprised
 d "(...)"
+show d flirty
 d "(But maybe I should...)"
 jump path2
 
 label 2b
-show d flirty
+show d smile
 d "(...go tease Hao Yu.)"
+show d flirty
 d "(Hehe, he could use a little distraction.)"
-d "(All's fair in love and war.)"
+d "(All's fair in love and war, after all!)"
+show d surprised
 d "(Hmm, he does look intensely focused though.)"
 d "(I think I'll...)"
 
@@ -58,13 +72,16 @@ options_path davonte_path3
 
 label 3a
 d "(...call out to him.)"
-d "(That should get his attention.)"
+show d smile
+d "(That should get his attention!)"
 shake
-d "Hey bro, how's it going!"
+d "Hey, bro! How's it going?"
 "Davonte waves both arms energetically!"
 show h angry
 h "What do you want?!"
-h "Stop talking, can't you see I'm-"
+h "Stop talking! Can't you see I'm -"
+show d surprised
+d "Wait, you're going to -"
 jump game_end
 
 label 3b
@@ -73,14 +90,15 @@ show d smile
 d "(In general, playing paint dodgeball is the best way to get Hao Yu's attention.)"
 d "(I'll lob this nice and easy...)"
 bump left
-"Davonte slowly lobs a paintball at Hao Yu"
+"Davonte slowly lobs a paintball at Hao Yu..."
 
 jump game_end
 
 label 3c
 d "(...do nothing.)"
 d "(He's really getting into it, so I guess I'll let him play.)"
-d "(He's dodging so well, no one can even-)"
+show d smile
+d "(He's dodging so well that no one can even hit -)"
 
 label game_end
 shake
@@ -89,10 +107,11 @@ show d surprised
 show h surprisedblushpaint
 hide_nameplate
 "Hao Yu is out!"
-"This round goes to the B University!"
+"This round goes to B University!"
 show h angrypaint
 h "Grrrrrrrr."
 myhide right
 show d neutral
-d ".....huh."
-d "Well I didn't expect that to happen."
+d "......Huh."
+show d smile
+d "Well, [i]that[/i] happened."

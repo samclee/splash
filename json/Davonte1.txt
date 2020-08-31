@@ -3,7 +3,6 @@ define d "Davonte" left
 
 # Start story here.
 # Story 1 | Intro + Pre-Round 1
-# Still need to fix: italics, gym background change, hiding Hao Yu's character art toward the bottom.
 
 bg black
 "In the year 2076, the world hasn't changed much."
@@ -12,7 +11,7 @@ bg black
 
 # Need to check this line for length.
 "But this story doesn't revolve around the royalty of volleyball, tennis, card games,"
-"swimming, figure skating, card games on motorcycles or basketball."
+"swimming, figure skating, card games on motorcycles, or basketball."
 
 "No, this story is much more important than any of those."
 
@@ -22,10 +21,15 @@ music dialog
 "Today marks the grand finals of the National Collegiate Paint Dodgeball Tournament."
 
 "The top two universities in the country have brought their A-game - and their team captains:"
-"Davonte Thompson from B University"
-"and Lin Hao Yu from I University."
 
-"Both are seniors who are hoping to end theiryear with a well-fought victory - and, perhaps, something more."
+show d flirty
+"Davonte Thompson from B University..."
+myhide left
+show h angry
+"...and Lin Hao Yu from I University."
+myhide right
+
+"Both are seniors who are hoping to end their year with a well-fought victory - and, perhaps, something more."
 
 "This story is about two guys - and how their rivalry flourished into love..."
 
@@ -60,7 +64,7 @@ show h angry
 h "Rival...!"
 
 show h neutral
-h "*ahem*"
+h "*[i]ahem[/i]*"
 
 show h angry
 h "You're going down."
@@ -84,7 +88,9 @@ h "Who said I'm mad? I'm not mad."
 d "- and I wanted to give you the opportunity to redeem yourself."
 
 show d flirty
-d "So, we'll have a little wager. Whoever wins gets to make the other team captain do whatever he wants."
+d "So, we'll have a little wager."
+
+d "Whoever wins gets to make the other team captain do whatever he wants."
 
 h "You're on."
 
@@ -97,10 +103,10 @@ h "Hell no. I know I'm going to win, so why would I limit myself?"
 h "Like I said - you're going down, rival."
 
 show h flirty
-h "And when I win this, I'm gonna embarrass the hell out of you."
+h "And [i]when[/i] I win this, I'm gonna embarrass the hell out of you."
 
 show d flirty
-d "That's cute. Because when I win, I'm planning to do the same for you."
+d "That's cute. Because when [i]I[/i] win, I'm planning to do the same for you."
 
 d "I hope you're prepared for a long night."
 
@@ -116,6 +122,7 @@ show h angryblush
 h "Hell no! Shut up!"
 
 h "I'm going to win that wager! We'll see who's laughing after that!"
+myhide right
 
 show d smile
 d "(Gods, I love it when he's all flustered like that.)"

@@ -38,6 +38,19 @@
         ]
     },
     {
+        "func_name": "myshow",
+        "args": [
+            "Davonte_neutral",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
         "func_name": "nameplate",
         "args": [
             "Davonte",
@@ -54,6 +67,19 @@
         "func_name": "text",
         "args": [
             "(But, to be honest, that kind of battle didn't hit me with the usual excitement.)"
+        ]
+    },
+    {
+        "func_name": "myshow",
+        "args": [
+            "Davonte_smile",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
         ]
     },
     {
@@ -219,7 +245,7 @@
     {
         "func_name": "text",
         "args": [
-            "I would've destroyed you if I just focused on the game instead of -"
+            "I would've [i]destroyed[/i] you if I just focused on the game instead of -"
         ]
     },
     {
@@ -423,14 +449,14 @@
     {
         "func_name": "myshow",
         "args": [
-            "Hao Yu_neutralpaint",
-            "right"
+            "Davonte_neutral",
+            "left"
         ]
     },
     {
         "func_name": "active",
         "args": [
-            "right"
+            "left"
         ]
     },
     {
@@ -455,14 +481,14 @@
     {
         "func_name": "myshow",
         "args": [
-            "Hao Yu_smilepaint",
-            "right"
+            "Davonte_smile",
+            "left"
         ]
     },
     {
         "func_name": "active",
         "args": [
-            "right"
+            "left"
         ]
     },
     {
@@ -712,6 +738,63 @@
         "func_name": "text",
         "args": [
             "Whatever you say, pal."
+        ]
+    },
+    {
+        "func_name": "myhide",
+        "args": [
+            "left"
+        ]
+    },
+    {
+        "func_name": "myshow",
+        "args": [
+            "Hao Yu_angrypaint",
+            "right"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "right"
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Hao Yu",
+            "right"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "right"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "Hey! Don't just walk away from me!"
+        ]
+    },
+    {
+        "func_name": "myhide",
+        "args": [
+            "right"
+        ]
+    },
+    {
+        "func_name": "myshow",
+        "args": [
+            "Davonte_smile",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
         ]
     },
     {

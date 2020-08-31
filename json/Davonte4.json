@@ -34,7 +34,20 @@
     {
         "func_name": "text",
         "args": [
-            "(It's not that I want to let him win...)"
+            "(It's not that I [i]want[/i] to let him win...)"
+        ]
+    },
+    {
+        "func_name": "myshow",
+        "args": [
+            "Davonte_smile",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
         ]
     },
     {
@@ -72,7 +85,7 @@
     {
         "func_name": "text",
         "args": [
-            "So let's come up with a clever way to throw this round."
+            "(So, let's come up with a clever way to throw this round.)"
         ]
     },
     {
@@ -104,19 +117,6 @@
         "func_name": "label",
         "args": [
             "1a"
-        ]
-    },
-    {
-        "func_name": "myshow",
-        "args": [
-            "Davonte_smile",
-            "left"
-        ]
-    },
-    {
-        "func_name": "active",
-        "args": [
-            "left"
         ]
     },
     {
@@ -154,7 +154,7 @@
     {
         "func_name": "text",
         "args": [
-            "Oh no, looks like I slipped!"
+            "Oh no! I'm slipping!"
         ]
     },
     {
@@ -205,19 +205,6 @@
         ]
     },
     {
-        "func_name": "myshow",
-        "args": [
-            "Davonte_smile",
-            "left"
-        ]
-    },
-    {
-        "func_name": "active",
-        "args": [
-            "left"
-        ]
-    },
-    {
         "func_name": "nameplate",
         "args": [
             "Davonte",
@@ -252,7 +239,7 @@
     {
         "func_name": "text",
         "args": [
-            "Oh no, my aim is so off!"
+            "Oh no! All of a sudden, my aim sucks!"
         ]
     },
     {
@@ -303,19 +290,6 @@
         ]
     },
     {
-        "func_name": "myshow",
-        "args": [
-            "Davonte_smile",
-            "left"
-        ]
-    },
-    {
-        "func_name": "active",
-        "args": [
-            "left"
-        ]
-    },
-    {
         "func_name": "nameplate",
         "args": [
             "Davonte",
@@ -335,6 +309,19 @@
         ]
     },
     {
+        "func_name": "myshow",
+        "args": [
+            "Davonte_surprised",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
         "func_name": "nameplate",
         "args": [
             "Davonte",
@@ -350,7 +337,7 @@
     {
         "func_name": "text",
         "args": [
-            "(This is what young people do right?)"
+            "(This is what the young people do right?)"
         ]
     },
     {
@@ -369,7 +356,20 @@
     {
         "func_name": "text",
         "args": [
-            "(Hm I'm not too sure, but maybe Hao Yu will enjoy it?)"
+            "(Hm... I'm not too sure, actually. But maybe Hao Yu will enjoy it?)"
+        ]
+    },
+    {
+        "func_name": "myshow",
+        "args": [
+            "Davonte_smile",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
         ]
     },
     {
@@ -423,7 +423,7 @@
     {
         "func_name": "text",
         "args": [
-            "Stop messing around asshole!"
+            "Stop messing around, asshole!"
         ]
     },
     {
@@ -442,7 +442,7 @@
     {
         "func_name": "text",
         "args": [
-            "I don't know what you're trying to do, but you better take this seriously!"
+            "I don't know what you're trying to do, but you'd better take this seriously!"
         ]
     },
     {
@@ -480,7 +480,7 @@
     {
         "func_name": "text",
         "args": [
-            "Hmmm, he saw through that."
+            "(Hmm. Seems like he saw right through that.)"
         ]
     },
     {
@@ -499,7 +499,20 @@
     {
         "func_name": "text",
         "args": [
-            "(Still though, he's not getting the hints.)"
+            "(Still, he's not picking up my hints.)"
+        ]
+    },
+    {
+        "func_name": "myshow",
+        "args": [
+            "Davonte_smile",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
         ]
     },
     {
@@ -518,7 +531,7 @@
     {
         "func_name": "text",
         "args": [
-            "(Subtley doesn't work so well on Hao Yu.)"
+            "(I guess subtlety doesn't work so well on Hao Yu.)"
         ]
     },
     {
@@ -537,7 +550,7 @@
     {
         "func_name": "text",
         "args": [
-            "(Maybe I need to do something...spicier)"
+            "(Maybe I need to do something... [i]spicier[/i].)"
         ]
     },
     {
@@ -622,7 +635,7 @@
     {
         "func_name": "text",
         "args": [
-            "Davonte lightly blows Hao Yu a kiss!"
+            "Davonte blows Hao Yu a light kiss!"
         ]
     },
     {
@@ -743,7 +756,7 @@
     {
         "func_name": "text",
         "args": [
-            "I'm sick of this, you're going down!"
+            "I'm sick of this! You're going down!"
         ]
     },
     {
@@ -791,7 +804,13 @@
     {
         "func_name": "text",
         "args": [
-            "Ooh, well that got your attention."
+            "Oh good! I'm glad that got your attention."
+        ]
+    },
+    {
+        "func_name": "myhide",
+        "args": [
+            "right"
         ]
     },
     {
@@ -823,7 +842,7 @@
     {
         "func_name": "text",
         "args": [
-            "(Hmm, now what kind of reaction would Hao Yu enjoy the most?)"
+            "(Let's see... How would Hao Yu want me to respond?)"
         ]
     },
     {
@@ -864,7 +883,7 @@
     {
         "func_name": "text",
         "args": [
-            "(...dodge immediately)"
+            "(...dodge immediately!)"
         ]
     },
     {
@@ -883,7 +902,7 @@
     {
         "func_name": "text",
         "args": [
-            "(Right, if I delay moving, Hao Yu might think I'm not taking him seriously.)"
+            "(Right! If I stall, then Hao Yu might think I'm not taking him seriously.)"
         ]
     },
     {
@@ -902,7 +921,7 @@
     {
         "func_name": "text",
         "args": [
-            "Better move no-"
+            "(So, I'll move right n -)"
         ]
     },
     {
@@ -979,7 +998,20 @@
     {
         "func_name": "text",
         "args": [
-            "(...dodge just in time)"
+            "(...dodge just in time!)"
+        ]
+    },
+    {
+        "func_name": "myshow",
+        "args": [
+            "Davonte_smile",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
         ]
     },
     {
@@ -1021,6 +1053,19 @@
         ]
     },
     {
+        "func_name": "myshow",
+        "args": [
+            "Davonte_neutral",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
         "func_name": "nameplate",
         "args": [
             "Davonte",
@@ -1036,7 +1081,7 @@
     {
         "func_name": "text",
         "args": [
-            "(Oh dang that ball is moving faster than I expe-)"
+            "(Oh dang! That ball is moving faster than I expe -)"
         ]
     },
     {
@@ -1118,7 +1163,7 @@
     {
         "func_name": "text",
         "args": [
-            "(Oh wait, we're tied right now so I probably shou-)"
+            "(Wait, we're tied right now! I should probably -)"
         ]
     },
     {
@@ -1171,7 +1216,7 @@
     {
         "func_name": "text",
         "args": [
-            "This round goes to the I University!"
+            "This round goes to I University!"
         ]
     },
     {
@@ -1194,13 +1239,22 @@
         ]
     },
     {
-        "func_name": "hide_nameplate",
-        "args": []
+        "func_name": "nameplate",
+        "args": [
+            "Davonte",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
     },
     {
         "func_name": "text",
         "args": [
-            "Uh, mission accomplished I guess?"
+            "Uh, mission accomplished, I guess?"
         ]
     }
 ]

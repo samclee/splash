@@ -38,6 +38,19 @@
         ]
     },
     {
+        "func_name": "myshow",
+        "args": [
+            "Davonte_smile",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
         "func_name": "nameplate",
         "args": [
             "Davonte",
@@ -57,9 +70,9 @@
         ]
     },
     {
-        "func_name": "nameplate",
+        "func_name": "myshow",
         "args": [
-            "Davonte",
+            "Davonte_flirty",
             "left"
         ]
     },
@@ -67,31 +80,6 @@
         "func_name": "active",
         "args": [
             "left"
-        ]
-    },
-    {
-        "func_name": "text",
-        "args": [
-            " (...You know, he's going to look real damn good with some paint all over his shirt.)"
-        ]
-    },
-    {
-        "func_name": "nameplate",
-        "args": [
-            "Davonte",
-            "left"
-        ]
-    },
-    {
-        "func_name": "active",
-        "args": [
-            "left"
-        ]
-    },
-    {
-        "func_name": "text",
-        "args": [
-            "(Wait, get your head in the game.)"
         ]
     },
     {
@@ -110,7 +98,71 @@
     {
         "func_name": "text",
         "args": [
-            "(Right now I should be focusing on...)"
+            "(He's going to look amazing with some paint all over his shirt.)"
+        ]
+    },
+    {
+        "func_name": "myshow",
+        "args": [
+            "Davonte_surprised",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Davonte",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "(...Wait, get your head in the game.)"
+        ]
+    },
+    {
+        "func_name": "myshow",
+        "args": [
+            "Davonte_neutral",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Davonte",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "(Right now, I should be focusing on...)"
         ]
     },
     {
@@ -205,7 +257,20 @@
     {
         "func_name": "text",
         "args": [
-            "(...that doesn't sound right.)"
+            "(...That doesn't sound right.)"
+        ]
+    },
+    {
+        "func_name": "myshow",
+        "args": [
+            "Davonte_neutral",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
         ]
     },
     {
@@ -307,6 +372,25 @@
         ]
     },
     {
+        "func_name": "nameplate",
+        "args": [
+            "Davonte",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "(Get it? Points? I'll see myself out.)"
+        ]
+    },
+    {
         "func_name": "bump",
         "args": [
             "left"
@@ -376,13 +460,13 @@
     {
         "func_name": "text",
         "args": [
-            "(Next I think I should...)"
+            "(Next, I should...)"
         ]
     },
     {
         "func_name": "label",
         "args": [
-            "path2"
+            "path2z"
         ]
     },
     {
@@ -413,7 +497,7 @@
     {
         "func_name": "text",
         "args": [
-            "(..close out the game.)"
+            "(...close out the game.)"
         ]
     },
     {
@@ -436,6 +520,19 @@
         ]
     },
     {
+        "func_name": "myshow",
+        "args": [
+            "Davonte_surprised",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
         "func_name": "nameplate",
         "args": [
             "Davonte",
@@ -452,6 +549,19 @@
         "func_name": "text",
         "args": [
             "(...)"
+        ]
+    },
+    {
+        "func_name": "myshow",
+        "args": [
+            "Davonte_flirty",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
         ]
     },
     {
@@ -488,7 +598,7 @@
     {
         "func_name": "myshow",
         "args": [
-            "Davonte_flirty",
+            "Davonte_smile",
             "left"
         ]
     },
@@ -515,6 +625,19 @@
         "func_name": "text",
         "args": [
             "(...go tease Hao Yu.)"
+        ]
+    },
+    {
+        "func_name": "myshow",
+        "args": [
+            "Davonte_flirty",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
         ]
     },
     {
@@ -552,7 +675,20 @@
     {
         "func_name": "text",
         "args": [
-            "(All's fair in love and war.)"
+            "(All's fair in love and war, after all!)"
+        ]
+    },
+    {
+        "func_name": "myshow",
+        "args": [
+            "Davonte_surprised",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
         ]
     },
     {
@@ -625,6 +761,19 @@
         ]
     },
     {
+        "func_name": "myshow",
+        "args": [
+            "Davonte_smile",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
         "func_name": "nameplate",
         "args": [
             "Davonte",
@@ -640,7 +789,7 @@
     {
         "func_name": "text",
         "args": [
-            "(That should get his attention.)"
+            "(That should get his attention!)"
         ]
     },
     {
@@ -663,7 +812,7 @@
     {
         "func_name": "text",
         "args": [
-            "Hey bro, how's it going!"
+            "Hey, bro! How's it going?"
         ]
     },
     {
@@ -724,7 +873,39 @@
     {
         "func_name": "text",
         "args": [
-            "Stop talking, can't you see I'm-"
+            "Stop talking! Can't you see I'm -"
+        ]
+    },
+    {
+        "func_name": "myshow",
+        "args": [
+            "Davonte_surprised",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Davonte",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "Wait, you're going to -"
         ]
     },
     {
@@ -822,7 +1003,7 @@
     {
         "func_name": "text",
         "args": [
-            "Davonte slowly lobs a paintball at Hao Yu"
+            "Davonte slowly lobs a paintball at Hao Yu..."
         ]
     },
     {
@@ -876,6 +1057,19 @@
         ]
     },
     {
+        "func_name": "myshow",
+        "args": [
+            "Davonte_smile",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
         "func_name": "nameplate",
         "args": [
             "Davonte",
@@ -891,7 +1085,7 @@
     {
         "func_name": "text",
         "args": [
-            "(He's dodging so well, no one can even-)"
+            "(He's dodging so well that no one can even hit -)"
         ]
     },
     {
@@ -961,7 +1155,7 @@
     {
         "func_name": "text",
         "args": [
-            "This round goes to the B University!"
+            "This round goes to B University!"
         ]
     },
     {
@@ -1031,7 +1225,20 @@
     {
         "func_name": "text",
         "args": [
-            ".....huh."
+            "......Huh."
+        ]
+    },
+    {
+        "func_name": "myshow",
+        "args": [
+            "Davonte_smile",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
         ]
     },
     {
@@ -1050,7 +1257,7 @@
     {
         "func_name": "text",
         "args": [
-            "Well I didn't expect that to happen."
+            "Well, [i]that[/i] happened."
         ]
     }
 ]

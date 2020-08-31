@@ -4,36 +4,36 @@ define d "Davonte" left
 
 music title
 show d neutral
-d "(It's not that I want to let him win...)"
+d "(It's not that I [i]want[/i] to let him win...)"
+show d smile
 d "(...but things won't exactly be interesting if I just take the win here, right?)"
-d "So let's come up with a clever way to throw this round."
+d "(So, let's come up with a clever way to throw this round.)"
 d "(And that means I'll...)"
 
 options_path davonte_path4
 
 label 1a
-show d smile
 d "(...slip and fall!)"
-d "Oh no, looks like I slipped!"
+d "Oh no! I'm slipping!"
 d "Whoops!"
 bump left
 "Davonte takes an exaggerated fall!"
 jump after1
 
 label 1b
-show d smile
 d "(...miss on purpose!)"
-d "Oh no, my aim is so off!"
+d "Oh no! All of a sudden, my aim sucks!"
 d "I can't hit any of my targets!"
 bump left
 "Davonte throws the ball straight upwards!"
 jump after1
 
 label 1c
-show d smile
 d "(...dab!)"
-d "(This is what young people do right?)"
-d "(Hm I'm not too sure, but maybe Hao Yu will enjoy it?)"
+show d surprised
+d "(This is what the young people do right?)"
+d "(Hm... I'm not too sure, actually. But maybe Hao Yu will enjoy it?)"
+show d smile
 bump left
 "Davonte hesitantly dabs!"
 
@@ -41,14 +41,15 @@ bump left
 label after1
 
 show h angrypaint
-h "Stop messing around asshole!"
-h "I don't know what you're trying to do, but you better take this seriously!"
+h "Stop messing around, asshole!"
+h "I don't know what you're trying to do, but you'd better take this seriously!"
 myhide right
 show d neutral
-d "Hmmm, he saw through that."
-d "(Still though, he's not getting the hints.)"
-d "(Subtley doesn't work so well on Hao Yu.)"
-d "(Maybe I need to do something...spicier)"
+d "(Hmm. Seems like he saw right through that.)"
+d "(Still, he's not picking up my hints.)"
+show d smile
+d "(I guess subtlety doesn't work so well on Hao Yu.)"
+d "(Maybe I need to do something... [i]spicier[/i].)"
 d "(I wonder how he'd respond if I...)"
 
 label path2
@@ -58,7 +59,7 @@ label 2a
 show d flirty
 d "(...blow him a kiss.)"
 bump left
-"Davonte lightly blows Hao Yu a kiss!"
+"Davonte blows Hao Yu a light kiss!"
 jump after2
 
 label 2b
@@ -72,21 +73,22 @@ label after2
 show h surprisedpaint
 shake
 h "Stop messing around!"
-h "I'm sick of this, you're going down!"
+h "I'm sick of this! You're going down!"
 bump right
 "Hao Yu cocks his arm back and unleashes a killer throw!"
 show d smile
-d "Ooh, well that got your attention."
+d "Oh good! I'm glad that got your attention."
+myhide right
 show d neutral
-d "(Hmm, now what kind of reaction would Hao Yu enjoy the most?)"
+d "(Let's see... How would Hao Yu want me to respond?)"
 d "(Maybe I'll...)"
 
 options_path davonte_path6
 
 label 3a
-"(...dodge immediately)"
-d "(Right, if I delay moving, Hao Yu might think I'm not taking him seriously.)"
-d "Better move no-"
+"(...dodge immediately!)"
+d "(Right! If I stall, then Hao Yu might think I'm not taking him seriously.)"
+d "(So, I'll move right n -)"
 shake
 show d surprised
 "Davonte slips on a puddle and falls on his butt!"
@@ -95,10 +97,12 @@ d "Oh crap."
 jump after5
 
 label 3b
-d "(...dodge just in time)"
+d "(...dodge just in time!)"
+show d smile
 d "(Close calls add a lot of tension!)"
 d "(I'll wait until it comes a bit closer.)"
-d "(Oh dang that ball is moving faster than I expe-)"
+show d neutral
+d "(Oh dang! That ball is moving faster than I expe -)"
 
 jump after5
 
@@ -106,15 +110,15 @@ label 3c
 d "(...fake-dodge.)"
 d "(I want Hao Yu to get hyped, so I'll let him get a point.)"
 show d surprised
-d "(Oh wait, we're tied right now so I probably shou-)"
+d "(Wait, we're tied right now! I should probably -)"
 
 label after5
 shake
 show d surprisedpaint
 "SPLAT!"
 "Davonte is out!"
-"This round goes to the I University!"
+"This round goes to I University!"
 
 myhide right
 show d neutralpaint
-"Uh, mission accomplished I guess?"
+d "Uh, mission accomplished, I guess?"

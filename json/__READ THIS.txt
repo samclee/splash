@@ -24,3 +24,5 @@ shake
 
 # Step 7 you can also change the bg
 bg black
+
+# Step 8 if you make .txt file changes don't forget to hit the undrstudy file

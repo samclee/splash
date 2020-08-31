@@ -3,7 +3,6 @@ define d "Davonte" left
 
 # Story 1 | Pre-Round 3
 # Use both Hao Yu and Davonte's paint art here.
-# Still need to fix: italics. Check character movement if possible.
 
 music dialog
 show d smilepaint
@@ -59,12 +58,12 @@ h "I want to beat your ass at paint dodgeball, not let you hand me the win!"
 d "I hear you loud and clear."
 
 show d smilepaint
-d "I'll put in 110% next round, just for you."
+d "I'll put in 110 percent next round, just for you."
 
 h "Oh, get over yourself!"
 
 show h smilepaint
-h "I'm going to demolish you."
+h "I'm going to [i]demolish[/i] you."
 
 show d flirtypaint
 d "Sounds good to me."
@@ -83,12 +82,11 @@ show h surprisedblushpaint
 h "Jeez, I don't get you."
 
 show h neutralpaint
-h "Well, whatever. Don't hold back this time, or I'll get really pissed off."
+h "Well, whatever. Don't hold back this time, or I'll get [i]really[/i] pissed off."
 
 show d smilepaint
 d "Are you trying to tell me that you're not pissed off right now?"
 
 show h angryblushpaint
 h "Oh, shut up!"
-
-# Hao Yu should hide/skulk off the screen here.
+myhide right

@@ -1,20 +1,20 @@
-define h "Hao Yu" right
+﻿define h "Hao Yu" right
 define d "Davonte" left
 
 # Story 1 | Pre-Round 2
 # Use Hao Yu's paint art here.
-# Still need to fix: italics. Any way to move characters across the screen?
 
 music dialog
 show d smile
 d "(Ha! I can't believe I beat Hao Yu this easily.)"
 
+show d neutral
 d "(But, to be honest, that kind of battle didn't hit me with the usual excitement.)"
 
+show d smile
 d "(He's gonna need a push in the right direction.)"
 
 show h neutralpaint
-# Davonte movement here if we can do that.
 show d flirty
 d "Thanks for handing me the win, bud."
 
@@ -26,7 +26,7 @@ d "Oh, so you're saying that I'm the better player. Got it."
 
 h "Hell no. You distracted me!"
 
-h "I would've destroyed you if I just focused on the game instead of -"
+h "I would've [i]destroyed[/i] you if I just focused on the game instead of -"
 
 show h surprisedpaint
 h "..."
@@ -47,10 +47,10 @@ h "..."
 show h angrypaint
 h "And quit calling me “little fish.” That's not what the characters of my name mean."
 
-show h neutralpaint
+show d neutral
 d "Of course I know that. No one in their right mind would name themselves “good fish.”"
 
-show h smilepaint
+show d smile
 d "Plus, I'm the one who picked out the right characters for you."
 
 h "That's true, but also: fuck you."
@@ -74,7 +74,11 @@ h "I'm taking the next round. Just you watch."
 
 show d smile
 d "Whatever you say, pal."
+myhide left
 
-# Indicate movement here if possible by hiding Hao Yu and shifting Davonte over or something. Otherwise, add in a line that says, h "Hey! Don't just walk away from me!" and then hide Hao Yu.
+show h angrypaint
+h "Hey! Don't just walk away from me!"
+myhide right
 
+show d smile
 d "(Hopefully, that lit a fire under Hao Yu.)"
