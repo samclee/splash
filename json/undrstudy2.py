@@ -102,6 +102,7 @@ def transform(fname):
           func_line = to_line(cmd_name, raw_line_ary[1:])
           to_json += func_line
       except:
+        print(fname)
 
 
   json_str = json.dumps(to_json, indent=4)

@@ -1,5 +1,9 @@
 [
     {
+        "func_name": "\ufeff",
+        "args": []
+    },
+    {
         "func_name": "music",
         "args": [
             "dialog"
