@@ -22,8 +22,8 @@ config/icon="res://icon.png"
 [autoload]
 
 dlm="*res://globals/dlm.gd"
-Aum="*res://globals/aum/aum.tscn"
-Sfm="*res://globals/sfm/sfm.tscn"
+sfm="*res://globals/sfm/sfm.tscn"
+aum="*res://globals/aum/aum.tscn"
 
 [display]
 

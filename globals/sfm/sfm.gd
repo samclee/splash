@@ -13,6 +13,7 @@ func load_sfx():
 		var file_name = dir.get_next()
 
 		while file_name != "":
+			file_name = file_name.replace('.import', '') # <--- remove the .import
 			if file_name.ends_with("wav"):
 				var new_player = AudioStreamPlayer.new()
 				add_child(new_player)

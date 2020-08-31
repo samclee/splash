@@ -11,7 +11,7 @@ func _ready():
 func _input(event):
 	if event.is_action_pressed("primary") and can_skip:
 		$overlay.fade_to_next_scene("res://states/state_title/state_title.tscn")
-		Aum.fade_out_song()
+		aum.fade_out_song()
 
 func _process(delta):
 	if move_credits:

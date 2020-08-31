@@ -15,6 +15,7 @@ func load_music():
 		var file_name = dir.get_next()
 
 		while file_name != "":
+			file_name = file_name.replace('.import', '') # <--- remove the .import
 			if file_name.ends_with("ogg"):
 				songs[file_name.left(file_name.length() - 4)] = load(prefix + file_name)
 			file_name = dir.get_next()

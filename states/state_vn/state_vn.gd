@@ -31,7 +31,7 @@ func proceed():
 		var target_label = $options.get_selected_label()
 		$options.deactivate()
 		jump(target_label)
-	Sfm.play_sfx("text_beep")
+	sfm.play_sfx("text_beep")
 	load_chunk()
 
 # dialog utility funcs
@@ -40,7 +40,8 @@ func load_chunk():
 	# cycle thru all cmds before a text cmd
 	while cur_ind < conv.size() and conv[cur_ind].func_name != "text":
 		var line = conv[cur_ind]
-		callv(line.func_name, line.args)
+		if has_method(line.func_name):
+			callv(line.func_name, line.args)
 		cur_ind += 1
 
 	if cur_ind == conv.size():
@@ -125,7 +126,7 @@ func hide_nameplate():
 	
 # background
 func bg(bg_name):
-	$bgLayer/bg.texture = load("res://vn_bgs/" + bg_name + ".jpg")
+	$bgLayer/bg.texture = ResourceLoader.load("res://vn_bgs/" + bg_name + ".jpg")
 
 # dialog box
 func slide_dialog_down():
@@ -139,10 +140,10 @@ func shake():
 	$Camera2D.shake()
 	
 func music(song_name):
-	Aum.play_song(song_name)
+	aum.play_song(song_name)
 	
 func sfx(sfx_name):
-	Sfm.play_sfx(sfx_name)
+	sfm.play_sfx(sfx_name)
 	
 # flow control
 func jump(label_name):
@@ -165,7 +166,7 @@ func ending(num):
 	dlm.save(int(num))
 	
 func musicstop():
-	Aum.stop()
+	aum.stream_paused = true
 	
 func musicplay():
-	Aum.play()
+	aum.stream_paused = false

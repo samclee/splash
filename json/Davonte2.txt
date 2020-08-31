@@ -46,7 +46,7 @@ show d smile
 d "(Nice! I'm getting into the groove now.)"
 d "(Next, I should...)"
 
-label path2z
+label path2
 options_path davonte_path2
 
 label 2a

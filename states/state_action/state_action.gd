@@ -7,13 +7,13 @@ func proceed():
 	if $paths_collection.active:
 		var target_tag = $paths_collection.get_selected_tag()
 		if target_tag:
-			Sfm.play_sfx("selection")
+			sfm.play_sfx("selection")
 			$paths_collection.deactivate()
 			slide_dialog_up()
 			jump(target_tag)
 			load_chunk()
 	else:
-		Sfm.play_sfx("text_beep")
+		sfm.play_sfx("text_beep")
 		load_chunk()
 
 # cmds

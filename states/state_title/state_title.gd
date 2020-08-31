@@ -8,7 +8,7 @@ export(String, FILE, "*.tscn") var story_two_scene
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	Aum.play_song("title")
+	aum.play_song("title")
 	update_unlocks()
 	set_active_button(0)
 	
@@ -33,7 +33,7 @@ func _input(event):
 
 # interaction
 func set_active_button(ind):
-	Sfm.play_sfx("text_beep")
+	sfm.play_sfx("text_beep")
 	$davonte_bio_card.hide()
 	$hao_yu_bio.hide()
 	$red_bg.hide()
@@ -59,12 +59,12 @@ func set_active_button(ind):
 # menu functions
 func start_story_one():
 	$overlay.fade_to_next_scene(story_one_scene)
-	Aum.fade_out_song()
+	aum.fade_out_song()
 	
 func start_story_two():
 	if story2unlocked:
 		$overlay.fade_to_next_scene(story_two_scene)
-		Aum.fade_out_song()
+		aum.fade_out_song()
 	
 func delete_save_data():
 	dlm.delete_save()
