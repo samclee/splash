@@ -1,0 +1,169 @@
+define h "Hao Yu" left
+define d "Davonte" right
+
+# Start story here.
+# Story 1 (Hao Yu) | Epilogue - Lose
+
+show h angrypaint
+h "(Damn it! How could I lose?)"
+
+h "I guess that’s it, huh?"
+
+show d surprised
+d "You’re not going to get mad that you lost?"
+
+h "Hell no. Why would I do that?"
+
+h "You won fair and square."
+
+h "Do what you wish."
+
+d "Then listen closely."
+
+h "Okay, okay. You don’t have to tell me twice."
+
+d "I’m in love with you."
+
+d "To clarify, I’ve been in love with you… for years now."
+
+h "What."
+
+d "Seriously. Ever since we were kids, I’ve always admired you."
+
+d "You were so cool and strong, and you never —"
+
+h "Hold up. This is me you’re talking about, right?"
+
+h "Because it legit sounds like you’re talking about someone else."
+
+d "I need you to take me seriously."
+
+d "This isn’t a joke, Hao Yu."
+
+h "Finally!"
+
+h "God, do you know how long I’ve been waiting for you to say my name?"
+
+d "Huh?"
+
+h "You haven’t said my name all day, asshole."
+
+h "You kept going on about “buddy” and “friend” and “pal” like we’re just two dudes in a hot tub sitting six feet apart from each other."
+
+h "If you’re in love with me, then you’d better say my damn name, idiot."
+
+d "Me? I’m the idiot?"
+
+d "You haven’t said my name the entire day either!"
+
+h "Oh, you noticed? Good. Then we’re even, Davonte!"
+
+d "No, we’re not! I’ve been trying to flirt with you all day, and you’ve done nothing but reject my advances."
+
+d "Are my words not fleeting enough for you?"
+
+h "Fleeting — what the hell are you talking about?"
+
+d "You know, like… hakanai? Fleeting?"
+
+h "What?"
+
+h "(Man, Davonte likes such obscure anime. I don’t get it.)"
+
+h "Jeez, dude, you just ruined the mood."
+
+d "Well, excuse me, Hao Yu. I’m not the person who gets all tsundere when a guy compliments me."
+
+h "Hey! I am always a tsundere, thank you very much."
+
+h "Don’t flatter yourself. It’s not like I only act this way around you."
+
+d "Uh-huh."
+
+d "I’d believe that if you weren’t confessing your undying love to me right now."
+
+h "Oh, you are unbelievable!"
+h "I can’t believe I fell in love with an idiot like you!"
+
+h "I’m going home."
+
+d "Wait, wait. What did you just say?"
+
+h "I’m going home?"
+
+d "No, before that."
+
+h "You’re unbelievable."
+
+d "In between those two sentences."
+
+h "..."
+h "I can’t believe I fell in love with an idiot like you? (small text)"
+
+d "Yeah, that one!"
+
+d "I think I know what my little request is going to be."
+
+h "Oh, damn it."
+
+d "Tell me you’re in love with me."
+
+h "What?"
+
+d "I mean, unless it’s not true, of course."
+
+h "Grr..."
+
+h "Davonte, I’m in love with you."
+
+d "Wow. I never thought I’d hear you say that."
+
+d "Say it again."
+
+h "I’m in love with you."
+
+d "One more time."
+
+h "Seriously?"
+
+d "One more time!"
+
+h "Ugh. Fine."
+
+h "I’m in love with you."
+
+d "Okay, now —"
+
+h "If you make me say it again, I’m punching you."
+
+d "Okay, okay. I hear you loud and clear."
+
+d "This weekend, I want you to take me out on a date. Okay? Plan it from start to finish."
+
+d "I want to be wowed by you, little fish."
+
+h "Quit calling me that."
+
+d "Oh, and I get to call you little fish until our date is over."
+
+h "Fine. Anything else?"
+
+d "A kiss would be nice."
+
+h "Hell no."
+
+d "Aww. You were listening to my requests so well up until now."
+
+h "..."
+
+h "You’re supposed to save the kiss for after the date."
+
+h "So, just wait till then, okay?"
+
+d "Really?"
+
+h "Really."
+
+d "Okay. I’ll hold you to it, rival."
+
+h "I wouldn’t want it any other way."

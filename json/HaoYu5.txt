@@ -1,0 +1,52 @@
+define h "Hao Yu" left
+define d "Davonte" right
+
+# Start story here.
+# Story 1 (Hao Yu) | Pre-round 3
+
+show h angryblushpaint
+h "(Damn him and his face and his eyes and just...)"
+
+h "(Damn it.)"
+
+d "So, little fish?"
+
+d "What do you think of my performance in that round?"
+
+h "Holy — I just — fuck you, cheater!"
+
+d "Uh, what? I wanted to impress —"
+
+d "Wait, how am I a cheater? You’re the one who threw that round."
+
+h "I’m going to make you eat my dust, rival. Why would I throw it?"
+
+d "So we could get to a climactic final round, obviously."
+
+d "You’ve always been a sucker for that kind of corny stuff."
+
+h "Stop talking like you know me, idiot."
+
+h "...It’s weird."
+
+d "But I do know you."
+
+d "We’ve know each other for years."
+
+d "I know your strengths and weaknesses better than you do."
+
+h "That’s not true. You don’t know me at all."
+
+d "Come on. Do you really think we’re rivals? You don’t understand our relationship at all."
+
+d "We’re not rivals. Not even close."
+
+d "Honestly, it’s funny that you think we’re equals."
+
+d "You’re —"
+
+h "Oh, I hear you loud and clear, asshole."
+
+h "I’m going to demolish you."
+
+d "...?"
