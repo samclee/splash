@@ -1,40 +1,14 @@
 [
     {
-        "func_name": "myshow",
+        "func_name": "music",
         "args": [
-            "Hao Yu_neutralpaint",
-            "left"
-        ]
-    },
-    {
-        "func_name": "active",
-        "args": [
-            "left"
-        ]
-    },
-    {
-        "func_name": "nameplate",
-        "args": [
-            "Hao Yu",
-            "left"
-        ]
-    },
-    {
-        "func_name": "active",
-        "args": [
-            "left"
-        ]
-    },
-    {
-        "func_name": "text",
-        "args": [
-            "(This is it, Hao Yu. This last battle decides the match!)"
+            "title"
         ]
     },
     {
         "func_name": "myshow",
         "args": [
-            "Hao Yu_angrypaint",
+            "Hao Yu_neutral",
             "left"
         ]
     },
@@ -60,32 +34,13 @@
     {
         "func_name": "text",
         "args": [
-            "(And there's no way in hell I'm losing this one!)"
-        ]
-    },
-    {
-        "func_name": "nameplate",
-        "args": [
-            "Hao Yu",
-            "left"
-        ]
-    },
-    {
-        "func_name": "active",
-        "args": [
-            "left"
-        ]
-    },
-    {
-        "func_name": "text",
-        "args": [
-            "(I'll make that dumbass eat his words!)"
+            "(Get it together, Hao Yu. Let's destroy him!)"
         ]
     },
     {
         "func_name": "myshow",
         "args": [
-            "Hao Yu_surprisedpaint",
+            "Hao Yu_angry",
             "left"
         ]
     },
@@ -111,13 +66,33 @@
     {
         "func_name": "text",
         "args": [
-            "(But... Davonte looks like he's having a lot of fun.)"
+            "(There's no way I'm losing to that damn idiot!)"
+        ]
+    },
+    {
+        "func_name": "bump",
+        "args": [
+            "left"
+        ]
+    },
+    {
+        "func_name": "shake",
+        "args": []
+    },
+    {
+        "func_name": "hide_nameplate",
+        "args": []
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "Hao Yu bobs and weaves through incoming projectiles!"
         ]
     },
     {
         "func_name": "myshow",
         "args": [
-            "Hao Yu_smilepaint",
+            "Hao Yu_neutral",
             "left"
         ]
     },
@@ -143,13 +118,36 @@
     {
         "func_name": "text",
         "args": [
-            "(Maybe I should have some fun, too...)"
+            "(Nice! This is going smoothly.)"
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Hao Yu",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+<<<<<<< HEAD
+            "(Next, I'll -)"
+=======
+            "(Next I'll -)"
+>>>>>>> 7adce8ed2c9032044b9291f6136a126ca5fda8b1
         ]
     },
     {
         "func_name": "myshow",
         "args": [
-            "Hao Yu_angrypaint",
+            "Hao Yu_surprised",
             "left"
         ]
     },
@@ -175,13 +173,17 @@
     {
         "func_name": "text",
         "args": [
-            "(No! I have to win this. I can't lose to Davonte of all people!)"
+<<<<<<< HEAD
+            "(Wait, is Davonte trying to pull some dumbassery?)"
+=======
+            "(Wait, is Davonte trying to pull some dumbassery?"
+>>>>>>> 7adce8ed2c9032044b9291f6136a126ca5fda8b1
         ]
     },
     {
         "func_name": "myshow",
         "args": [
-            "Hao Yu_surprisedpaint",
+            "Hao Yu_angry",
             "left"
         ]
     },
@@ -207,13 +209,32 @@
     {
         "func_name": "text",
         "args": [
-            "(...Right?)"
+            "Stop messing around, asshole!"
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Hao Yu",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "I don't know what you're trying to do, but you'd better take this seriously!"
         ]
     },
     {
         "func_name": "myshow",
         "args": [
-            "Hao Yu_neutralpaint",
+            "Hao Yu_surprised",
             "left"
         ]
     },
@@ -239,19 +260,136 @@
     {
         "func_name": "text",
         "args": [
-            "(I should...)"
+<<<<<<< HEAD
+            "(Hang on. Is he...)"
+=======
+            "(Is he...)"
+>>>>>>> 7adce8ed2c9032044b9291f6136a126ca5fda8b1
+        ]
+    },
+    {
+        "func_name": "myshow",
+        "args": [
+            "Hao Yu_angry",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
+        "func_name": "shake",
+        "args": []
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Hao Yu",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+<<<<<<< HEAD
+            "(...flirt-fighting with me?)"
+=======
+            "(...fake-flirting with me?)"
+>>>>>>> 7adce8ed2c9032044b9291f6136a126ca5fda8b1
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Hao Yu",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "Stop messing around!"
+        ]
+    },
+    {
+<<<<<<< HEAD
+=======
+        "func_name": "nameplate",
+        "args": [
+            "Hao Yu",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "I'm sick of this! You're going down."
+        ]
+    },
+    {
+>>>>>>> 7adce8ed2c9032044b9291f6136a126ca5fda8b1
+        "func_name": "myshow",
+        "args": [
+            "Hao Yu_neutral",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Hao Yu",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "(I'll go with a...)"
         ]
     },
     {
         "func_name": "options_path",
         "args": [
-            "haoyu_path5"
+            "haoyu_path2"
         ]
     },
     {
         "func_name": "label",
         "args": [
-            "5a"
+            "2a"
         ]
     },
     {
@@ -270,20 +408,11 @@
     {
         "func_name": "text",
         "args": [
-            "(...battle Davonte with all my strength!)"
-        ]
-    },
-    {
-        "func_name": "myshow",
-        "args": [
-            "Hao Yu_angrypaint",
-            "left"
-        ]
-    },
-    {
-        "func_name": "active",
-        "args": [
-            "left"
+<<<<<<< HEAD
+            "(...fake-out!)"
+=======
+            "...fake-out!"
+>>>>>>> 7adce8ed2c9032044b9291f6136a126ca5fda8b1
         ]
     },
     {
@@ -302,7 +431,11 @@
     {
         "func_name": "text",
         "args": [
-            "(I'm not wasting this opportunity to go all-out with him!)"
+<<<<<<< HEAD
+            "(I'll show him he's not the only one who can pull off some shenanigans!)"
+=======
+            "(I'll show him he's not the only one who can pull off some shenanigans)"
+>>>>>>> 7adce8ed2c9032044b9291f6136a126ca5fda8b1
         ]
     },
     {
@@ -321,301 +454,363 @@
     {
         "func_name": "text",
         "args": [
-            "(I want to prove to him just how much I've grown.)"
+            "(First, I'll pretend to aim left...)"
         ]
     },
     {
-        "func_name": "nameplate",
-        "args": [
-            "Hao Yu",
-            "left"
-        ]
-    },
-    {
-        "func_name": "active",
-        "args": [
-            "left"
-        ]
-    },
-    {
-        "func_name": "text",
-        "args": [
-            "You'd better not hold back, idiot!"
-        ]
-    },
-    {
-        "func_name": "myshow",
-        "args": [
-            "Davonte_smilepaint",
-            "right"
-        ]
-    },
-    {
-        "func_name": "active",
-        "args": [
-            "right"
-        ]
-    },
-    {
-        "func_name": "nameplate",
-        "args": [
-            "Davonte",
-            "right"
-        ]
-    },
-    {
-        "func_name": "active",
-        "args": [
-            "right"
-        ]
-    },
-    {
-        "func_name": "text",
-        "args": [
-            "Right back at you, pal."
-        ]
-    },
-    {
-        "func_name": "nameplate",
-        "args": [
-            "Davonte",
-            "right"
-        ]
-    },
-    {
-        "func_name": "active",
-        "args": [
-            "right"
-        ]
-    },
-    {
-        "func_name": "text",
-        "args": [
-            "I won't forgive you if you go easy on me!"
-        ]
-    },
-    {
-        "func_name": "nameplate",
-        "args": [
-            "Hao Yu",
-            "left"
-        ]
-    },
-    {
-        "func_name": "active",
-        "args": [
-            "left"
-        ]
-    },
-    {
-        "func_name": "text",
-        "args": [
-            "Hey! That's my line!"
-        ]
-    },
-    {
-        "func_name": "myshow",
-        "args": [
-            "Davonte_flirtypaint",
-            "right"
-        ]
-    },
-    {
-        "func_name": "active",
-        "args": [
-            "right"
-        ]
-    },
-    {
-        "func_name": "nameplate",
-        "args": [
-            "Davonte",
-            "right"
-        ]
-    },
-    {
-        "func_name": "active",
-        "args": [
-            "right"
-        ]
-    },
-    {
-        "func_name": "text",
-        "args": [
-            "Don't worry. You're not the only one who's learned a thing or two over the years!"
-        ]
-    },
-    {
-        "func_name": "myshow",
-        "args": [
-            "Hao Yu_surprisedpaint",
-            "left"
-        ]
-    },
-    {
-        "func_name": "active",
-        "args": [
-            "left"
-        ]
-    },
-    {
-        "func_name": "nameplate",
-        "args": [
-            "Hao Yu",
-            "left"
-        ]
-    },
-    {
-        "func_name": "active",
-        "args": [
-            "left"
-        ]
-    },
-    {
-        "func_name": "text",
-        "args": [
-            "What are you, a shounen hero?"
-        ]
-    },
-    {
-        "func_name": "myshow",
-        "args": [
-            "Davonte_smilepaint",
-            "right"
-        ]
-    },
-    {
-        "func_name": "active",
-        "args": [
-            "right"
-        ]
-    },
-    {
-        "func_name": "nameplate",
-        "args": [
-            "Davonte",
-            "right"
-        ]
-    },
-    {
-        "func_name": "active",
-        "args": [
-            "right"
-        ]
-    },
-    {
-        "func_name": "text",
-        "args": [
-            "Speak for yourself, tsundere! Show me what you can do!"
-        ]
-    },
-    {
-        "func_name": "myshow",
-        "args": [
-            "Hao Yu_smilepaint",
-            "left"
-        ]
-    },
-    {
-        "func_name": "active",
-        "args": [
-            "left"
-        ]
-    },
-    {
-        "func_name": "nameplate",
-        "args": [
-            "Hao Yu",
-            "left"
-        ]
-    },
-    {
-        "func_name": "active",
-        "args": [
-            "left"
-        ]
-    },
-    {
-        "func_name": "text",
-        "args": [
-            "(Good. He's not holding back like I thought he would.)"
-        ]
-    },
-    {
-        "func_name": "nameplate",
-        "args": [
-            "Hao Yu",
-            "left"
-        ]
-    },
-    {
-        "func_name": "active",
-        "args": [
-            "left"
-        ]
-    },
-    {
-        "func_name": "text",
-        "args": [
-            "(I'm never going to forget this day, and I'll make sure he doesn't, either!)"
-        ]
-    },
-    {
-        "func_name": "nameplate",
-        "args": [
-            "Hao Yu",
-            "left"
-        ]
-    },
-    {
-        "func_name": "active",
-        "args": [
-            "left"
-        ]
-    },
-    {
-        "func_name": "text",
-        "args": [
-            "(Okay, Hao Yu. Let's charge ahead - with no regrets!)"
-        ]
-    },
-    {
-        "func_name": "premature",
+        "func_name": "shake",
         "args": []
+    },
+    {
+        "func_name": "bump",
+        "args": [
+            "left"
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Hao Yu",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "(...and then pivot and throw right!)"
+        ]
+    },
+    {
+        "func_name": "myshow",
+        "args": [
+            "Hao Yu_smile",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Hao Yu",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "(Ha! It worked!)"
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Hao Yu",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "(That dumbass just slipped and fell!)"
+        ]
+    },
+    {
+        "func_name": "myshow",
+        "args": [
+            "Davonte_surprised",
+            "right"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "right"
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Davonte",
+            "right"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "right"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "Oh [i]crap[/i]."
+        ]
+    },
+    {
+        "func_name": "jump",
+        "args": [
+            "after2"
+        ]
     },
     {
         "func_name": "label",
         "args": [
-            "5b"
+            "2b"
         ]
     },
     {
-        "func_name": "alt",
+        "func_name": "nameplate",
+        "args": [
+            "Hao Yu",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "(...slow ball!)"
+        ]
+    },
+    {
+        "func_name": "myshow",
+        "args": [
+            "Hao Yu_smile",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Hao Yu",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+<<<<<<< HEAD
+            "(I'll show him he's not the only one who can pull off some shenanigans!)"
+=======
+            "(I'll show him he's not the only one who can pull off some shenanigans)"
+>>>>>>> 7adce8ed2c9032044b9291f6136a126ca5fda8b1
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Hao Yu",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "([i]I[/i] know that [i]he[/i] knows that my throws are awesome...)"
+        ]
+    },
+    {
+        "func_name": "bump",
+        "args": [
+            "left"
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Hao Yu",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "(...so [i]this[/i] should trip him up!)"
+<<<<<<< HEAD
+        ]
+    },
+    {
+        "func_name": "myshow",
+        "args": [
+            "Hao Yu_surprised",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+=======
+>>>>>>> 7adce8ed2c9032044b9291f6136a126ca5fda8b1
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Hao Yu",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "(Huh. He's not even trying to move.)"
+        ]
+    },
+    {
+        "func_name": "myshow",
+        "args": [
+            "Hao Yu_angry",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Hao Yu",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "(Is he gonna...?)"
+        ]
+    },
+    {
+        "func_name": "jump",
+        "args": [
+            "after2"
+        ]
+    },
+    {
+        "func_name": "label",
+        "args": [
+            "2c"
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Hao Yu",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "(...fast ball!)"
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Hao Yu",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "(Even if he tries to dodge...)"
+        ]
+    },
+    {
+        "func_name": "shake",
         "args": []
     },
     {
-        "func_name": "nameplate",
+        "func_name": "bump",
         "args": [
-            "Hao Yu",
-            "left"
-        ]
-    },
-    {
-        "func_name": "active",
-        "args": [
-            "left"
-        ]
-    },
-    {
-        "func_name": "text",
-        "args": [
-            "(...hold back and have fun!)"
+            "right"
         ]
     },
     {
         "func_name": "myshow",
         "args": [
-            "Hao Yu_surprisedpaint",
+            "Hao Yu_smile",
             "left"
         ]
     },
@@ -623,31 +818,12 @@
         "func_name": "active",
         "args": [
             "left"
-        ]
-    },
-    {
-        "func_name": "nameplate",
-        "args": [
-            "Hao Yu",
-            "left"
-        ]
-    },
-    {
-        "func_name": "active",
-        "args": [
-            "left"
-        ]
-    },
-    {
-        "func_name": "text",
-        "args": [
-            "(How did I miss this? Davonte looks like he's having the time of his life.)"
         ]
     },
     {
         "func_name": "myshow",
         "args": [
-            "Hao Yu_smilepaint",
+            "Hao Yu_smile",
             "left"
         ]
     },
@@ -673,13 +849,78 @@
     {
         "func_name": "text",
         "args": [
-            "(I won't let our precious time together go to waste.)"
+<<<<<<< HEAD
+            "(...there's no escape from my lightning throw!)"
+=======
+            "(...there's no escape from my lightning throws!)"
+>>>>>>> 7adce8ed2c9032044b9291f6136a126ca5fda8b1
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Hao Yu",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "(He looks like he's deciding which way to dodge.)"
         ]
     },
     {
         "func_name": "myshow",
         "args": [
-            "Davonte_smilepaint",
+            "Hao Yu_flirty",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Hao Yu",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "(Well, don't think for too long...)"
+        ]
+    },
+    {
+        "func_name": "label",
+        "args": [
+            "after2"
+        ]
+    },
+    {
+        "func_name": "shake",
+        "args": []
+    },
+    {
+        "func_name": "myshow",
+        "args": [
+            "Davonte_surprisedpaint",
             "right"
         ]
     },
@@ -687,6 +928,26 @@
         "func_name": "active",
         "args": [
             "right"
+        ]
+    },
+    {
+        "func_name": "hide_nameplate",
+        "args": []
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "SPLAT!"
+        ]
+    },
+    {
+        "func_name": "hide_nameplate",
+        "args": []
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "Davonte is out!"
         ]
     },
     {
@@ -705,13 +966,23 @@
     {
         "func_name": "text",
         "args": [
-            "Don't tell me you're having second thoughts, buddy!"
+            "Huh."
+        ]
+    },
+    {
+        "func_name": "hide_nameplate",
+        "args": []
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "This round goes to I University!"
         ]
     },
     {
         "func_name": "myshow",
         "args": [
-            "Hao Yu_angryblushpaint",
+            "Hao Yu_smile",
             "left"
         ]
     },
@@ -737,7 +1008,8 @@
     {
         "func_name": "text",
         "args": [
-            "Of course not! Focus on yourself, idiot!"
+            "Hell yeah! Eat my dust, dumbass!"
+<<<<<<< HEAD
         ]
     },
     {
@@ -756,83 +1028,21 @@
     {
         "func_name": "text",
         "args": [
-            "Speak for yourself! You look like you're about to trip."
+            "..."
+        ]
+    },
+    {
+        "func_name": "myhide",
+        "args": [
+            "right"
+=======
+>>>>>>> 7adce8ed2c9032044b9291f6136a126ca5fda8b1
         ]
     },
     {
         "func_name": "myshow",
         "args": [
-            "Davonte_flirtyblushpaint",
-            "right"
-        ]
-    },
-    {
-        "func_name": "active",
-        "args": [
-            "right"
-        ]
-    },
-    {
-        "func_name": "nameplate",
-        "args": [
-            "Davonte",
-            "right"
-        ]
-    },
-    {
-        "func_name": "active",
-        "args": [
-            "right"
-        ]
-    },
-    {
-        "func_name": "text",
-        "args": [
-            "Are you finally realizing that you're madly in love with me?"
-        ]
-    },
-    {
-        "func_name": "nameplate",
-        "args": [
-            "Hao Yu",
-            "left"
-        ]
-    },
-    {
-        "func_name": "active",
-        "args": [
-            "left"
-        ]
-    },
-    {
-        "func_name": "text",
-        "args": [
-            "Oh, shut up, dumbass! [i]You're[/i] the one in love with you!"
-        ]
-    },
-    {
-        "func_name": "nameplate",
-        "args": [
-            "Davonte",
-            "right"
-        ]
-    },
-    {
-        "func_name": "active",
-        "args": [
-            "right"
-        ]
-    },
-    {
-        "func_name": "text",
-        "args": [
-            "That, too, is fleeting."
-        ]
-    },
-    {
-        "func_name": "myshow",
-        "args": [
-            "Hao Yu_angrypaint",
+            "Hao Yu_neutral",
             "left"
         ]
     },
@@ -858,77 +1068,7 @@
     {
         "func_name": "text",
         "args": [
-            "Stop acting like you're an anime prince already!"
-        ]
-    },
-    {
-        "func_name": "myshow",
-        "args": [
-            "Hao Yu_smilepaint",
-            "left"
-        ]
-    },
-    {
-        "func_name": "active",
-        "args": [
-            "left"
-        ]
-    },
-    {
-        "func_name": "nameplate",
-        "args": [
-            "Hao Yu",
-            "left"
-        ]
-    },
-    {
-        "func_name": "active",
-        "args": [
-            "left"
-        ]
-    },
-    {
-        "func_name": "text",
-        "args": [
-            "(It feels like a weight has lifted off my shoulders.)"
-        ]
-    },
-    {
-        "func_name": "nameplate",
-        "args": [
-            "Hao Yu",
-            "left"
-        ]
-    },
-    {
-        "func_name": "active",
-        "args": [
-            "left"
-        ]
-    },
-    {
-        "func_name": "text",
-        "args": [
-            "(I don't care if I win or lose anymore - spending time with Davonte comes first.)"
-        ]
-    },
-    {
-        "func_name": "nameplate",
-        "args": [
-            "Hao Yu",
-            "left"
-        ]
-    },
-    {
-        "func_name": "active",
-        "args": [
-            "left"
-        ]
-    },
-    {
-        "func_name": "text",
-        "args": [
-            "(So, let's make the most of it!)"
+            "Uh, wait..."
         ]
     }
 ]
