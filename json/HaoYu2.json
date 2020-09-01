@@ -757,7 +757,7 @@
     {
         "func_name": "bump",
         "args": [
-            "right"
+            "left"
         ]
     },
     {
