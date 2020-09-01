@@ -5,7 +5,7 @@
 
 [sub_resource type="Curve2D" id=1]
 _data = {
-"points": PoolVector2Array( 0, 0, 0, 0, 17, 167, 0, 0, 0, 0, 347, 361, 0, 0, 0, 0, 19, 158 )
+"points": PoolVector2Array( 0, 0, 0, 0, 153, 106, 0, 0, 0, 0, 239, 393, 0, 0, 0, 0, 161, 99 )
 }
 
 [node name="davonte_path8" instance=ExtResource( 1 )]
@@ -13,12 +13,12 @@ position = Vector2( 1, 0 )
 spd = 0.013
 
 [node name="path_option" parent="options" index="0" instance=ExtResource( 2 )]
-position = Vector2( 18, 167 )
+position = Vector2( 162, 105 )
 text = "Tease Hao Yu and take the win!"
 tag = "8a"
 
 [node name="path_option2" parent="options" index="1" instance=ExtResource( 2 )]
-position = Vector2( 349, 356 )
+position = Vector2( 241, 388 )
 text = "Battle Hao Yu head-on!"
 tag = "8b"
 

@@ -76,7 +76,6 @@ def transform(fname):
           symbol = raw_line_ary[1]
           name = clean_str(raw_line_ary[2])
           side = raw_line_ary[3]
-          print(name)
           char_map[symbol] = {"name": name, "side": side}
         # character dialog
         elif cmd_name in char_map:
@@ -105,7 +104,7 @@ def transform(fname):
           func_line = to_line(cmd_name, raw_line_ary[1:])
           to_json += func_line
       except:
-        print(fname)
+        print(raw_line)
 
 
   json_str = json.dumps(to_json, indent=4)

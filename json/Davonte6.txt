@@ -27,8 +27,10 @@ d "(I hope Hao Yu's having fun, too.)"
 d "(I should...)"
 
 # choices track here
+options_path davonte_path8
 
 # label jump here for "Win" section
+label 8a
 d "(...tease Hao Yu and take the win!)"
 
 show d flirtypaint
@@ -65,10 +67,13 @@ show d smilepaint
 d "(No matter what happens in the future, I'll always have these memories to look back on.)"
 
 d "(I'll cherish my time with this idiot forever.)"
+premature
 
 # fade to credits effect - jump to epilogue win (davonte7)
 
 # label jump here for "Lose" section
+label 8b
+alt
 d "(...battle Hao Yu head-on!)"
 
 d "(Even if I might lose, I want to take him head-on!)"

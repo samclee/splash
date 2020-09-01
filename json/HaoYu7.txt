@@ -3,6 +3,7 @@ define d "Davonte" right
 
 # Story 2 (Hao Yu) | Epilogue - Win
 
+ending 3
 show h smilepaint
 h "(Finally... It's over.)"
 

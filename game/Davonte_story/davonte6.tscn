@@ -4,9 +4,10 @@
 [ext_resource path="res://paths/davonte_path8.tscn" type="PackedScene" id=2]
 
 [node name="state_action" instance=ExtResource( 1 )]
-conv_path = "res://json/placeholder.json"
+conv_path = "res://json/Davonte6.json"
 next_scn_path = "res://game/Davonte_story/davonte7.tscn"
 alt_next_scn_path = "res://game/Davonte_story/davonte8.tscn"
+last_scene = true
 
 [node name="davonte_path8" parent="paths_collection/paths" index="0" instance=ExtResource( 2 )]
 

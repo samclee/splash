@@ -18,7 +18,6 @@ font_data = ExtResource( 8 )
 [node name="state_title" type="Node2D"]
 script = ExtResource( 1 )
 story_one_scene = "res://game/Davonte_story/davonte1.tscn"
-story_two_scene = null
 
 [node name="red_bg" type="Sprite" parent="."]
 position = Vector2( 500, 300 )
