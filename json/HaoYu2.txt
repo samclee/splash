@@ -14,29 +14,28 @@ shake
 "Hao Yu bobs and weaves through incoming projectiles!"
 show h neutral
 h "(Nice! This is going smoothly.)"
-h "(Next I'll -)"
+h "(Next, I'll -)"
 
 show h surprised
-h "(Wait, is Davonte trying to pull some dumbassery?"
+h "(Wait, is Davonte trying to pull some dumbassery?)"
 
 show h angry
 h "Stop messing around, asshole!"
 h "I don't know what you're trying to do, but you'd better take this seriously!"
 show h surprised
-h "(Is he...)"
+h "(Hang on. Is he...)"
 show h angry
 shake
-h "(...fake-flirting with me?)"
+h "(...flirt-fighting with me?)"
 h "Stop messing around!"
-h "I'm sick of this! You're going down."
 show h neutral
 h "(I'll go with a...)"
 
 options_path haoyu_path2
 
 label 2a
-h "...fake-out!"
-h "(I'll show him he's not the only one who can pull off some shenanigans)"
+h "(...fake-out!)"
+h "(I'll show him he's not the only one who can pull off some shenanigans!)"
 h "(First, I'll pretend to aim left...)"
 shake
 bump left
@@ -51,10 +50,11 @@ jump after2
 label 2b
 h "(...slow ball!)"
 show h smile
-h "(I'll show him he's not the only one who can pull off some shenanigans)"
+h "(I'll show him he's not the only one who can pull off some shenanigans!)"
 h "([i]I[/i] know that [i]he[/i] knows that my throws are awesome...)"
 bump left
 h "(...so [i]this[/i] should trip him up!)"
+show h surprised
 h "(Huh. He's not even trying to move.)"
 show h angry
 h "(Is he gonna...?)"
@@ -64,21 +64,23 @@ label 2c
 h "(...fast ball!)"
 h "(Even if he tries to dodge...)"
 shake
-bump right
+bump left
 show h smile
-h "(...there's no escape from my lightning throws!)"
+h "(...there's no escape from my lightning throw!)"
 h "(He looks like he's deciding which way to dodge.)"
 show h flirty
 h "(Well, don't think for too long...)"
-
 
 label after2
 shake
 show d surprisedpaint
 "SPLAT!"
 "Davonte is out!"
-"This round goes to the I University!"
+d "Huh."
+"This round goes to I University!"
 show h smile
 h "Hell yeah! Eat my dust, dumbass!"
+d "..."
+myhide right
 show h neutral
 h "Uh, wait..."

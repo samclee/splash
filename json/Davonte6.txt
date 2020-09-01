@@ -12,12 +12,12 @@ show d surprisedpaint
 d "(Sure, I'm worse at paint dodgeball, but I might be able to take him down in an honest fight!)"
 
 show d smilepaint
-d "(Might being the key word.)"
+d "([i]Might[/i] being the key word.)"
 
 d "(Although... I'm pretty sure I'll have a guaranteed win to catch him off-guard by teasing him.)"
 
 show d flirtypaint
-d "(And it'll be more fun!)"
+d "(And I'll have a hell of a time doing it!)"
 
 d "(To be honest, I've been having a lot of fun.)"
 

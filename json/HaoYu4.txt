@@ -1,91 +1,92 @@
-
 define h "Hao Yu" left
 define d "Davonte" right
 
+# Story 2 (Hao Yu) | Action Phase 2
+
 music title
 show h neutral
-h "(If that guy thinks he can slack off while facing ME, he'd got another thing coming.)"
+h "(If that guy thinks he can slack off while facing [i]me[/i], he's got another thing coming.)"
 show h angry
-h "(He better bring it, or I'm ending the while game this round.)"
-h "(If he keeps goofing off he isn't even worth my attention.)"
+h "(He better bring his A-game, or I'm ending the whole game this round.)"
 h "(...)"
+show h surprised
 h "(What the hell is that dumbass doing?)"
-h "(Ugh, does he honestly think I'm going to look.)"
+h "(Ugh, does he [i]honestly[/i] think I'm going to look at his stupid shenanigans?)"
 
 label path1
 options_path haoyu_path3
-
-label 3a
-h "..."
-h ".........."
-h "................"
-show h angry
-h "Urghhhhhhh..."
-jump path1
-
+@ -26,13 +28,14 @@ jump path1
 label 3b
 h "..."
 show h angry
-h "(Fuck it,  FINE.)"
+h "(Fuck it. Fine!)"
 show d smilepaint
 bump right
-"Davonte catches Hao Yu's eyes!"
+"Davonte catches Hao Yu's gaze!"
 show h surprised
-h "(Oh fuck, he's about to throw.)"
-h "(I know for a fact his aim is hella precise.)"
+h "(Oh, fuck me. He's about to throw.)"
+show h angry
+h "(I know for a fact his aim is hella precise. That dumbass can be good when he wants to be.)"
 h "(I'll have to...)"
 
 options_path haoyu_path4
-
-label 4a
+@ -41,51 +44,58 @@ label 4a
 h "(...wait and see.)"
 h "(I have to know what he's gonna do before I try anything.)"
 h "(Acting too early is too risky.)"
+show h neutral
 h "(I'll just bide my time and...)"
 h "(...)"
 show h angry
 h "(He's not doing anything.)"
-h "(Well this was a waste of-)"
+h "(Well, this was a waste of -)"
 
 jump after2
 
 label 4b
-h "(...dodge immediately.)"
-h "(Davonte's throws are wicked fast, I have to pick a direction and go for it.)"
+h "(...dodge immediately!)"
+h "(Davonte's throws are wicked fast! I have to pick a direction and go for it.)"
 show h surprised
 h "(I'll dive to the right!)"
 shake
-"Hao Yu makes an amazing jumping dive!"
+"Hao Yu gracefully dives to the right!"
 h "(...)"
 show h neutral
 h "(What the hell.)"
-h "(He's just standing there waving.)"
+h "(He's just standing there, waving.)"
 show d smilepaint
-d "Hey bro, how's it going!"
+d "Hey, bro! How's it going?"
 show h angry
-h "What do you want?!"
-h "Stop talking, can't you see I'm-"
+h "What do you want?"
+h "Stop talking! Can't you see that I'm -"
 jump after2
 
 label 4c
-h "(...throw immediately.)"
-h "(No fear, let's fucking DO THIS!)"
-h "(There's no way I'll miss, I'll laser-focus all of my attention on getting him out!)"
+h "(...throw immediately!)"
+show h angry
+h "(I don't afraid of anything! Let's fucking [i]do[/i] this!)"
+h "(There's no way I'll miss!)"
+show h smile
+h "(I'm laser-focused on getting him out!)"
 show h surprised
-h "(Wait wasn't he holding a paintball a minute ago?)"
-h "(I could've sworn he wa-)"
+h "(Wait, wasn't he holding a paintball a minute ago?)"
+h "(I could've sworn he -)"
 
 label after2
 show h surprisedpaint
 shake
 "THWACK!"
 show d surprisedpaint
+d "..."
 show h surprisedpaint
+h "..."
 hide_nameplate
 "Hao Yu is out!"
-"This round goes to the B University!"
+"This round goes to B University!"
 show h angrypaint
 h "Grrrrrrrr."
+show d smilepaint
+d "Heh."
 myhide right
-h "(ARGH WHY DID I LET MY GUARD DOWN.)"
-h "(This fucking blows, why did I get distracted so easily?!)"
+h "(ARGH! Why the hell did I let my guard down?)"
+h "(This fucking blows. How'd I get distracted so easily?)"
