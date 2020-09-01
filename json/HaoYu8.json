@@ -736,7 +736,26 @@
     {
         "func_name": "text",
         "args": [
-            "You kept going on about \u201cbuddy\u201d and \u201cfriend\u201d and \u201cpal\u201d like we're just two dudes in a hot tub sitting six feet apart from each other."
+            "You kept going on about \u201cbuddy\u201d and \u201cfriend\u201d and \u201cpal\u201d..."
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Hao Yu",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "...like we're just two dudes in a hot tub sitting six feet apart from each other."
         ]
     },
     {
@@ -992,7 +1011,7 @@
     {
         "func_name": "text",
         "args": [
-            "You know, like\u2026 [i]hakanai[/i]? Fleeting?"
+            "You know, like... [i]hakanai[/i]? Fleeting?"
         ]
     },
     {
@@ -1513,7 +1532,7 @@
     {
         "func_name": "text",
         "args": [
-            "[fade start=12]I can't believe I fell in love with an idiot like you?[/fade]"
+            "I can't believe I fell in love with an idiot like you?"
         ]
     },
     {

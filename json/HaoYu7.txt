@@ -113,7 +113,7 @@ h "Yeah. Yeah! You know what? You're right!"
 show d surprisedpaint
 d "Oh? Jeez, what lit a fire under you?"
 
-h "Well, I just… I might… There's a possibility that I feel..."
+h "Well, I just... I might... There's a possibility that I feel..."
 
 show h smileblushpaint
 h "...something. For you."

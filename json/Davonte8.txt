@@ -59,7 +59,7 @@ d "I played arcade fighters because you wanted to get better at them."
 h "And I did! I always kick your ass with Zero May Cry."
 
 show d smilepaint
-d "We ran a marathon in L.A. because you felt like challenging yourself.'
+d "We ran a marathon in L.A. because you felt like challenging yourself."
 
 h "And I did! Who crossed the finish line first? This guy."
 

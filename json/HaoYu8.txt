@@ -73,7 +73,8 @@ d "Huh?"
 h "You haven't said my name [i]all day[/i], asshole."
 
 show h neutralblushpaint
-h "You kept going on about “buddy” and “friend” and “pal” like we're just two dudes in a hot tub sitting six feet apart from each other."
+h "You kept going on about “buddy” and “friend” and “pal”..."
+h "...like we're just two dudes in a hot tub sitting six feet apart from each other."
 
 show h angryblushpaint
 h "If you're in love with me, then you'd better say my damn name, [i]idiot[/i]."
@@ -97,7 +98,7 @@ show h surprisedpaint
 h "Fleeting — what the hell are you talking about?"
 
 show d flirtyblushpaint
-d "You know, like… [i]hakanai[/i]? Fleeting?"
+d "You know, like... [i]hakanai[/i]? Fleeting?"
 
 h "What?"
 
@@ -148,7 +149,7 @@ show h angrypaint
 h "..."
 
 show h angryblushpaint
-h "[fade start=12]I can't believe I fell in love with an idiot like you?[/fade]"
+h "I can't believe I fell in love with an idiot like you?"
 
 show d smilepaint
 d "Yeah, that one!"
