@@ -137,11 +137,7 @@
     {
         "func_name": "text",
         "args": [
-<<<<<<< HEAD
             "(Next, I'll -)"
-=======
-            "(Next I'll -)"
->>>>>>> 7adce8ed2c9032044b9291f6136a126ca5fda8b1
         ]
     },
     {
@@ -173,11 +169,7 @@
     {
         "func_name": "text",
         "args": [
-<<<<<<< HEAD
             "(Wait, is Davonte trying to pull some dumbassery?)"
-=======
-            "(Wait, is Davonte trying to pull some dumbassery?"
->>>>>>> 7adce8ed2c9032044b9291f6136a126ca5fda8b1
         ]
     },
     {
@@ -260,11 +252,7 @@
     {
         "func_name": "text",
         "args": [
-<<<<<<< HEAD
             "(Hang on. Is he...)"
-=======
-            "(Is he...)"
->>>>>>> 7adce8ed2c9032044b9291f6136a126ca5fda8b1
         ]
     },
     {
@@ -300,11 +288,7 @@
     {
         "func_name": "text",
         "args": [
-<<<<<<< HEAD
             "(...flirt-fighting with me?)"
-=======
-            "(...fake-flirting with me?)"
->>>>>>> 7adce8ed2c9032044b9291f6136a126ca5fda8b1
         ]
     },
     {
@@ -327,28 +311,6 @@
         ]
     },
     {
-<<<<<<< HEAD
-=======
-        "func_name": "nameplate",
-        "args": [
-            "Hao Yu",
-            "left"
-        ]
-    },
-    {
-        "func_name": "active",
-        "args": [
-            "left"
-        ]
-    },
-    {
-        "func_name": "text",
-        "args": [
-            "I'm sick of this! You're going down."
-        ]
-    },
-    {
->>>>>>> 7adce8ed2c9032044b9291f6136a126ca5fda8b1
         "func_name": "myshow",
         "args": [
             "Hao Yu_neutral",
@@ -408,11 +370,7 @@
     {
         "func_name": "text",
         "args": [
-<<<<<<< HEAD
             "(...fake-out!)"
-=======
-            "...fake-out!"
->>>>>>> 7adce8ed2c9032044b9291f6136a126ca5fda8b1
         ]
     },
     {
@@ -431,11 +389,7 @@
     {
         "func_name": "text",
         "args": [
-<<<<<<< HEAD
             "(I'll show him he's not the only one who can pull off some shenanigans!)"
-=======
-            "(I'll show him he's not the only one who can pull off some shenanigans)"
->>>>>>> 7adce8ed2c9032044b9291f6136a126ca5fda8b1
         ]
     },
     {
@@ -629,11 +583,7 @@
     {
         "func_name": "text",
         "args": [
-<<<<<<< HEAD
             "(I'll show him he's not the only one who can pull off some shenanigans!)"
-=======
-            "(I'll show him he's not the only one who can pull off some shenanigans)"
->>>>>>> 7adce8ed2c9032044b9291f6136a126ca5fda8b1
         ]
     },
     {
@@ -678,7 +628,6 @@
         "func_name": "text",
         "args": [
             "(...so [i]this[/i] should trip him up!)"
-<<<<<<< HEAD
         ]
     },
     {
@@ -692,8 +641,6 @@
         "func_name": "active",
         "args": [
             "left"
-=======
->>>>>>> 7adce8ed2c9032044b9291f6136a126ca5fda8b1
         ]
     },
     {
@@ -804,19 +751,6 @@
     {
         "func_name": "bump",
         "args": [
-            "right"
-        ]
-    },
-    {
-        "func_name": "myshow",
-        "args": [
-            "Hao Yu_smile",
-            "left"
-        ]
-    },
-    {
-        "func_name": "active",
-        "args": [
             "left"
         ]
     },
@@ -849,11 +783,7 @@
     {
         "func_name": "text",
         "args": [
-<<<<<<< HEAD
             "(...there's no escape from my lightning throw!)"
-=======
-            "(...there's no escape from my lightning throws!)"
->>>>>>> 7adce8ed2c9032044b9291f6136a126ca5fda8b1
         ]
     },
     {
@@ -1009,7 +939,6 @@
         "func_name": "text",
         "args": [
             "Hell yeah! Eat my dust, dumbass!"
-<<<<<<< HEAD
         ]
     },
     {
@@ -1035,8 +964,6 @@
         "func_name": "myhide",
         "args": [
             "right"
-=======
->>>>>>> 7adce8ed2c9032044b9291f6136a126ca5fda8b1
         ]
     },
     {
