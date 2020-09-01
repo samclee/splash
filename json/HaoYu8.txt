@@ -4,6 +4,7 @@ define d "Davonte" right
 # Story 2 (Hao Yu) | Epilogue - Lose
 
 ending 2
+music dialog
 show h angrypaint
 h "(Damn it! How could I lose?)"
 

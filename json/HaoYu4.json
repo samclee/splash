@@ -152,12 +152,33 @@
         ]
     },
     {
-        "func_name": " ",
+        "func_name": "label",
         "args": [
-            "-26,13",
-            "+28,14",
-            "  ",
-            "jump",
+            "3a"
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Hao Yu",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "..."
+        ]
+    },
+    {
+        "func_name": "jump",
+        "args": [
             "path1"
         ]
     },
@@ -337,12 +358,8 @@
         ]
     },
     {
-        "func_name": " ",
+        "func_name": "label",
         "args": [
-            "-41,51",
-            "+44,58",
-            "  ",
-            "label",
             "4a"
         ]
     },

@@ -6,6 +6,12 @@
         ]
     },
     {
+        "func_name": "music",
+        "args": [
+            "dialog"
+        ]
+    },
+    {
         "func_name": "myshow",
         "args": [
             "Hao Yu_angrypaint",

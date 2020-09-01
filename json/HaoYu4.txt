@@ -15,7 +15,11 @@ h "(Ugh, does he [i]honestly[/i] think I'm going to look at his stupid shenaniga
 
 label path1
 options_path haoyu_path3
-@ -26,13 +28,14 @@ jump path1
+
+label 3a
+h "..."
+jump path1
+
 label 3b
 h "..."
 show h angry
@@ -30,7 +34,7 @@ h "(I know for a fact his aim is hella precise. That dumbass can be good when he
 h "(I'll have to...)"
 
 options_path haoyu_path4
-@ -41,51 +44,58 @@ label 4a
+label 4a
 h "(...wait and see.)"
 h "(I have to know what he's gonna do before I try anything.)"
 h "(Acting too early is too risky.)"
