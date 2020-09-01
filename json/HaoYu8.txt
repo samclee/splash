@@ -4,7 +4,6 @@ define d "Davonte" right
 # Story 2 (Hao Yu) | Epilogue - Lose
 
 ending 2
-music dialog
 show h angrypaint
 h "(Damn it! How could I lose?)"
 
@@ -123,6 +122,7 @@ d "I'd believe that if you weren't confessing your undying love to me right now.
 
 h "Oh, you are [i]unbelievable[/i]!"
 
+music success
 show h angryblushpaint
 h "I can't believe I fell in love with an idiot like you!"
 

@@ -6,12 +6,6 @@
         ]
     },
     {
-        "func_name": "music",
-        "args": [
-            "dialog"
-        ]
-    },
-    {
         "func_name": "myshow",
         "args": [
             "Hao Yu_angrypaint",
@@ -1248,6 +1242,12 @@
         "func_name": "text",
         "args": [
             "Oh, you are [i]unbelievable[/i]!"
+        ]
+    },
+    {
+        "func_name": "music",
+        "args": [
+            "success"
         ]
     },
     {

@@ -5,7 +5,6 @@ define d "Davonte" left
 # Use both Hao Yu and Davonte's paint art here.
 
 ending 1
-music dialog
 show d neutralpaint
 d "(There. I win.)"
 

@@ -19,12 +19,6 @@
         ]
     },
     {
-        "func_name": "music",
-        "args": [
-            "dialog"
-        ]
-    },
-    {
         "func_name": "nameplate",
         "args": [
             "Davonte",
