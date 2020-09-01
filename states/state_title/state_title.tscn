@@ -1,4 +1,4 @@
-[gd_scene load_steps=10 format=2]
+[gd_scene load_steps=11 format=2]
 
 [ext_resource path="res://states/state_title/state_title.gd" type="Script" id=1]
 [ext_resource path="res://states/state_title/menu_button/menu_button.tscn" type="PackedScene" id=2]
@@ -8,6 +8,7 @@
 [ext_resource path="res://vn_bgs/Red_Background_03.jpg" type="Texture" id=6]
 [ext_resource path="res://vn_bgs/Blue_Background_03.jpg" type="Texture" id=7]
 [ext_resource path="res://assets/fonts/luximr.ttf" type="DynamicFontData" id=8]
+[ext_resource path="res://assets/ui/splash logo.png" type="Texture" id=9]
 
 [sub_resource type="DynamicFont" id=1]
 size = 32
@@ -79,8 +80,6 @@ position = Vector2( 734.665, 83.792 )
 [node name="Sprite" parent="davonte_bio_card" index="0"]
 position = Vector2( 736, 304 )
 
-[node name="overlay" parent="." instance=ExtResource( 3 )]
-
 [node name="Davonte_endings" type="Label" parent="."]
 margin_left = 408.0
 margin_top = 512.0
@@ -102,6 +101,13 @@ text = "X/4 Endings Unlocked"
 __meta__ = {
 "_edit_use_anchors_": false
 }
+
+[node name="splash logo" type="Sprite" parent="."]
+position = Vector2( 200, 152 )
+scale = Vector2( 0.27, 0.27 )
+texture = ExtResource( 9 )
+
+[node name="overlay" parent="." instance=ExtResource( 3 )]
 
 [editable path="options/start_story1"]
 
