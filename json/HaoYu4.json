@@ -34,7 +34,7 @@
     {
         "func_name": "text",
         "args": [
-            "(If that guy thinks he can slack off while facing [i]me[/i], he's got another thing coming.)"
+            "(If that guy thinks he can slack off while facing ME, he'd got another thing coming.)"
         ]
     },
     {
@@ -66,7 +66,26 @@
     {
         "func_name": "text",
         "args": [
-            "(He better bring his A-game, or I'm ending the whole game this round.)"
+            "(He better bring it, or I'm ending the while game this round.)"
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Hao Yu",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "(If he keeps goofing off he isn't even worth my attention.)"
         ]
     },
     {
@@ -86,19 +105,6 @@
         "func_name": "text",
         "args": [
             "(...)"
-        ]
-    },
-    {
-        "func_name": "myshow",
-        "args": [
-            "Hao Yu_surprised",
-            "left"
-        ]
-    },
-    {
-        "func_name": "active",
-        "args": [
-            "left"
         ]
     },
     {
@@ -136,7 +142,7 @@
     {
         "func_name": "text",
         "args": [
-            "(Ugh, does he [i]honestly[/i] think I'm going to look at his stupid shenanigans?)"
+            "(Ugh, does he honestly think I'm going to look.)"
         ]
     },
     {
@@ -306,7 +312,7 @@
     {
         "func_name": "text",
         "args": [
-            "(Fuck it. Fine!)"
+            "(Fuck it,  FINE.)"
         ]
     },
     {
@@ -335,7 +341,7 @@
     {
         "func_name": "text",
         "args": [
-            "Davonte catches Hao Yu's gaze!"
+            "Davonte catches Hao Yu's eyes!"
         ]
     },
     {
@@ -367,20 +373,7 @@
     {
         "func_name": "text",
         "args": [
-            "(Oh, fuck me. He's about to throw.)"
-        ]
-    },
-    {
-        "func_name": "myshow",
-        "args": [
-            "Hao Yu_angry",
-            "left"
-        ]
-    },
-    {
-        "func_name": "active",
-        "args": [
-            "left"
+            "(Oh fuck, he's about to throw.)"
         ]
     },
     {
@@ -399,7 +392,7 @@
     {
         "func_name": "text",
         "args": [
-            "(I know for a fact his aim is hella precise. That dumbass can be good when he wants to be.)"
+            "(I know for a fact his aim is hella precise.)"
         ]
     },
     {
@@ -491,19 +484,6 @@
         ]
     },
     {
-        "func_name": "myshow",
-        "args": [
-            "Hao Yu_neutral",
-            "left"
-        ]
-    },
-    {
-        "func_name": "active",
-        "args": [
-            "left"
-        ]
-    },
-    {
         "func_name": "nameplate",
         "args": [
             "Hao Yu",
@@ -589,7 +569,7 @@
     {
         "func_name": "text",
         "args": [
-            "(Well, this was a waste of -)"
+            "(Well this was a waste of-)"
         ]
     },
     {
@@ -620,7 +600,7 @@
     {
         "func_name": "text",
         "args": [
-            "(...dodge immediately!)"
+            "(...dodge immediately.)"
         ]
     },
     {
@@ -639,7 +619,7 @@
     {
         "func_name": "text",
         "args": [
-            "(Davonte's throws are wicked fast! I have to pick a direction and go for it.)"
+            "(Davonte's throws are wicked fast, I have to pick a direction and go for it.)"
         ]
     },
     {
@@ -685,7 +665,7 @@
     {
         "func_name": "text",
         "args": [
-            "Hao Yu gracefully dives to the right!"
+            "Hao Yu makes an amazing jumping dive!"
         ]
     },
     {
@@ -755,7 +735,7 @@
     {
         "func_name": "text",
         "args": [
-            "(He's just standing there, waving.)"
+            "(He's just standing there waving.)"
         ]
     },
     {
@@ -787,7 +767,7 @@
     {
         "func_name": "text",
         "args": [
-            "Hey, bro! How's it going?"
+            "Hey bro, how's it going!"
         ]
     },
     {
@@ -819,7 +799,7 @@
     {
         "func_name": "text",
         "args": [
-            "What do you want?"
+            "What do you want?!"
         ]
     },
     {
@@ -838,7 +818,7 @@
     {
         "func_name": "text",
         "args": [
-            "Stop talking! Can't you see that I'm -"
+            "Stop talking, can't you see I'm-"
         ]
     },
     {
@@ -869,20 +849,7 @@
     {
         "func_name": "text",
         "args": [
-            "(...throw immediately!)"
-        ]
-    },
-    {
-        "func_name": "myshow",
-        "args": [
-            "Hao Yu_angry",
-            "left"
-        ]
-    },
-    {
-        "func_name": "active",
-        "args": [
-            "left"
+            "(...throw immediately.)"
         ]
     },
     {
@@ -901,7 +868,7 @@
     {
         "func_name": "text",
         "args": [
-            "(I don't afraid of anything! Let's fucking [i]do[/i] this!"
+            "(No fear, let's fucking DO THIS!)"
         ]
     },
     {
@@ -920,39 +887,7 @@
     {
         "func_name": "text",
         "args": [
-            "(There's no way I'll miss!)"
-        ]
-    },
-    {
-        "func_name": "myshow",
-        "args": [
-            "Hao Yu_smile",
-            "left"
-        ]
-    },
-    {
-        "func_name": "active",
-        "args": [
-            "left"
-        ]
-    },
-    {
-        "func_name": "nameplate",
-        "args": [
-            "Hao Yu",
-            "left"
-        ]
-    },
-    {
-        "func_name": "active",
-        "args": [
-            "left"
-        ]
-    },
-    {
-        "func_name": "text",
-        "args": [
-            "(I'm laser-focused on getting him out!)"
+            "(There's no way I'll miss, I'll laser-focus all of my attention on getting him out!)"
         ]
     },
     {
@@ -984,7 +919,7 @@
     {
         "func_name": "text",
         "args": [
-            "(Wai,t wasn't he holding a paintball a minute ago?)"
+            "(Wait wasn't he holding a paintball a minute ago?)"
         ]
     },
     {
@@ -1003,7 +938,7 @@
     {
         "func_name": "text",
         "args": [
-            "(I could've sworn he -)"
+            "(I could've sworn he wa-)"
         ]
     },
     {
@@ -1053,25 +988,6 @@
         ]
     },
     {
-        "func_name": "nameplate",
-        "args": [
-            "Davonte",
-            "right"
-        ]
-    },
-    {
-        "func_name": "active",
-        "args": [
-            "right"
-        ]
-    },
-    {
-        "func_name": "text",
-        "args": [
-            "..."
-        ]
-    },
-    {
         "func_name": "myshow",
         "args": [
             "Hao Yu_surprisedpaint",
@@ -1082,25 +998,6 @@
         "func_name": "active",
         "args": [
             "left"
-        ]
-    },
-    {
-        "func_name": "nameplate",
-        "args": [
-            "Hao Yu",
-            "left"
-        ]
-    },
-    {
-        "func_name": "active",
-        "args": [
-            "left"
-        ]
-    },
-    {
-        "func_name": "text",
-        "args": [
-            "..."
         ]
     },
     {
@@ -1160,25 +1057,6 @@
         ]
     },
     {
-        "func_name": "nameplate",
-        "args": [
-            "Davonte",
-            "right"
-        ]
-    },
-    {
-        "func_name": "active",
-        "args": [
-            "right"
-        ]
-    },
-    {
-        "func_name": "text",
-        "args": [
-            "Huh."
-        ]
-    },
-    {
         "func_name": "myhide",
         "args": [
             "right"
@@ -1200,7 +1078,7 @@
     {
         "func_name": "text",
         "args": [
-            "(ARGH! Why the hell did I let my guard down?)"
+            "(ARGH WHY DID I LET MY GUARD DOWN.)"
         ]
     },
     {
@@ -1219,7 +1097,7 @@
     {
         "func_name": "text",
         "args": [
-            "(This fucking blows. How'd I get distracted so easily?)"
+            "(This fucking blows, why did I get distracted so easily?!)"
         ]
     }
 ]
