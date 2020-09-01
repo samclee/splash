@@ -4,6 +4,8 @@ define d "Davonte" left
 # Story 1 | Epilogue - Lose
 
 show d surprisedpaint
+ending 0
+music dialog
 d "(Huh. Didn't think I'd actually lose to him... especially because I was actually [i]trying[/i].)"
 
 show h neutralpaint

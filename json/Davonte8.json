@@ -13,6 +13,18 @@
         ]
     },
     {
+        "func_name": "ending",
+        "args": [
+            "0"
+        ]
+    },
+    {
+        "func_name": "music",
+        "args": [
+            "dialog"
+        ]
+    },
+    {
         "func_name": "nameplate",
         "args": [
             "Davonte",
