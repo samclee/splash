@@ -1,5 +1,0 @@
-define h "Hao Yu" right
-define d "Davonte" left
-
-# Story 1 | Epilogue - Lose
-# Use both Hao Yu and Davonte's paint art here.
