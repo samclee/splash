@@ -590,10 +590,6 @@
         ]
     },
     {
-        "func_name": "alt",
-        "args": []
-    },
-    {
         "func_name": "nameplate",
         "args": [
             "Hao Yu",
@@ -611,6 +607,10 @@
         "args": [
             "(...hold back and have fun!)"
         ]
+    },
+    {
+        "func_name": "alt",
+        "args": []
     },
     {
         "func_name": "myshow",
