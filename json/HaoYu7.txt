@@ -1,8 +1,7 @@
 define h "Hao Yu" left
 define d "Davonte" right
 
-# Start story here.
-# Story 1 (Hao Yu) | Epilogue - Win
+# Story 2 (Hao Yu) | Epilogue - Win
 
 show h smilepaint
 h "(Finally... It's over.)"

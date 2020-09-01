@@ -1,8 +1,7 @@
 define h "Hao Yu" left
 define d "Davonte" right
 
-# Start story here.
-# Story 1 (Hao Yu) | Epilogue - Lose
+# Story 2 (Hao Yu) | Epilogue - Lose
 
 show h angrypaint
 h "(Damn it! How could I lose?)"

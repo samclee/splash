@@ -1,8 +1,7 @@
 define h "Hao Yu" left
 define d "Davonte" right
 
-# Start story here.
-# Story 1 (Hao Yu) | Pre-round 2
+# Story 2 (Hao Yu) | Pre-round 2
 
 music dialog
 show h surprised

@@ -1,11 +1,103 @@
-
 define h "Hao Yu" right
 define d "Davonte" left
 
+# Story 1 | Action Phase 3
+# Use both Hao Yu and Davonte's paint art here.
+
 music title
-show d neutral
-d "(Okay. It's time for me to win this.)"
+show d angrypaint
+d "(Okay, this is it - this next battle decides the game!)"
+
+show d surprisedpaint
+d "(Sure, I'm worse at paint dodgeball, but I might be able to take him down in an honest fight!)"
+
+show d smilepaint
+d "(Might being the key word.)"
+
+d "(Although... I'm pretty sure I'll have a guaranteed win to catch him off-guard by teasing him.)"
+
+show d flirtypaint
+d "(And it'll be more fun!)"
+
 d "(To be honest, I've been having a lot of fun.)"
-show d smile
+
+show d smilepaint
 d "(I hope Hao Yu's having fun, too.)"
- 
+
+d "(I should...)"
+
+# choices track here
+
+# label jump here for "Win" section
+d "(...tease Hao Yu and take the win!)"
+
+show d flirtypaint
+d "(I know that Hao Yu's better than me, but that's assuming I play fair.)"
+
+d "(Let's mess with him a little - and ensure my victory!)"
+
+show h surprisedpaint
+h "What are you lookin’ at me so intensely for?"
+
+show d smilepaint
+d "You know what I just realized?"
+
+show d flirtypaint
+d "You have a pretty nice face."
+
+show h surprisedblushpaint
+h "What? [i]Pretty[/i] nice? The hell are you talking about?"
+
+show h angryblushpaint
+h "I look in-fucking-credible, asshole!"
+
+d "Yeah? I guess you're right."
+
+show h smileblushpaint
+h "Yeah, you [i]know[/i] I'm right."
+
+show d smileblushpaint
+d "And I think you'd look even better with some paint on your face!"
+
+h "Hey! You're playing dirty!"
+
+show d smilepaint
+d "(No matter what happens in the future, I'll always have these memories to look back on.)"
+
+d "(I'll cherish my time with this idiot forever.)"
+
+# fade to credits effect - jump to epilogue win (davonte7)
+
+# label jump here for "Lose" section
+d "(...battle Hao Yu head-on!)"
+
+d "(Even if I might lose, I want to take him head-on!)"
+
+show d neutralpaint
+d "(I won't hold back anymore. I want Hao Yu to know we're on the same level.)"
+
+d "Come at me, bro!"
+
+show h surprisedpaint
+h "What? You really think you're gonna beat me like that?"
+
+show h angrypaint
+h "Don't forget who you're going up against!"
+
+h "I'm the best paint dodgeball player in the country - hell, in the entire [i]world[/i]!"
+
+show d smilepaint
+d "I know that. But that won't stop me from giving it my all!"
+
+show h smilepaint
+h "Ha! You really are a dumbass."
+
+d "Right back at you, buddy!"
+
+d "Don't underestimate me!"
+
+d "(This the way Hao Yu would want our last year to end.)"
+
+d "(Without holding back - and without any regrets!)"
+
+# can you put in the same "fade to credits" effect here? but just jump to epilogue lose (davonte8)?

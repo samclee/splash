@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=2]
+[gd_scene load_steps=10 format=2]
 
 [ext_resource path="res://states/state_title/state_title.gd" type="Script" id=1]
 [ext_resource path="res://states/state_title/menu_button/menu_button.tscn" type="PackedScene" id=2]
@@ -8,7 +8,6 @@
 [ext_resource path="res://vn_bgs/Red_Background_03.jpg" type="Texture" id=6]
 [ext_resource path="res://vn_bgs/Blue_Background_03.jpg" type="Texture" id=7]
 [ext_resource path="res://assets/fonts/luximr.ttf" type="DynamicFontData" id=8]
-[ext_resource path="res://assets/ui/splash logo.png" type="Texture" id=9]
 
 [sub_resource type="DynamicFont" id=1]
 size = 32
@@ -19,7 +18,7 @@ font_data = ExtResource( 8 )
 [node name="state_title" type="Node2D"]
 script = ExtResource( 1 )
 story_one_scene = "res://game/Davonte_story/davonte1.tscn"
-story_two_scene = "res://game/HaoYu_story/haoyu1.tscn"
+story_two_scene = null
 
 [node name="red_bg" type="Sprite" parent="."]
 position = Vector2( 500, 300 )
@@ -103,11 +102,6 @@ text = "X/4 Endings Unlocked"
 __meta__ = {
 "_edit_use_anchors_": false
 }
-
-[node name="splash logo" type="Sprite" parent="."]
-position = Vector2( 208, 144 )
-scale = Vector2( 0.25, 0.25 )
-texture = ExtResource( 9 )
 
 [editable path="options/start_story1"]
 

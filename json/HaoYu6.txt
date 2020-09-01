@@ -1,0 +1,101 @@
+define h "Hao Yu" left
+define d "Davonte" right
+
+# Story 2 (Hao Yu) | Action Phase 3
+
+show h neutralpaint
+h "(This is it, Hao Yu. This last battle decides the match!)"
+
+show h angrypaint
+h "(And there's no way in hell I'm losing this one!)"
+
+h "(I'll make that dumbass eat his words!)"
+
+show h surprisedpaint
+h "(But... Davonte looks like he's having a lot of fun.)"
+
+show h smilepaint
+h "(Maybe I should have some fun, too...)"
+
+show h angrypaint
+h "(No! I have to win this. I can't lose to Davonte of all people!)"
+
+show h surprisedpaint
+h "(...Right?)"
+
+show h neutralpaint
+h "(I should...)"
+
+# choice tracks here
+
+# label jump here for "Win" section
+
+h "(...battle Davonte with all my strength!)"
+
+show h angrypaint
+h "(I'm not wasting this opportunity to go all-out with him!)"
+
+h "(I want to prove to him just how much I've grown.)"
+
+h "You'd better not hold back, idiot!"
+
+show d smilepaint
+d "Right back at you, pal."
+
+d "I won't forgive you if you go easy on me!"
+
+h "Hey! That's my line!"
+
+show d flirtypaint
+d "Don't worry. You're not the only one who's learned a thing or two over the years!"
+
+show h surprisedpaint
+h "What are you, a shounen hero?"
+
+show d smilepaint
+d "Speak for yourself, tsundere! Show me what you can do!"
+
+show h smilepaint
+h "(Good. He's not holding back like I thought he would.)"
+
+h "(I'm never going to forget this day, and I'll make sure he doesn't, either!)"
+
+h "(Okay, Hao Yu. Let's charge ahead - with no regrets!)"
+
+# credits fade into win epilogue
+
+# label jump here for "Lose" section
+h "(...hold back and have fun!)"
+
+show h surprisedpaint
+h "(How did I miss this? Davonte looks like he's having the time of his life.)"
+
+show h smilepaint
+h "(I won't let our precious time together go to waste.)"
+
+show d smilepaint
+d "Don't tell me you're having second thoughts, buddy!"
+
+show h angryblushpaint
+h "Of course not! Focus on yourself, idiot!"
+
+d "Speak for yourself! You look like you're about to trip."
+
+show d flirtyblushpaint
+d "Are you finally realizing that you're madly in love with me?"
+
+h "Oh, shut up, dumbass! [i]You're[/i] the one in love with you!"
+
+d "That, too, is fleeting."
+
+show h angrypaint
+h "Stop acting like you're an anime prince already!"
+
+show h smilepaint
+h "(It feels like a weight has lifted off my shoulders.)"
+
+h "(I don't care if I win or lose anymore - spending time with Davonte comes first.)"
+
+h "(So, let's make the most of it!)"
+
+# credits fade into lose epilogue
