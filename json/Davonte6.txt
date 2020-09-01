@@ -73,9 +73,9 @@ premature
 
 # label jump here for "Lose" section
 label 8b
-alt
-d "(...battle Hao Yu head-on!)"
 
+d "(...battle Hao Yu head-on!)"
+alt
 d "(Even if I might lose, I want to take him head-on!)"
 
 show d neutralpaint
