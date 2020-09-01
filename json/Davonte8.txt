@@ -3,85 +3,206 @@ define d "Davonte" left
 
 # Story 1 | Epilogue - Lose
 
-D (Huh.)
-D (Didn’t think I’d actually lose to him… especially because I was actually trying.)
-H Davonte.
-D Eh?
-D Did you just say my name?
-H What? Of course I did.
-H Why wouldn’t I?
-D You haven’t said my name all day.
-H Well, you haven’t said my name all day.
-H So… I guess we’re even. Or whatever.
-D Yeah. You’re right, Hao Yu.
-D So? Did you come over here to gloat?
-H N-no! I mean, I wanted to, but…
-H …
-H You played really well today, Davonte. I just wanted to let you know that…
-H …as your rival and all.
-D Rival, huh? You’re still sticking to that old story?
-H Story? Oh, come on. We’re obviously rivals.
-D No way, Hao Yu. We’re friends, and you know it.
-H Ha! Friends? I went to a different university just so we could face off like this, you know.
-D My point is, I’ve always wanted to follow your lead.
-D Whatever you wanted me to do, I would do it.
-D I played arcade fighters because you wanted to get better at them.
-H And I did! I always kick your ass with Zero May Cry.
-D We ran a marathon in L.A. because you felt like challenging yourself.
-H And I did! Who crossed the finish line first? This guy.
-D And you made me learn paint dodgeball because you thought it would be fun and competitive.
-H And it is! We’ve faced off in the damn finals for the past four years.
-H We wrecked the competition on our way to the top. Doesn’t that feel good?
-D Well, sure. But I think I’ve had a lot more fun doing those things with you.
-H Yeah? You think so?
-D Come on. Imagine doing any of those things without me by your side.
-H …
-H …
-H I guess you’re right. Winning without a rival would be… empty.
-D Did you just realize that now? You’ve been going on and on about me being your rival for years.
-H Oh, shut up. You know I realize things late.
-H …
-H Ah, shit.
-D What? Did you reach a sudden revelation?
-D ‘Cause I’m all ears.
-H Damn you, Thompson.
-H I know what I want you to do for me.
-D That’s a scary face you’re making.
-H Davonte. You and me. Downtown, at the arcade. Saturday.
-D Uh… okay. Are we going a few rounds?
-H Yup. Of course we are. Bring your A-game.
-D You’re awfully calm about all of this…
-H Let’s just say I’ve got a lot of shit to tell you, and I’m not the kinda guy who’s good with words.
-H I’d rather show you. Makes sense?
-D (Oh. I see what’s going on here.)
-D Not really. Mind telling me what you’re thinking?
-H Fuck, dude. I just told you that I’m not good with words.
-D Words aren’t the only way -
-H - to tell a person how you feel.
-Music
-H Why do you think I’m asking you out on a date?
-H Because I’m not good with words. You’re just gonna have to wait for my confession. Or whatever.
-D Confession, huh? What are you going to confess?
-D That you’re secretly a cat?
-H What? No.
-D Then… maybe you’ll confess that you’re in love with me?
-H …
-H I told you to wait for it, Davonte. God, you’re stupid.
-H And you think I’m the stupid one.
-H You just ruined my whole surprise and everything!
-D To be fair, it wasn’t that much of a surprise. Try again.
-H Gah! You’re so annoying!
-H Damn it, Davonte. You already know the drill, but I just…
-H ...might feel things for you. Got it? It’s just a possibility.
-H We’re just hanging out on Saturday. As rivals.
-H Nothing more, nothing less.
-D Aw! It’s almost like you care about me!
-H What? I don’t care about you! Idiot!
-H I just said that I might feel things for you! I didn’t say “care” or any other of your weird-ass words!
-D Well, if it’s any consolation, I love you, Hao Yu. I know it doesn’t mean much -
-H What.
-D - but I hope you take it to heart.
+show d surprisedpaint
+d "(Huh. Didn't think I'd actually lose to him... especially because I was actually [i]trying[/i].)"
+
+show h neutralpaint
+h "Davonte."
+
+d "Did you just say my name?"
+
+show h surprisedpaint
+h "What? Of course I did. Why wouldn't I?"
+
+show d neutralpaint
+d "You haven't said my name all day."
+
+show h angrypaint
+h "Well, [i]you[/i] haven't said [i]my[/i] name all day."
+
+show h neutralpaint
+h "So... I guess we're even. Or whatever."
+
+show d smilepaint
+d "Yeah. You're right, [i]Hao Yu[/i]."
+
+show d neutralpaint
+d "So? Did you come over here to gloat?"
+
+show h surprisedpaint
+h "N-no! I mean, I wanted to, but..."
+
+show h neutralblushpaint
+h "..."
+
+h "You played really well today, Davonte. I just wanted to let you know that..."
+
+show h angryblushpaint
+h "...as your [i]rival[/i] and all."
+
+show d smilepaint
+d "Rival, huh? You're still sticking to that old story?"
+
+show h angrypaint
+h "Story? Oh, come on. We're obviously rivals."
+
+d "No way, Hao Yu. We're friends, and you know it."
+
+show h smilepaint
+h "Ha! Friends? I went to a different university just so we could face off like this, you know."
+
+d "Of course. Whatever you wanted me to do, I would do it."
+
+show d neutralpaint
+d "I played arcade fighters because you wanted to get better at them."
+
+h "And I did! I always kick your ass with Zero May Cry."
+
+show d smilepaint
+d "We ran a marathon in L.A. because you felt like challenging yourself.'
+
+h "And I did! Who crossed the finish line first? This guy."
+
+show d flirtypaint
+d "And you made me learn paint dodgeball because you thought it would be fun and competitive."
+
+h "And it is! We've faced off in the damn [i]finals[/i] for the past few years."
+
+h "We wrecked the competition on our way to the top. Doesn't that feel good?"
+
+show d smilepaint
+d "Well, sure. But I think I've had a lot more fun doing those things with you."
+
+show h neutralpaint
+h "Yeah? You think so?"
+
+d "Come on. Imagine doing any of those things without me by your side."
+
+show h surprisedpaint
+h "..."
+
+show h neutralblushpaint
+h "..."
+
+show h smileblushpaint
+h "I guess you're right. Winning without a rival would be... empty."
+
+d "Did you just realize that [i]now[/i]? You've been going on and on about me being your rival for [i]years[/i]."
+
+show h angryblushpaint
+h "Oh, shut up. You know I realize things late."
+
+show h surprisedblushpaint
+h "..."
+
+h "Ah, shit."
+
+d "What? Did you reach a sudden revelation?"
+
+d "'Cause I'm all ears."
+
+show h angryblushpaint
+h "Damn you, Thompson."
+
+h "I know what I want you to do for me."
+
+show d surprisedpaint
+d "That's a scary face you're making."
+
+show h neutralblushpaint
+h "Davonte. You and me. Downtown, at the arcade. Saturday."
+
+d "Uh... okay. Are we going a few rounds?"
+
+show h smileblushpaint
+h "Let's just say I've got a lot of shit to tell you, and I'd rather show you. Make sense?"
+
+show d smilepaint
+d "(He's not exactly being subtle about all this, but I'll play along.)"
+
+show d neutralpaint
+d "I think I get what you're putting down."
+
+show d smilepaint
+d "Words aren't the only way -"
+
+show h neutralblushpaint
+h "- to tell a person how you feel. Yep."
+
+music success
+
+h "Why do you think I'm asking you out on a date?"
+
+show h flirtyblushpaint
+h "Because I'm not good with words. You're just gonna have to wait for my confession... or whatever."
+
+show d flirtyblushpaint
+d "Confession, huh? What are you going to confess?"
+
+show d smileblushpaint
+d "That you're secretly a cat?"
+
+show h surprisedblushpaint
+h "What? No."
+
+d "Then... maybe you'll confess that you're in love with me?"
+
+h "..."
+
+show h angryblushpaint
+h "I told you to [i]wait[/i] for it, Davonte. God, you're stupid."
+
+h "And you think [i]I'm[/i] the stupid one. You just ruined my whole surprise and everything!"
+
+d "To be fair, it wasn't that much of a surprise. Try again."
+
+h "Gah! You're so annoying!"
+
+h "Damn it, Davonte. You already know the drill, but I just..."
+
+h "...might feel things for you. Got it? It's just a possibility."
+
+h "We're just hanging out on Saturday. As [i]rivals[/i]."
+
+h "Nothing more, nothing less."
+
+d "Aw! It's almost like you care about me!"
+
+h "What? I don't care about you! Idiot!"
+
+h "I just said that I [i]might[/i] feel [i]things[/i] for you! I didn't say “care” or any other of your weird-ass words!"
+
+d "Well, if it's any consolation, [i]I[/i] love you, Hao Yu. I know it doesn't mean much -"
+
+h What.
+
+d "- but I hope you take it to heart. See you Saturday."
 myhide left
-H What? Don’t just say that, then walk away, asshole!
-H Get back here right now!
-H Say that to my face again! I command you! I won fair and square!
+
+h "What? Don't just say that, then walk away, asshole!"
+shake
+
+h "Get back here right now!"
+
+h "Say that to my face again! I command you! I won fair and square!"
+
+nameplate Davonte left
+text "Sorry, but I can't hear you from way over here."
+text "Hopefully, your short legs can catch up with me!"
+
+h "I'm a fast runner, Davonte!"
+show h angryblushpaint
+shake
+
+h "Don't you dare leave me behind!"
+
+show d neutralblushpaint
+d "I wouldn't dream of it."
+
+show h smileblushpaint
+h "...Rival."
+
+show d smileblushpaint
+d "Come on, rival. Let's go."
+
+# fade to credits
