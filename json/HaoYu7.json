@@ -1,5 +1,11 @@
 [
     {
+        "func_name": "ending",
+        "args": [
+            "3"
+        ]
+    },
+    {
         "func_name": "myshow",
         "args": [
             "Hao Yu_smilepaint",

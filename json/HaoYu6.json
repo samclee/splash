@@ -243,6 +243,18 @@
         ]
     },
     {
+        "func_name": "options_path",
+        "args": [
+            "haoyu_path5"
+        ]
+    },
+    {
+        "func_name": "label",
+        "args": [
+            "5a"
+        ]
+    },
+    {
         "func_name": "nameplate",
         "args": [
             "Hao Yu",
@@ -566,6 +578,20 @@
         "args": [
             "(Okay, Hao Yu. Let's charge ahead - with no regrets!)"
         ]
+    },
+    {
+        "func_name": "premature",
+        "args": []
+    },
+    {
+        "func_name": "label",
+        "args": [
+            "5b"
+        ]
+    },
+    {
+        "func_name": "alt",
+        "args": []
     },
     {
         "func_name": "nameplate",

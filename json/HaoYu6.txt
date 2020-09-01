@@ -27,9 +27,10 @@ show h neutralpaint
 h "(I should...)"
 
 # choice tracks here
+options_path haoyu_path5
 
 # label jump here for "Win" section
-
+label 5a
 h "(...battle Davonte with all my strength!)"
 
 show h angrypaint
@@ -59,12 +60,14 @@ show h smilepaint
 h "(Good. He's not holding back like I thought he would.)"
 
 h "(I'm never going to forget this day, and I'll make sure he doesn't, either!)"
-
 h "(Okay, Hao Yu. Let's charge ahead - with no regrets!)"
+premature
 
 # credits fade into win epilogue
 
 # label jump here for "Lose" section
+label 5b
+alt
 h "(...hold back and have fun!)"
 
 show h surprisedpaint

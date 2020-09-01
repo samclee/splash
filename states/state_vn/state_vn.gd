@@ -11,6 +11,7 @@ var conv = []
 var cur_ind = 0
 
 var alt_ending = false
+var premature_ending = false
 
 # main funcs
 func _ready():
@@ -44,15 +45,13 @@ func load_chunk():
 			callv(line.func_name, line.args)
 		cur_ind += 1
 
-	if cur_ind == conv.size():
+	if cur_ind == conv.size() or premature_ending:
 		slide_dialog_down()
-		if alt_ending:
-			$overlay.fade_to_next_scene(alt_next_scn_path)
+		var path = alt_next_scn_path if alt_ending else next_scn_path
+		if last_scene:
+			$overlay.fade_to_credits(path)
 		else:
-			if last_scene:
-				$overlay.fade_to_credits(next_scn_path)
-			else:
-				$overlay.fade_to_next_scene(next_scn_path)
+			$overlay.fade_to_next_scene(path)
 	else:
 		callv("text", conv[cur_ind].args)
 		cur_ind += 1
@@ -170,3 +169,9 @@ func musicstop():
 	
 func musicplay():
 	aum.stream_paused = false
+	
+func alt():
+	alt_ending = true
+
+func premature():
+	premature_ending = true

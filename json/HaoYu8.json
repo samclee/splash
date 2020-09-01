@@ -1,5 +1,11 @@
 [
     {
+        "func_name": "ending",
+        "args": [
+            "2"
+        ]
+    },
+    {
         "func_name": "myshow",
         "args": [
             "Hao Yu_angrypaint",
@@ -428,6 +434,19 @@
         ]
     },
     {
+        "func_name": "myshow",
+        "args": [
+            "Davonte_smileblushpaint",
+            "right"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "right"
+        ]
+    },
+    {
         "func_name": "nameplate",
         "args": [
             "Davonte",
@@ -597,6 +616,19 @@
         "func_name": "text",
         "args": [
             "Finally!"
+        ]
+    },
+    {
+        "func_name": "myshow",
+        "args": [
+            "Hao Yu_smileblushpaint",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
         ]
     },
     {

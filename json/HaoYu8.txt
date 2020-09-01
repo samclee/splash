@@ -3,6 +3,7 @@ define d "Davonte" right
 
 # Story 2 (Hao Yu) | Epilogue - Lose
 
+ending 2
 show h angrypaint
 h "(Damn it! How could I lose?)"
 
@@ -44,7 +45,7 @@ d "To clarify, I've [i]been[/i] in love with you... for years now."
 show h angryblushpaint
 h "What."
 
-show smileblushpaint
+show d smileblushpaint
 d "Seriously. Ever since we were kids, I've always admired you."
 
 d "You were so cool and strong, and you never —"
@@ -62,7 +63,7 @@ d "This isn't a joke, Hao Yu."
 show h neutralblushpaint
 h "Finally!"
 
-show smileblushpaint
+show h smileblushpaint
 h "God, do you know how long I've been waiting for you to say my [i]name[/i]?"
 
 show d surprisedpaint
