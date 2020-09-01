@@ -628,10 +628,6 @@
         ]
     },
     {
-        "func_name": "alt",
-        "args": []
-    },
-    {
         "func_name": "nameplate",
         "args": [
             "Davonte",
@@ -649,6 +645,10 @@
         "args": [
             "(...battle Hao Yu head-on!)"
         ]
+    },
+    {
+        "func_name": "alt",
+        "args": []
     },
     {
         "func_name": "nameplate",
