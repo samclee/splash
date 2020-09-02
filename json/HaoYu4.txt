@@ -18,6 +18,8 @@ options_path haoyu_path3
 
 label 3a
 h "..."
+h "......."
+h ".................."
 jump path1
 
 label 3b

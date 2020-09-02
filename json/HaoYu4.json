@@ -177,6 +177,44 @@
         ]
     },
     {
+        "func_name": "nameplate",
+        "args": [
+            "Hao Yu",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            "......."
+        ]
+    },
+    {
+        "func_name": "nameplate",
+        "args": [
+            "Hao Yu",
+            "left"
+        ]
+    },
+    {
+        "func_name": "active",
+        "args": [
+            "left"
+        ]
+    },
+    {
+        "func_name": "text",
+        "args": [
+            ".................."
+        ]
+    },
+    {
         "func_name": "jump",
         "args": [
             "path1"
